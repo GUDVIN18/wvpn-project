@@ -68,6 +68,8 @@ class BotUserAdmin(admin.ModelAdmin):
         "language_chooce",
         "premium",
         "state",
+        "referal_url",
+        "server_chooce",
 
         "subscription",
         "trial_period",
@@ -86,13 +88,13 @@ class BotUserAdmin(admin.ModelAdmin):
         "tg_id",
         "first_name",
         "username",
+        "server_chooce",
         "state",
         "subscription_date_start",
         "subscription_date_end",
     )
     list_filter = (
-        "tg_id",
-        "username",
+        "server_chooce",
         "subscription",
     )
     search_fields = (
@@ -168,6 +170,49 @@ class Bot_CommandsAdmin(admin.ModelAdmin):
         "trigger",
     )
 
+@admin.register(Referal)
+class ReferalAdmin(admin.ModelAdmin):
+
+    readonly_fields = ("created_at",)
+
+    fields = [
+        "user",
+        "referred_user",
+        "created_at"
+    ]
+    list_display = (
+        "user__tg_id",
+        "referred_user__tg_id",
+        "created_at"
+    )
+    list_filter = (
+        "created_at",
+    )
+    search_fields = (
+        "user__tg_id",
+        "referred_user__tg_id",
+    )
+
+@admin.register(PaymentReferal)
+class PaymentReferalAdmin(admin.ModelAdmin):
+    readonly_fields = ("created_at",)
+
+    fields = [
+        "referal",
+        "amount",
+        "created_at",
+    ]
+    list_display = (
+        "referal",
+        "amount",
+        "created_at",
+    )
+    list_filter = (
+        "created_at",
+    )
+    search_fields = (
+        "referal_user__tg_id",
+    )
 
 @admin.register(Text_Castom)
 class Text_CastomsAdmin(admin.ModelAdmin):
@@ -215,7 +260,7 @@ class PaymentAdmin(admin.ModelAdmin):
         "status",
     )
     search_fields = (
-        # "payment_id",
+        "payment_id",
         "period",
         "limit_ip",
         "status",

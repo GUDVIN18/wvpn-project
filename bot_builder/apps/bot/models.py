@@ -4,6 +4,7 @@ from django.utils import timezone
 
 
 
+
 class TelegramBotConfig(models.Model):
     bot_token = models.CharField(max_length=100)
     is_activ = models.BooleanField(null=False, blank=False, default=False, verbose_name="Is active")
@@ -16,7 +17,15 @@ class TelegramBotConfig(models.Model):
         verbose_name_plural = "Токены"
 
 
+class Referal(models.Model):
+    user = models.ForeignKey('BotUser', on_delete=models.CASCADE, related_name='referrals', verbose_name="Пользователь")
+    referred_user = models.ForeignKey('BotUser', on_delete=models.CASCADE, related_name='referred_by', verbose_name="Реферал")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="Дата создания")
 
+class PaymentReferal(models.Model):
+    referal = models.ForeignKey(Referal, on_delete=models.CASCADE, related_name='payments', verbose_name="Реферал")
+    amount = models.DecimalField(max_digits=10, decimal_places=2, verbose_name="Сумма")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="Дата создания")
 
 
 class BotUser(models.Model):
@@ -30,6 +39,9 @@ class BotUser(models.Model):
     premium = models.BooleanField(verbose_name="Имеет ли пользователь премиум-аккаунт", default=False, blank=True, null=True)
     # state = models.CharField(max_length=110, choices=STATE_CHOICES, default='')
     state = models.CharField(max_length=255, help_text='Состояние')
+    referal_url = models.CharField(max_length=255, help_text='Реферальная ссылка', blank=True, null=True)
+    server_chooce = models.IntegerField(blank=True, null=True, help_text="Выбранный сервер")
+
 
     #Для outline
     subscription = models.BooleanField(verbose_name="Подписка на VPN", default=False, blank=True, null=True)

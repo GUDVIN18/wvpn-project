@@ -6,7 +6,7 @@ import threading
 
 # Настройки Юкасса
 Configuration.account_id = '1009645'  # Ваш идентификатор магазина
-Configuration.secret_key = 'live_6H0jmbiiQVqUAKmQFQkiAfdhwmWM784_XWMu-31x45U'  # Ваш секретный ключ
+Configuration.secret_key = 'live_B0DkWGLIp3uJ8pFhgrrSk7vtYvCkhUT03X3C_nl4KzA'  # Ваш секретный ключ
 
 # Configuration.account_id = '1022696'  # Ваш идентификатор магазина
 # Configuration.secret_key = 'test_Ao0tYxHhbWv0t_LE-iJ6IWxnaypnMEDTQ6dqJOF0DE4'  # Ваш секретный ключ
@@ -79,3 +79,12 @@ def create_payment(description, value, period, limit_ip):
     except Exception as e:
         print('Проблема при создании платежа:', e)
         return None
+
+if __name__ == "__main__":
+    a = create_payment(
+        description="6424595615",
+        value="69",
+        period="1",
+        limit_ip="1"
+    )
+    print(a)

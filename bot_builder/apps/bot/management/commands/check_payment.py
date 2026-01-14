@@ -2,7 +2,8 @@ import time
 from django.core.management.base import BaseCommand
 from yookassa import Configuration, Payment
 from apps.bot.models import Payment as PaymentBOT
-from apps.bot.models import BotUser, Text_Castom
+from apps.bot.models import BotUser, Text_Castom, Referal, PaymentReferal
+from apps.xrey_app.models import VPNServer
 from translate import translate
 from django.utils import timezone
 from datetime import timedelta
@@ -12,8 +13,27 @@ from apps.bot.bot_core import tg_bot as bot_token
 from datetime import datetime, timedelta
 from apps.bot.bot_core import tg_bot as bot_token_main
 import requests
+from requests.adapters import HTTPAdapter
+from requests.exceptions import RequestException
+from urllib3.util.retry import Retry
 import uuid
+from loguru import logger as log
+import traceback
 
+
+session = requests.Session()
+
+# Configure retries and backoff for flaky VPN API calls
+retry_strategy = Retry(
+    total=3,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["HEAD", "GET", "OPTIONS", "POST"],
+    backoff_factor=1,
+)
+adapter = HTTPAdapter(max_retries=retry_strategy)
+session.mount("https://", adapter)
+session.mount("http://", adapter)
+session.headers.update({"User-Agent": "V2RayAPI/1.0"})
 
 def send_success_notification_telegram_message(user_id):
     time.sleep(3)
@@ -41,15 +61,13 @@ def send_success_notification_telegram_message(user_id):
         }
     }
     
-    response = requests.post(url, json=data_second)
+    response = session.post(url, json=data_second)
     response.raise_for_status()  # Проверка статуса ответа
     # Извлекаем JSON-ответ
     response_json = response.json()
     
     # Получаем message_id из ответа
-    print('response_json', response_json)
     message_id_new = response_json['result']['message_id']
-    print('message_id', message_id_new)
 
     if user.last_message_id:
         bot = TeleBot(bot_token)
@@ -57,7 +75,7 @@ def send_success_notification_telegram_message(user_id):
 
     user.last_message_id = int(message_id_new)
     user.save()
-    print("Saved successfully! sub", 'user.last_message_id', user.last_message_id, 'message_id', message_id_new)
+    log.success(f"Saved successfully! sub user.last_message_id={user.last_message_id} message_id={message_id_new}")
     
     return response_json
 
@@ -88,15 +106,13 @@ def send_success_telegram_message(user_id):
         }
     }
     
-    response = requests.post(url, json=data_second)
+    response = session.post(url, json=data_second)
     response.raise_for_status()  # Проверка статуса ответа
     # Извлекаем JSON-ответ
     response_json = response.json()
 
     # Получаем message_id из ответа
-    print('response_json', response_json)
     message_id_new = response_json['result']['message_id']
-    print('message_id', message_id_new)
 
     if user.last_message_id:
         bot = TeleBot(bot_token)
@@ -104,7 +120,7 @@ def send_success_telegram_message(user_id):
 
     user.last_message_id = int(message_id_new)
     user.save()
-    print("Saved successfully! oplata", 'user.last_message_id', user.last_message_id, 'message_id', message_id_new)
+    log.success(f"Saved successfully! oplata user.last_message_id={user.last_message_id} message_id={message_id_new}")
     time.sleep(1)
     return response_json
 
@@ -138,15 +154,13 @@ def send_support_project(user_id):
         }
     }
     
-    response = requests.post(url, json=data_second)
+    response = session.post(url, json=data_second, timeout=5)
     response.raise_for_status()  # Проверка статуса ответа
     # Извлекаем JSON-ответ
     response_json = response.json()
 
     # Получаем message_id из ответа
-    print('response_json', response_json)
     message_id_new = response_json['result']['message_id']
-    print('message_id', message_id_new)
 
     if user.last_message_id:
         bot = TeleBot(bot_token)
@@ -154,7 +168,7 @@ def send_support_project(user_id):
 
     user.last_message_id = int(message_id_new)
     user.save()
-    print("Saved successfully! oplata", 'user.last_message_id', user.last_message_id, 'message_id', message_id_new)
+    log.success(f"Saved successfully! oplata user.last_message_id={user.last_message_id} message_id={message_id_new}")
     time.sleep(1)
     return response_json
 
@@ -180,7 +194,7 @@ def send_error_telegram_message(user_id):
 
     }
     
-    response = requests.post(url, json=data_second)
+    response = session.post(url, json=data_second)
     response.raise_for_status()  # Проверка статуса ответа
     return response.json()  # Возвращение ответа Telegram
 
@@ -188,7 +202,7 @@ def send_error_telegram_message(user_id):
 class Command(BaseCommand):
     # Основной 
     Configuration.account_id = '1009645'  # Ваш идентификатор магазина
-    Configuration.secret_key = 'live_6H0jmbiiQVqUAKmQFQkiAfdhwmWM784_XWMu-31x45U'  # Ваш секретный ключ
+    Configuration.secret_key = 'live_B0DkWGLIp3uJ8pFhgrrSk7vtYvCkhUT03X3C_nl4KzA' # Ваш секретный ключ
 
     # Тестовый
     # Configuration.account_id = '1022696'  # Ваш идентификатор магазина
@@ -210,94 +224,128 @@ class Command(BaseCommand):
                     payment_info_dict = payment_info.__dict__
                     status = payment_info_dict.get('_PaymentResponse__status')
 
-                    print(f"Статус платежа: {status}")
+                    log.info(f"Статус платежа: {status}")
                     
                     if status == 'succeeded':  # Платеж успешен
-                        print(f"Платеж №{payment.id} успешно завершен!")
+                        server = VPNServer.objects.order_by("count_user").first()
+                        log.info(f"Выбранный сервер: {server.id}")
+                        log.success(f"Платеж №{payment.id} успешно завершен!")
                         try:
                             payment.status = 'succeeded'
                             payment.save()
 
                             if period == 0:
                                 send_support_project(payment.user_id)
+                                return
+
                             
                             user = BotUser.objects.get(tg_id=payment.user_id)
-                            now = datetime.now()
-                            if user.subscription == False:
+                            if Referal.objects.filter(referred_user=user).exists():
+                                referal_obj = Referal.objects.get(referred_user=user)
+                                PaymentReferal.objects.create(
+                                    referal=referal_obj,
+                                    amount=round((int(payment.value)) * 0.20, 2)
+                                )
+
+
+
+                            # Use timezone-aware now
+                            now = timezone.now()
+
+                            if user.subscription == True:
+                                user.subscription_date_end += timedelta(days=period*30)
+                                try:
+                                    create_user = session.post(
+                                        "http://143.20.37.164:9001/v2ray/client/update",
+                                        json={
+                                            "server_id": user.server_chooce,
+                                            "tg_id": user.tg_id,
+                                            "enable": True,
+                                            "limit_ip": limit_ip,
+                                            "expiry_time": int((user.subscription_date_end).timestamp() * 1000)
+                                        },
+                                        timeout=5,
+                                    )
+                                    if create_user.status_code in (200, 201):
+                                        log.info(f"{user.tg_id} 1.1) Обновлен успешно!")
+                                        create_user_json = create_user.json()
+                                        vpn_key = create_user_json["data"]["sub_url"]
+                                        user.vpn_key = vpn_key
+                                    else:
+                                        log.error(f"{user.tg_id} Обновлен НЕ успешно!")
+                                        log.error(create_user.text)
+                                except RequestException as e:
+                                    log.error(f"HTTP error updating VPN user for {user.tg_id}: {e}")
+                                    log.error(traceback.format_exc())
+                                    raise Exception("HTTP error updating VPN user")
+
+
+                            if user.subscription == False and user.server_chooce is None:
                                 user.subscription = True
                                 user.notif_subscribe_close = False
                                 user.subscription_date_start = now
                                 user.subscription_date_end = now + timedelta(days=period*30)
+                                user.server_chooce = server.id
                                 try:
-                                    # user.outline_key, user.key_id = create_new_key(name=f'{user.username} {user.tg_id}')
-                                    create_user = requests.post(
-                                        "http://45.150.32.229:8080/v2ray/client/create",
+                                    create_user = session.post(
+                                        "http://143.20.37.164:9001/v2ray/client/create",
                                         json={
-                                            "server_id": 1,
+                                            "server_id": server.id,
                                             "uuid": str(uuid.uuid4()),
                                             "tg_id": user.tg_id,
                                             "enable": True,
                                             "limit_ip": limit_ip,
                                             "expiry_time": int((now + timedelta(days=period*30)).timestamp() * 1000)
-
-                                        }
+                                        },
+                                        timeout=5,
                                     )
-                                    if create_user.status_code == 200 or create_user.status_code == 201:
+                                    if create_user.status_code in (200, 201):
                                         create_user_json = create_user.json()
-                                        vpn_key = create_user_json["data"]["key"]
+                                        vpn_key = create_user_json["data"]["sub_url"]
                                         user.vpn_key = vpn_key
-                                    else:
-                                        create_user = requests.post(
-                                            "http://45.150.32.229:8080/v2ray/client/update",
-                                            json={
-                                                "server_id": 1,
-                                                "tg_id": user.tg_id,
-                                                "enable": True,
-                                                "limit_ip": limit_ip,
-                                                "expiry_time": int((now + timedelta(days=period*30)).timestamp() * 1000)
-                                            }
-                                        )
-                                        if create_user.status_code == 200 or create_user.status_code == 201:
-                                            print('Обновлен успешно!')
-                                            create_user_json = create_user.json()
-                                            vpn_key =  create_user_json["data"]["key"]
-                                            user.vpn_key = vpn_key
-                                except:
+                                        log.info(f"{user.tg_id} 1.0) Создан успешно!")
+                                except Exception as e:
+                                    log.error(f"Ошибка при создании пользователя VPN: {traceback.format_exc()}")
                                     raise Exception("Ошибка при создании пользователя VPN")
-
-                            elif user.subscription == True:
-                                user.subscription_date_end += timedelta(days=period*30)
+                            if user.subscription == False and user.server_chooce is not None:
+                                user.subscription = True
+                                user.notif_subscribe_close = False
+                                user.subscription_date_start = now
+                                user.subscription_date_end = now + timedelta(days=period*30)
                                 try:
-                                    # user.outline_key, user.key_id = create_new_key(name=f'{user.username} {user.tg_id}')
-                                    create_user = requests.post(
-                                        "http://45.150.32.229:8080/v2ray/client/update",
+                                    create_user = session.post(
+                                        "http://143.20.37.164:9001/v2ray/client/update",
                                         json={
-                                            "server_id": 1,
+                                            "server_id": user.server_chooce,
                                             "tg_id": user.tg_id,
                                             "enable": True,
                                             "limit_ip": limit_ip,
-                                            "expiry_time": int((user.subscription_date_end + timedelta(days=period*30)).timestamp() * 1000)
-
-                                        }
+                                            "expiry_time": int((now + timedelta(days=period*30)).timestamp() * 1000)
+                                        },
+                                        timeout=5,
                                     )
-                                    if create_user.status_code == 200 or create_user.status_code == 201:
-                                        print('Обновлен успешно!')
+                                    
+                                    log.info(f"{create_user=}")
+                                    if create_user.status_code in (200, 201):
+                                        log.info(f"{user.tg_id} 1.0) Обновлен успешно!")
                                         create_user_json = create_user.json()
-                                        vpn_key =  create_user_json["data"]["key"]
+                                        vpn_key = create_user_json["data"]["sub_url"]
                                         user.vpn_key = vpn_key
                                     else:
-                                        print('Обновлен НЕ успешно!')
-                                        print(create_user.text)
-                                    # Выдача ключа v2ray
-                                    pass
-                                except Exception as e:
-                                    print("Ошибка при обновлении", e)
-
+                                        log.error(f"{user.tg_id} Обновлен НЕ успешно!")
+                                        log.error(create_user.text)
+                                        raise Exception("Обновлен НЕ успешно!")
+                                        
+                                except RequestException as e:
+                                    log.error(f"HTTP error updating VPN user for {user.tg_id}: {e}")
+                                    log.error(traceback.format_exc())
+                                    raise Exception("HTTP error updating VPN")
+                            
                             user.save()
                             
                             send_success_telegram_message(payment.user_id)
                         except Exception as e:
-                            print(f"Ошибка при обработке платежа: {e}")
+                            log.error(f"Ошибка при обработке платежа: {e}")
                             send_error_telegram_message(payment.user_id)
                             payment.status = 'error'
                             payment.save()
@@ -305,19 +353,18 @@ class Command(BaseCommand):
 
                         
                     elif status == 'canceled':  # Платеж отменен
-                        print(f"Платеж №{payment.id} был отменен.")
+                        log.info(f"Платеж №{payment.id} был отменен.")
                         payment.status = 'canceled'
                         payment.save()
                         # send_error_telegram_message(payment.user_id)
 
 
-                    elif status == 'pending':
-                        print(f'Платеж №{payment.id}: Ождание оплаты')
+                    # elif status == 'pending':
+                    #     log.info(f'Платеж №{payment.id}: Ождание оплаты')
 
                     time.sleep(1)
         except Exception as e:
-            print(f"Ошибка при проверке статуса платежа: {e}")
-            time.sleep(5)  # Задержка на случай ошибок
+            log.error(f"Ошибка при проверке статуса платежа: {e}")
 
         
 
@@ -330,32 +377,43 @@ class Command(BaseCommand):
                     date_end = user.subscription_date_end
                     if date_end:
                         if target_time >= date_end:
+                            log.info(f'Пользователь {user.tg_id} подписка закончилась!')
                             user.subscription = False
+                            pyment_last = pyment_last = PaymentBOT.objects.filter(status='succeeded', user_id=user.tg_id).order_by('-created_at').first()
+                            log.info(f'{pyment_last=}')
+                            if pyment_last is None:
+                                limit_ip = 3
+                            else:
+                                limit_ip = pyment_last.limit_ip
                             #Обновляем v2ray ключ
 
                             try:
                                 # user.outline_key, user.key_id = create_new_key(name=f'{user.username} {user.tg_id}')
-                                create_user = requests.post(
-                                    "http://45.150.32.229:8080/v2ray/client/update",
-                                    json={
-                                        "server_id": 1,
-                                        "tg_id": user.tg_id,
-                                        "enable": False,
-                                        "limit_ip": limit_ip,
-                                        "expiry_time": int((user.subscription_date_end).timestamp() * 1000)
-
-                                    }
-                                )
-                                if create_user.status_code == 200 or create_user.status_code == 201:
-                                        print('Обновлен успешно!')
-                                        print(create_user.json())
-                                else:
-                                    print('Обновлен НЕ успешно!')
-                                    print(create_user.text)
+                                try:
+                                    create_user = session.post(
+                                        "http://143.20.37.164:9001/v2ray/client/update",
+                                        json={
+                                            "server_id": user.server_chooce,
+                                            "tg_id": user.tg_id,
+                                            "enable": False,
+                                            "limit_ip": limit_ip,
+                                            "expiry_time": int((user.subscription_date_end).timestamp() * 1000)
+                                        },
+                                        timeout=5,
+                                    )
+                                    if create_user.status_code in (200, 201):
+                                        log.info(f"{user.tg_id} 1.2) Обновлен успешно!")
+                                        log.info(create_user.json())
+                                    else:
+                                        log.error('Обновлен НЕ успешно!')
+                                        log.error(create_user.text)
+                                except RequestException as e:
+                                    log.error(f"HTTP error updating VPN user for {user.tg_id}: {e}")
+                                    log.error(traceback.format_exc())
                                 # Выдача ключа v2ray
                                 pass
                             except Exception as e:
-                                print("Ошибка при обновлении", e)
+                                log.error(f"Ошибка при обновлении: {e}")
 
 
                             # delete_key(key_id=str(user.key_id))
@@ -364,6 +422,7 @@ class Command(BaseCommand):
                             # user.outline_key = None
                             # user.subscription_date_end = None
                             # user.subscription_date_start = None
+                            
                             user.save()
 
                             if user.notif_subscribe_close == False:
@@ -374,7 +433,7 @@ class Command(BaseCommand):
 
 
         except Exception as e:
-            print(f"Ошибка при напоминании: {e}")
+            log.error(f"Ошибка при напоминании: {e}")
             time.sleep(5)  # Задержка на случай ошибок
 
 

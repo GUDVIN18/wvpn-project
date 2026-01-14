@@ -91,7 +91,8 @@ class Command(BaseCommand):
                     except ValueError as e:
                         print(f"Ошибка преобразования user_id в int: {e}")
                 else:
-                    print("user_id отсутствует в serialized_data")
+                    event.status = 'COMPLETED'
+                    event.save()
                     continue  # Пропускаем обработку этого события
 
 
@@ -116,8 +117,9 @@ class Command(BaseCommand):
                     try:
                         
                         message_text = serialized_data['message']['text']
-                        print(f'------------------------------------ {message_text}')
-                        command = Bot_Commands.objects.filter(text=message_text)
+                        print(f'----------------------------- TEXT OR COMMAND {message_text}')
+                        message_text = message_text.split(' ')
+                        command = Bot_Commands.objects.filter(text=message_text[0])
                         if command.exists():
                             try:
                                 command = command.first()

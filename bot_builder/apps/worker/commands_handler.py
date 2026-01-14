@@ -1,6 +1,6 @@
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
-from apps.bot.models import Bot_Message, Bot_Button, BotUser, Text_Castom
+from apps.bot.models import Bot_Message, Bot_Button, BotUser, Text_Castom, Referal, PaymentReferal
 from apps.worker.models import Events
 import requests
 from datetime import datetime
@@ -18,6 +18,9 @@ import random
 import string
 import locale
 from collections import defaultdict
+from django.db import models
+from decimal import Decimal
+import subprocess
 # Переводчик
 # from deep_translator import GoogleTranslator
 
@@ -167,7 +170,33 @@ class Bot_Handler():
             message - {message}''')
  
         user.state = state.current_state
+        user.referal_url = f'https://t.me/w_vpn_v2ray_bot?start={str(user.tg_id)}'
         user.save()
+
+        try:
+            referral_id = None
+            if message and message['text'].startswith("/start"):
+                parts = message['text'].split()
+                if len(parts) > 1:
+                    referral_id = parts[1]
+            if referral_id:
+                if int(referral_id) == int(user.tg_id):
+                    print("Пользователь не может пригласить сам себя.")
+                    referral_id = None
+                elif Referal.objects.filter(referred_user=user).exists():
+                    print("Пользователь уже был приглашён ранее.")
+                    referral_id = None
+                else:
+                    Referal.objects.create(
+                        user=BotUser.objects.get(tg_id=referral_id),
+                        referred_user=user
+                    )
+                    print(f"Юзер {user.tg_id} пришёл по рефке {referral_id}")
+            else:
+                print(f"Юзер {user.tg_id} пришёл без рефки")
+            
+        except Exception as e:
+            print(f"Ошибка при создании реферала: {e}")
 
         # Добавляем базовые переменные
         self.val['user_name'] = user.name if hasattr(user, 'name') else 'Пользователь'
@@ -305,6 +334,13 @@ class Bot_Handler():
             print('Ошибка в профиле', e)
             self.val['subscription_user'] = 'У Вас нет подписки'
             self.val['vpn_key'] = 'У Вас нет ключа'
+        self.val['referal_url'] = user.referal_url if user.referal_url else f'https://t.me/w_vpn_v2ray_bot?start={str(user.tg_id)}'
+        self.val['referal_money'] = (
+            PaymentReferal.objects
+            .filter(referal__user=user)
+            .aggregate(total_amount=models.Sum('amount'))['total_amount']
+            or Decimal("0.00")
+        )
         # Форматируем текст с использованием переменных
         text = self.format_message_text(state.text)
 
@@ -557,9 +593,12 @@ class Bot_Handler():
         try:
            
             summa_project = int(message['text'])  # Преобразование текста в int
+            print('summa_project', summa_project)
 
             # Создание платежа
-            url_pay, payment_id = create_payment(user.tg_id, value=str(summa_project))
+            # url_pay, payment_id = create_payment(user.tg_id, value=str(summa_project))
+            url_pay, payment_id = create_payment(user.tg_id, str(summa_project), period=0, limit_ip=0)
+            print("url_pay", url_pay, 'payment_id' , payment_id)
 
             # Добавляем базовые переменные
             self.val['user_name'] = user.name if hasattr(user, 'name') else 'Пользователь'
@@ -765,6 +804,54 @@ class Bot_Handler():
 
         inline_keyboard, reply_keyboard = build_bot_keyboards(buttons, user.language_chooce)
         message_text = translate(text, user.language_chooce)
+        try:
+            if user.last_message_id:
+                bot.delete_message(chat_id=user.tg_id, message_id=user.last_message_id)
+        except Exception as e:
+            print(f'ошибка при удалении {e}')
+
+        if inline_keyboard:
+            sent_message = bot.send_message(chat_id=user.tg_id, text=message_text, reply_markup=inline_keyboard, parse_mode='HTML')
+        elif reply_keyboard:
+            sent_message = bot.send_message(chat_id=user.tg_id, text=message_text, reply_markup=reply_keyboard, parse_mode='HTML')
+        else:
+            sent_message = bot.send_message(chat_id=user.tg_id, text=message_text, parse_mode='HTML')
+
+        user.last_message_id = sent_message.message_id
+        user.save()
+    
+    
+    def restart_project(self, bot, state, user, callback_data, callback_id, message, event):
+        if callback_id:
+            bot.answer_callback_query(callback_query_id=callback_id)
+        self.val = {}  # Очищаем переменные для каждого нового вызова
+        print(f'''
+            user - {user}
+            call_data - {callback_data}
+            call_id - {callback_id}
+            message - {message}''')
+
+        user.state = state.current_state
+        user.save()
+
+        # Добавляем базовые переменные
+        self.val['user_name'] = user.name if hasattr(user, 'name') else 'Пользователь'
+        self.val['user_id'] = user.tg_id
+        self.val['text'] = 'Базовое сообщение'  # Значение по умолчанию
+
+        # Форматируем текст с использованием переменных
+        text = self.format_message_text(state.text)
+
+        subprocess.run(
+            ["supervisorctl", "restart", "all"],
+            capture_output=True,
+            text=True
+        )
+        buttons = Bot_Button.objects.filter(message_trigger=state).order_by('id')
+
+        inline_keyboard, reply_keyboard = build_bot_keyboards(buttons, user.language_chooce)
+        message_text = translate(text, user.language_chooce)
+
         try:
             if user.last_message_id:
                 bot.delete_message(chat_id=user.tg_id, message_id=user.last_message_id)

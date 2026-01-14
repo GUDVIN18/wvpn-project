@@ -17,3 +17,5 @@ bot_builder/config.py
 bot_builder/config.py
 /.venv/
 /.venv
+.venv/
+.venv

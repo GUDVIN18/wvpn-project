@@ -4,6 +4,7 @@ from django.core.management.base import BaseCommand
 from apps.bot.bot_core import tg_bot as bot
 from apps.worker.models import Events
 from apps.bot.models import BotUser
+from loguru import logger as log
 
 
 # class Command(BaseCommand):
@@ -282,7 +283,7 @@ class Command(BaseCommand):
                     update_data=update_data,
                 )
                 
-                print(f"Создано событие для группы {group_id} с {len(photos)} фото")
+                log.info(f"Создано событие для группы {group_id} с {len(photos)} фото")
                 return True
             return False
 
@@ -340,19 +341,21 @@ class Command(BaseCommand):
                                     status='ACCEPTED',
                                     update_data=update,
                                 )
-                                print(f'Обновление от пользователя {user_info.get("id")} (username: {user_info.get("username")}): {text}\n')
+                                if update.get('callback_query', None):
+                                    log.success(f"Обновление от user_id={update['callback_query']['from']['id']}\ndata={update['callback_query']['data']}\n")
+                                
 
                             # Обновляем offset
                             offset = update["update_id"] + 1
 
                     else:
-                        print("Ошибка при получении обновлений", result)
+                        log.error("Ошибка при получении обновлений", result)
                 except Exception as e:
-                    print(e)
+                    log.error(e)
                 time.sleep(0.05)  # Небольшая пауза между итерациями
 
             except Exception as e:
-                print(f"Произошла ошибка: {e}")
+                log.error(f"Произошла ошибка: {e}")
                 time.sleep(1)
 
     while True:
