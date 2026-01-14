@@ -1,7 +1,7 @@
 asgiref==3.8.1
 certifi==2024.8.30
 charset-normalizer==3.3.2
-Django==5.1.1
+Django>=5.1.1
 idna==3.10
 pyTelegramBotAPI==4.23.0
 requests==2.32.3
@@ -9,3 +9,8 @@ sqlparse==0.5.1
 telebot==0.0.5
 typing_extensions==4.12.2
 urllib3==2.2.3
+openpyxl
+yookassa
+pandas
+openai
+deep_translator

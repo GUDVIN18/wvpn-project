@@ -1,17 +1,237 @@
 Performing system checks...
 
-January 10, 2025 - 14:24:02
+System check identified no issues (0 silenced).
+June 19, 2025 - 16:12:59
 Django version 5.1.1, using settings 'bot_builder.settings'
-Starting development server at http://0.0.0.0:9999/
+Starting development server at http://0.0.0.0:9000/
 Quit the server with CONTROL-C.
 
 Performing system checks...
 
 System check identified no issues (0 silenced).
-January 10, 2025 - 14:53:59
+June 19, 2025 - 16:14:31
 Django version 5.1.1, using settings 'bot_builder.settings'
-Starting development server at http://0.0.0.0:9999/
+Starting development server at http://0.0.0.0:9000/
 Quit the server with CONTROL-C.
 
 Performing system checks...
+
+System check identified no issues (0 silenced).
+June 19, 2025 - 17:58:16
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 19, 2025 - 18:20:59
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:32:59
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:33:08
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:36:47
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:37:30
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 2 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): bot, xrey_app.
+Run 'python manage.py migrate' to apply them.
+June 23, 2025 - 16:40:20
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+TEMPLATES path=['/personal/bot_bulder_v1.1/bot_builder/bot_builder/templates']
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:45:12
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+TEMPLATES path=['/personal/bot_bulder_v1.1/bot_builder/bot_builder/templates']
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:45:37
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:46:58
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:47:07
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:49:05
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:49:59
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:50:20
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:56:47
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:56:59
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:58:12
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 16:59:53
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 17:00:40
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2025 - 18:27:39
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 30, 2025 - 12:15:25
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 30, 2025 - 12:15:40
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 30, 2025 - 12:16:37
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 30, 2025 - 12:17:48
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 30, 2025 - 12:18:28
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 30, 2025 - 12:41:43
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 30, 2025 - 12:42:03
+Django version 5.1.1, using settings 'bot_builder.settings'
+Starting development server at http://0.0.0.0:9000/
+Quit the server with CONTROL-C.
 

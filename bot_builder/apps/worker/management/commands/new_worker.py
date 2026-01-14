@@ -75,6 +75,7 @@ class Command(BaseCommand):
                                 'first_name': user_data.get('first_name'),  # Извлекаем first_name
                                 'language': user_data.get('language_code'),  # Извлекаем language_code
                                 'premium': user_data.get('is_premium'),  # Проверяем premium-статус
+                                
                             }
                         )
                         if created:

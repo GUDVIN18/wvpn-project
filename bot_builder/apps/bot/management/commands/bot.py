@@ -304,48 +304,51 @@ class Command(BaseCommand):
                 response = requests.get(f"{url}?offset={offset}&timeout={timeout}")
                 result = response.json()
 
-                if result["ok"]:
-                    for update in result["result"]:
-                        message = update.get("message", {})
-                        chat_id = message.get("chat", {}).get("id")
-                        text = message.get("text")
-                        user_info = message.get("from", {})
-                        media_group_id = message.get("media_group_id")
+                try:
+                    if result["ok"]:
+                    # if result:
+                        for update in result["result"]:
+                            message = update.get("message", {})
+                            chat_id = message.get("chat", {}).get("id")
+                            text = message.get("text")
+                            user_info = message.get("from", {})
+                            media_group_id = message.get("media_group_id")
 
-                        if media_group_id and media_group_id not in processed_groups:
-                            # Обновляем временную метку
-                            media_group_timestamps[media_group_id] = current_time
-                            
-                            # Инициализируем группу
-                            if media_group_id not in media_groups:
-                                media_groups[media_group_id] = []
+                            if media_group_id and media_group_id not in processed_groups:
+                                # Обновляем временную метку
+                                media_group_timestamps[media_group_id] = current_time
+                                
+                                # Инициализируем группу
+                                if media_group_id not in media_groups:
+                                    media_groups[media_group_id] = []
 
-                            # Сохраняем информацию о сообщении
-                            message_data = {
-                                "chat_id": chat_id,
-                                "user_info": user_info,
-                                "date": message.get("date"),
-                                "message_id": message.get("message_id"),
-                                "update_id": update["update_id"],
-                                "photo": message.get("photo", [])  # Сохраняем фото, если есть
-                            }
-                            
-                            media_groups[media_group_id].append(message_data)
+                                # Сохраняем информацию о сообщении
+                                message_data = {
+                                    "chat_id": chat_id,
+                                    "user_info": user_info,
+                                    "date": message.get("date"),
+                                    "message_id": message.get("message_id"),
+                                    "update_id": update["update_id"],
+                                    "photo": message.get("photo", [])  # Сохраняем фото, если есть
+                                }
+                                
+                                media_groups[media_group_id].append(message_data)
 
-                        elif not media_group_id:
-                            # Обработка одиночного сообщения
-                            Events.objects.create(
-                                status='ACCEPTED',
-                                update_data=update,
-                            )
-                            print(f'Обновление от пользователя {user_info.get("id")} (username: {user_info.get("username")}): {text}\n')
+                            elif not media_group_id:
+                                # Обработка одиночного сообщения
+                                Events.objects.create(
+                                    status='ACCEPTED',
+                                    update_data=update,
+                                )
+                                print(f'Обновление от пользователя {user_info.get("id")} (username: {user_info.get("username")}): {text}\n')
 
-                        # Обновляем offset
-                        offset = update["update_id"] + 1
+                            # Обновляем offset
+                            offset = update["update_id"] + 1
 
-                else:
-                    print("Ошибка при получении обновлений")
-                
+                    else:
+                        print("Ошибка при получении обновлений", result)
+                except Exception as e:
+                    print(e)
                 time.sleep(0.05)  # Небольшая пауза между итерациями
 
             except Exception as e:

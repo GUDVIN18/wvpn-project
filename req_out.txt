@@ -1,0 +1,8 @@
+certifi==2024.12.14
+charset-normalizer==3.4.1
+idna==3.10
+outline-vpn-api==6.3.0
+python-decouple==3.8
+requests==2.32.3
+urllib3==2.3.0
+psycopg2-binary

@@ -1,7 +1,6 @@
-Ai Fitness Bot на Russian и English языке. Проект поддерживает мультиязычность. Бот создает меню по критериям пользователя. Используемая Ai - ChatGPT-4o.
-Для запуска необходимо настроить venv, PGSql в settings.py и в bot_bulder/config.py указать API-Token GPT, а также указать id дообученного ассистента в файле bot_bulder/open_ai.py.
-Проект поддерживает до 25 пользователей в секунду.
-В проекте используется supervisord для обеспечения отказоустойчивости, также интегрированна ЮКасса, Уведомления о предстоящих тренировках, ежедневные мотивирущие сообщения.
-
-
+Контсруктор v1.1
 По всем вопроам можете обращаться в тг: @Dmitriy_prog
+
+zip -r wvpn.zip . -x ".vnev/*" -x "vpn/.venv/*"
+pg_dump -U admin -h localhost -d bot_db_out -Fc > bot_db_out_$(date +%F).dump# wvpn-project
+# wvpn-project

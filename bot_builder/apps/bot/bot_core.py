@@ -15,6 +15,6 @@ def get_bot():
         # return bot
         return config_token
 
-tg_bot = get_bot()
+tg_bot =get_bot()
 
 

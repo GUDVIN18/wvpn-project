@@ -1,0 +1,32 @@
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2025-07-19 18:03:51.375922) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2025-06-19 18:03:51.375922) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2025-07-19 18:30:53.133605) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2025-06-19 18:30:53.133605) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2025-07-22 16:02:46.684140) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2025-06-22 16:02:46.684140) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2025-07-22 16:28:23.959989) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2025-06-22 16:28:23.959989) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2025-09-21 13:25:07.985915) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2025-06-23 13:25:07.985915) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2025-07-25 19:34:07.499580) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2025-06-25 19:34:07.499580) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2025-07-28 19:03:12.464169) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2025-06-28 19:03:12.464169) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2025-07-29 02:13:58.486512) while time zone support is active.
+  warnings.warn(
+/personal/bot_bulder_v1.1/.vnev/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2025-06-29 02:13:58.486512) while time zone support is active.
+  warnings.warn(

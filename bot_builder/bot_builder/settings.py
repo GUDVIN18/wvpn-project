@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -28,7 +29,7 @@ DEBUG = True
 DEVELOPMENT = True
 SECURE_CONTENT_TYPE_NOSNIFF = True  # Для X-Content-Type-Options: nosniff
 
-ALLOWED_HOSTS = ['localhost', '91.196.34.71', ]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '45.150.32.229']
 
 
 
@@ -44,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.bot',
     'apps.worker',
-    'apps.notification'
+    'apps.xrey_app',
 ]
 
 if DEVELOPMENT:
@@ -96,14 +97,20 @@ WSGI_APPLICATION = 'bot_builder.wsgi.application'
 DATABASES = { 
     'default': { 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'bot_db', 
+        'NAME': 'bot_db_out', 
         'USER': 'admin', 
         'PASSWORD': 'CSEzF_jT2GUmUsL', 
         'HOST': 'localhost', 
         'PORT': '', }
     }
 
-
+# import os
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators

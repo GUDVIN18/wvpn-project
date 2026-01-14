@@ -1,7 +1,7 @@
 import openai
 import time
-from config import API_CHAT_GPT_KEY
-
+# from config import API_CHAT_GPT_KEY
+API_CHAT_GPT_KEY = ''
 
 def interact_with_assistant(message):
     client = openai.OpenAI(api_key=API_CHAT_GPT_KEY)

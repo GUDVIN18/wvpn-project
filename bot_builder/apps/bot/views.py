@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from yookassa import Payment
-from apps.bot.models import BotUser 
+from apps.bot.models import BotUser, Text_Castom
 from apps.bot.bot_core import tg_bot as bot_token_main
 import requests
 
@@ -9,15 +9,17 @@ import requests
 def send_success_telegram_message(user_id):
     url = f'https://api.telegram.org/bot{bot_token_main}/sendMessage'
     
+    textovka = Text_Castom.objects.get(condition='send_success_telegram_message')
     data_second = {
         "chat_id": user_id,
-        "text": "✅ Платеж прошел успешно!",
+        "text": f"{textovka.text}",
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
         "reply_markup": {
             "inline_keyboard": [
                 [
-                    {"text": "В главное меню", "callback_data": "start"},
+                    {"text": "⚙️ Профиль", "callback_data": "profile"},
+                    {"text": "🏠 В главное меню", "callback_data": "start"},
                 ]
             ]
         }
@@ -63,13 +65,14 @@ def handle_payment_return(request):
                 # Находим пользователя по tg_id, который был передан в описание платежа
                 user = BotUser.objects.get(tg_id=payment.description)  # Здесь предполагается, что description = tg_id пользователя
                 user.subscription = True  # Обновляем статус подписки
+                # Даты
                 user.save()
 
                 send_success_telegram_message(user.tg_id)
                 
                 return HttpResponse("Оплата прошла успешно! Ваша подписка активирована.")
             else:
-                send_error_telegram_message(user.tg_id)
+                # send_error_telegram_message(user.tg_id)
                 return HttpResponse("Оплата не была завершена.")
         except Exception as e:
             return HttpResponse(f"Произошла ошибка при обработке платежа: {e}")

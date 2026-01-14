@@ -2,10 +2,14 @@ import uuid
 import asyncio
 from yookassa import Configuration, Payment
 from apps.bot.models import Payment as PaymentBOT
+import threading
 
 # Настройки Юкасса
-Configuration.account_id = '1006575'  # Ваш идентификатор магазина
-Configuration.secret_key = 'test_377a2T-VX7f7DmnQvNpuoVrxghntsUsJ_3kGJfHg6bo'  # Ваш секретный ключ
+Configuration.account_id = '1009645'  # Ваш идентификатор магазина
+Configuration.secret_key = 'live_6H0jmbiiQVqUAKmQFQkiAfdhwmWM784_XWMu-31x45U'  # Ваш секретный ключ
+
+# Configuration.account_id = '1022696'  # Ваш идентификатор магазина
+# Configuration.secret_key = 'test_Ao0tYxHhbWv0t_LE-iJ6IWxnaypnMEDTQ6dqJOF0DE4'  # Ваш секретный ключ
 
 # Функция проверки статуса платежа
 async def check_payment_status(payment_id):
@@ -35,38 +39,42 @@ async def check_payment_status(payment_id):
             await asyncio.sleep(5)  # Задержка на случай ошибок
 
 
-def create_payment(description):
+def create_payment(description, value, period, limit_ip):
     try:
         payment = Payment.create({
             "amount": {
-                "value": "500.00",
+                "value": f"{value}",
                 "currency": "RUB"
             },
             "confirmation": {
                 "type": "redirect",
-                "return_url": "https://t.me/MealMentor_AIbot"
+                "return_url": "https://t.me/w_vpn_v2ray_bot"
             },
             "capture": True,
             "description": f"{description}"
         }, uuid.uuid4())
 
-        # Получаем ID платежа
         payment_info_dict = payment.__dict__
         payment_id = payment_info_dict.get('_PaymentResponse__id')
         status = payment_info_dict.get('_PaymentResponse__status')
         print(f"Создан новый платеж с ID: {payment_id}\nStatus: {status}")
 
+        # Запуск асинхронной проверки статуса в отдельном потоке
+        def run_check():
+            asyncio.run(check_payment_status(payment_id=payment_id))
+        threading.Thread(target=run_check, daemon=True).start()
 
-        # check_payment_status(payment_id=payment_id)
-        PaymentBOT.objects.create(
+        payment_obj = PaymentBOT.objects.create(
             payment_id=payment_id,
             status=status,
+            value=value,
+            limit_ip=limit_ip,
+            period=period,
             user_id=description
         )
 
-        # Получаем URL для подтверждения платежа
         confirmation_url = payment.confirmation.confirmation_url
-        return confirmation_url
+        return confirmation_url, payment_obj.id
 
     except Exception as e:
         print('Проблема при создании платежа:', e)

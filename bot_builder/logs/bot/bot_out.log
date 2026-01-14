@@ -1,20 +1,10 @@
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 🍽 Программа питания
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 👤 Мой профиль
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 🍽 Программа питания
+Обновление от пользователя 6424595615 (username: Dmitriy_prog): /start
 
 Обновление от пользователя None (username: None): None
 
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): Го
-
 Обновление от пользователя None (username: None): None
 
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): Ррр
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): Ооо
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): Шш
+Обновление от пользователя 809798502 (username: Dmitry_Alekseevich_A): /start
 
 Обновление от пользователя None (username: None): None
 
@@ -24,20 +14,6 @@
 
 Обновление от пользователя None (username: None): None
 
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 🍽 Программа питания
-
-Обновление от пользователя None (username: None): None
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): Ггг
-
-Обновление от пользователя None (username: None): None
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): Г
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): Г
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): О
-
 Обновление от пользователя None (username: None): None
 
 Обновление от пользователя None (username: None): None
@@ -46,66 +22,347 @@
 
 Обновление от пользователя None (username: None): None
 
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): Ггг
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 👤 Мой профиль
-
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf184d30>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1850c0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1855a0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf185bd0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf186230>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf186ec0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf11f190>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf185330>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1866e0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1858d0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf184fa0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf186650>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf184fd0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1853f0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf185180>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1868f0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf185ae0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf186c20>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf185ab0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1843a0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf187700>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf11e230>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf186080>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1868c0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1860e0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf185630>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf1866b0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf187130>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf185270>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467550&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf185540>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 🍽 Программа питания
-
-Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8083197773:AAGqfVg2eo0cygtyFSCZOSuX33HjoH16xTU/getUpdates?offset=204467551&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f54bf186aa0>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 🍽 Программа питания
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 👤 Мой профиль
-
 Обновление от пользователя None (username: None): None
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 👤 Мой профиль
 
 Обновление от пользователя 6424595615 (username: Dmitriy_prog): /start
 
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 🍽 Программа питания
+Обновление от пользователя None (username: None): None
 
 Обновление от пользователя None (username: None): None
 
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): Дмитрий
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 1202093251 (username: Ins1diousSs): /start
+
+Обновление от пользователя 1173681601 (username: B74628): /start
 
 Обновление от пользователя None (username: None): None
 
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 19
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 88
-
-Обновление от пользователя 6424595615 (username: Dmitriy_prog): 190
+Обновление от пользователя 1816135008 (username: dhdhyx): /start
 
 Обновление от пользователя None (username: None): None
 
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 6475623209 (username: nut_taa): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 947854420 (username: tagmeno): /start
+
+Обновление от пользователя 6424595615 (username: Dmitriy_prog): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 1036207224 (username: Andrey_RRte): /start
+
+Обновление от пользователя 760022389 (username: matsuk0_0): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 6424595615 (username: Dmitriy_prog): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 947854420 (username: tagmeno): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 947854420 (username: tagmeno): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 947854420 (username: tagmeno): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 947854420 (username: tagmeno): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 802754690 (username: nekroporsche): /start
+
+Обновление от пользователя 728363087 (username: vetttmo): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 1803599890 (username: dyshhnaya): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 1056612962 (username: olegborisych): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 1763024800 (username: lososim): /start
+
+Обновление от пользователя 6424595615 (username: Dmitriy_prog): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 810232791 (username: TatachkaA): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 810232791 (username: TatachkaA): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 643754841 (username: Afonya1987): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 6424595615 (username: Dmitriy_prog): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 252211550 (username: None): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 252211550 (username: None): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 252211550 (username: None): vless://44e7876f-476f-4890-b550-447f249f00c6@fr2.xraygopaydonat1.ru:52943?type=tcp&security=reality&pbk=wsAv-VnfkjRiaBOPSjLGryqvSzbYo97QVWovu8lg7kE&fp=chrome&sni=yahoo.com&sid=3cd1cd00df8cc0&spx=%2F&flow=xtls-rprx-vision#W%20VPN%20Plus-252211550
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Произошла ошибка: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Обновление от пользователя 1303430775 (username: issuesgr): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 2049645329 (username: Sofika_PP): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 2049645329 (username: Sofika_PP): vless://44e7876f-476f-4890-b550-447f249f00c6@fr2.xraygopaydonat1.ru:52943?type=tcp&security=reality&pbk=wsAv-VnfkjRiaBOPSjLGryqvSzbYo97QVWovu8lg7kE&fp=chrome&sni=yahoo.com&sid=3cd1cd00df8cc0&spx=%2F&flow=xtls-rprx-vision#W%20VPN%20Plus-252211550
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 6965347601 (username: None): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 686015501 (username: realpsix576): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя 6481582155 (username: XOLDAY1): /start
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Обновление от пользователя None (username: None): None
+
+Произошла ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8172832353:AAF3OEvw5uwm36KdezaO2oy3eEwtE02AclY/getUpdates?offset=778461194&timeout=30 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x789ef119d580>: Failed to resolve 'api.telegram.org' ([Errno -3] Temporary failure in name resolution)"))

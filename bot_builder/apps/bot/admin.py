@@ -1,54 +1,99 @@
 # Register your models here.
 from django.contrib import admin
 from .models import *
+from django.contrib import admin
+import csv
+from django.http import HttpResponse
+from django import forms
+from django.contrib.admin.widgets import AdminRadioSelect
 
 
+@admin.register(Bot_Button)
+class Bot_ButtonAdmin(admin.ModelAdmin):
+    fields = [
+        "text",
+        "message_trigger",
+        "type_data",
+        "data",
+        "type_btn",
+        "button_position",
+        
+    ]
+    list_display = (
+        "text",
+        "message_trigger",
+        "type_data",
+        "type_btn",
+    )
+    list_filter = (
+        "text",
+        "message_trigger",
+        "type_data",
+        "type_btn",
+    )
+    search_fields = (
+        "text",
+        "message_trigger",
+        "type_data",
+        "type_btn",
+    )
 
 
-# admin.site.register(Payment)
+@admin.register(TelegramBotConfig)
+class TelegramBotConfigAdmin(admin.ModelAdmin):
 
-
-
+    fields = [
+        "bot_token",
+        "is_activ",
+    ]
+    list_display = (
+        "bot_token",
+        "is_activ",
+    )
+    list_filter = (
+        "is_activ",
+    )
+    search_fields = (
+        "bot_token",
+    )
 
 @admin.register(BotUser)
 class BotUserAdmin(admin.ModelAdmin):
     fields = [
         "tg_id",
-        "subscription",
-        "subscribe_data_start",
-        "subscribe_data_end",
         "first_name",
         "last_name",
         "username",
         "language",
+        "language_chooce",
         "premium",
         "state",
-        "language_chooce",
-        "gender",
-        "age",
-        "massa",
-        "height",
-        "purpose",
-        "training_frequency",
-        "allergies",
-        "protein",
-        "products",
-        "council",
+
+        "subscription",
+        "trial_period",
+        "subscription_date_start",
+        "subscription_date_end",
+
+        "key_id",
+        "vpn_key",
+        "name_key",
+
         "last_message_id",  # Оставлено только одно упоминание
         "last_input_message_id",
-        "temporary_training_id",
+
     ]
     list_display = (
         "tg_id",
         "first_name",
-        "subscription",
         "username",
         "state",
+        "subscription_date_start",
+        "subscription_date_end",
     )
     list_filter = (
         "tg_id",
-        "subscription",
         "username",
+        "subscription",
     )
     search_fields = (
         "tg_id",
@@ -56,14 +101,29 @@ class BotUserAdmin(admin.ModelAdmin):
         "id"
     )
 
+    actions = ['export_as_csv']
+
+    def export_as_csv(self, request, queryset):
+        meta = self.model._meta
+        field_names = [field.name for field in meta.fields]
+
+        response = HttpResponse(content_type='text/csv')
+        response['Content-Disposition'] = 'attachment; filename=botusers.csv'
+        writer = csv.writer(response)
+
+        writer.writerow(field_names)
+        for obj in queryset:
+            writer.writerow([getattr(obj, field) for field in field_names])
+        return response
+
+    export_as_csv.short_description = "Экспортировать выбранные в CSV"
 
 class Bot_ButtonStackedInline(admin.StackedInline):
     model = Bot_Button
     extra = 1
     fields = (
-        ('text', 'data',),
+        ('text', 'type_data', 'data', 'type_btn', 'button_position'),
     )
-
 
 @admin.register(Bot_Message)
 class Bot_MessageAdmin(admin.ModelAdmin):
@@ -74,6 +134,7 @@ class Bot_MessageAdmin(admin.ModelAdmin):
         "next_state",
         "anyway_link",
         "handler",
+
     ]
     list_display = (
         "text", 
@@ -87,8 +148,6 @@ class Bot_MessageAdmin(admin.ModelAdmin):
     search_fields = (
         "handler",
     )
-
-
 
 @admin.register(Bot_Commands)
 class Bot_CommandsAdmin(admin.ModelAdmin):
@@ -110,47 +169,56 @@ class Bot_CommandsAdmin(admin.ModelAdmin):
     )
 
 
-
-
-
-
-@admin.register(Bot_Button)
-class Bot_ButtonAdmin(admin.ModelAdmin):
+@admin.register(Text_Castom)
+class Text_CastomsAdmin(admin.ModelAdmin):
     fields = [
+        "condition",
+        "hint",
         "text",
-        "message_trigger",
-        "data"
     ]
     list_display = (
-        "text",
-        "message_trigger",
+        "condition",
+        "hint",
     )
     list_filter = (
-        "text",
-        "message_trigger",
+        "condition",
     )
     search_fields = (
-        "text",
-        "message_trigger",
+        "condition",
+        "hint",
     )
 
-
-
-
-@admin.register(UserTraining)
-class UserTrainingAdmin(admin.ModelAdmin):
+@admin.register(Payment)
+class PaymentAdmin(admin.ModelAdmin):
     fields = [
-        "user",
-        "name_traning",
-        "training_data",
+        "payment_id",
+        "user_id",
+        "limit_ip",
+        "period",
         "status",
+        "value",
+        "created_at",
     ]
     list_display = (
-        "id",
-        "user",
-        "name_traning",
+        "payment_id",
+        "user_id",
+        "limit_ip",
+        "period",
         "status",
-        "training_data",
+        "value",
+        "created_at",
+    )
+    list_filter = (
+        # "payment_id",
+        "period",
+        "limit_ip",
+        "status",
+    )
+    search_fields = (
+        # "payment_id",
+        "period",
+        "limit_ip",
+        "status",
     )
 
 
