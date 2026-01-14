@@ -1,6 +1,5 @@
-Контсруктор v1.1
-По всем вопроам можете обращаться в тг: @Dmitriy_prog
 
-zip -r wvpn.zip . -x ".vnev/*" -x "vpn/.venv/*"
-pg_dump -U admin -h localhost -d bot_db_out -Fc > bot_db_out_$(date +%F).dump# wvpn-project
+По всем вопроам можете обращаться в тг: @Dmitriy_prog
 # wvpn-project
+
+проект w vpn написанный на Python + fastapi (логика с create/update ключей) + django (админка / БД) + мой конструктор по ботам bot_builder
