@@ -17,5 +17,9 @@ bot_builder/config.py
 bot_builder/config.py
 /.venv/
 /.venv
-.venv/
-.venv
+vpn/.venv/
+vpn/.venv
+vpn/__pycache__/
+vpn/*.pyc
+vpn/.env
+vpn/qrcodes/
