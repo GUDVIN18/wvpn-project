@@ -256,7 +256,7 @@ class Command(BaseCommand):
                                 user.subscription_date_end += timedelta(days=period*30)
                                 try:
                                     create_user = session.post(
-                                        "http://143.20.37.164:9001/v2ray/client/update",
+                                        "http://193.58.121.190:9001/v2ray/client/update",
                                         json={
                                             "server_id": user.server_chooce,
                                             "tg_id": user.tg_id,
@@ -288,7 +288,7 @@ class Command(BaseCommand):
                                 user.server_chooce = server.id
                                 try:
                                     create_user = session.post(
-                                        "http://143.20.37.164:9001/v2ray/client/create",
+                                        "http://193.58.121.190:9001/v2ray/client/create",
                                         json={
                                             "server_id": server.id,
                                             "uuid": str(uuid.uuid4()),
@@ -314,7 +314,7 @@ class Command(BaseCommand):
                                 user.subscription_date_end = now + timedelta(days=period*30)
                                 try:
                                     create_user = session.post(
-                                        "http://143.20.37.164:9001/v2ray/client/update",
+                                        "http://193.58.121.190:9001/v2ray/client/update",
                                         json={
                                             "server_id": user.server_chooce,
                                             "tg_id": user.tg_id,
@@ -391,7 +391,7 @@ class Command(BaseCommand):
                                 # user.outline_key, user.key_id = create_new_key(name=f'{user.username} {user.tg_id}')
                                 try:
                                     create_user = session.post(
-                                        "http://143.20.37.164:9001/v2ray/client/update",
+                                        "http://193.58.121.190:9001/v2ray/client/update",
                                         json={
                                             "server_id": user.server_chooce,
                                             "tg_id": user.tg_id,

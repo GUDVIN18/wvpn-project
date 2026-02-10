@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 # ================== CONFIG ==================
 
-VPN_API_URL = "http://143.20.37.164:9001"
+VPN_API_URL = "http://193.58.121.190:9001"
 
 OLD_SERVER_ID = 3
 NEW_SERVER_ID = 5

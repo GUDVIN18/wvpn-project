@@ -2462,3 +2462,169 @@ data=profile ⚙️ Профиль
 2026-01-13 23:29:02.565 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=870370668
 data=main_menu ⬅️ Назад
 
+Traceback (most recent call last):
+  File "/personal/wvpn-project/bot_builder/manage.py", line 22, in <module>
+    main()
+  File "/personal/wvpn-project/bot_builder/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 275, in fetch_command
+    klass = load_command_class(app_name, subcommand)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 48, in load_command_class
+    module = import_module("%s.management.commands.%s" % (app_name, name))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/personal/wvpn-project/bot_builder/apps/bot/management/commands/bot.py", line 7, in <module>
+    from loguru import logger as log
+ModuleNotFoundError: No module named 'loguru'
+Traceback (most recent call last):
+  File "/personal/wvpn-project/bot_builder/manage.py", line 22, in <module>
+    main()
+  File "/personal/wvpn-project/bot_builder/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 275, in fetch_command
+    klass = load_command_class(app_name, subcommand)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 48, in load_command_class
+    module = import_module("%s.management.commands.%s" % (app_name, name))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/personal/wvpn-project/bot_builder/apps/bot/management/commands/bot.py", line 7, in <module>
+    from loguru import logger as log
+ModuleNotFoundError: No module named 'loguru'
+Traceback (most recent call last):
+  File "/personal/wvpn-project/bot_builder/manage.py", line 22, in <module>
+    main()
+  File "/personal/wvpn-project/bot_builder/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 275, in fetch_command
+    klass = load_command_class(app_name, subcommand)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 48, in load_command_class
+    module = import_module("%s.management.commands.%s" % (app_name, name))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/personal/wvpn-project/bot_builder/apps/bot/management/commands/bot.py", line 7, in <module>
+    from loguru import logger as log
+ModuleNotFoundError: No module named 'loguru'
+Traceback (most recent call last):
+  File "/personal/wvpn-project/bot_builder/manage.py", line 22, in <module>
+    main()
+  File "/personal/wvpn-project/bot_builder/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 275, in fetch_command
+    klass = load_command_class(app_name, subcommand)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/management/__init__.py", line 48, in load_command_class
+    module = import_module("%s.management.commands.%s" % (app_name, name))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/personal/wvpn-project/bot_builder/apps/bot/management/commands/bot.py", line 7, in <module>
+    from loguru import logger as log
+ModuleNotFoundError: No module named 'loguru'
+2026-02-10 12:46:52.242 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=profile ⚙️ Профиль
+
+2026-02-10 12:46:53.393 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=main_menu ⬅️ Назад
+
+2026-02-10 12:46:54.482 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=download ✅ Установка
+
+2026-02-10 12:46:55.605 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=main_menu ⬅️ Назад
+
+2026-02-10 12:46:56.760 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=subscription 💳 Подписка
+
+2026-02-10 12:46:57.871 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=main_menu ⬅️ Назад
+
+2026-02-10 12:47:00.568 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=subscription 💳 Подписка
+
+2026-02-10 12:47:02.256 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=buy_sub 69 1 1 1 м | 1 устр.
+
+2026-02-10 12:51:18.704 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=profile ⚙️ Профиль
+
+2026-02-10 12:51:24.688 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=main_menu ⬅️ Назад
+
+2026-02-10 12:51:26.627 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=profile ⚙️ Профиль
+
+2026-02-10 12:51:27.529 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=main_menu ⬅️ Назад
+
+2026-02-10 12:51:29.759 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=subscription 💳 Подписка
+
+2026-02-10 12:51:31.408 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=main_menu ⬅️ Назад
+
+2026-02-10 12:51:32.620 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=profile ⚙️ Профиль
+
+2026-02-10 12:51:38.471 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=main_menu ⬅️ Назад
+
+2026-02-10 12:51:41.844 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=subscription 💳 Подписка
+
+2026-02-10 12:51:43.312 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5703202303
+data=buy_sub 69 1 1 1 м | 1 устр.
+

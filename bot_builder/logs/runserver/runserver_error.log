@@ -13872,3 +13872,126 @@ Not Found: /favicon.ico
 [14/Jan/2026 14:09:53] "GET /favicon.ico HTTP/1.1" 404 2576
 Not Found: /
 [14/Jan/2026 15:03:09] "GET / HTTP/1.1" 404 2525
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[10/Feb/2026 12:42:37] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25476
+[10/Feb/2026 12:42:37] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 12:42:38] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[10/Feb/2026 12:42:38] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+[10/Feb/2026 12:46:04] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25476
+[10/Feb/2026 12:46:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 12:46:10] "GET /admin/bot/bot_message/ HTTP/1.1" 302 0
+[10/Feb/2026 12:46:10] "GET /admin/login/?next=/admin/bot/bot_message/ HTTP/1.1" 200 4394
+[10/Feb/2026 12:46:10] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[10/Feb/2026 12:46:10] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+[10/Feb/2026 12:46:10] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+[10/Feb/2026 12:46:10] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[10/Feb/2026 12:46:10] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[10/Feb/2026 12:46:10] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[10/Feb/2026 12:46:10] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+Not Found: /favicon.ico
+[10/Feb/2026 12:46:10] "GET /favicon.ico HTTP/1.1" 404 2577
+[10/Feb/2026 12:46:17] "POST /admin/login/?next=/admin/bot/bot_message/ HTTP/1.1" 302 0
+[10/Feb/2026 12:46:17] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25476
+[10/Feb/2026 12:46:18] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[10/Feb/2026 12:46:18] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[10/Feb/2026 12:46:18] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[10/Feb/2026 12:46:18] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[10/Feb/2026 12:46:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 12:46:18] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+[10/Feb/2026 12:46:18] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+[10/Feb/2026 12:46:18] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[10/Feb/2026 12:46:18] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[10/Feb/2026 12:46:18] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[10/Feb/2026 12:46:18] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[10/Feb/2026 12:46:18] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[10/Feb/2026 12:46:18] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[10/Feb/2026 12:46:18] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[10/Feb/2026 12:46:18] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[10/Feb/2026 12:46:21] "GET /admin/bot/botuser/ HTTP/1.1" 200 83576
+[10/Feb/2026 12:46:21] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 12:46:25] "GET /admin/bot/botuser/?subscription__exact=1 HTTP/1.1" 200 77106
+[10/Feb/2026 12:46:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 12:46:27] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 200 19223
+[10/Feb/2026 12:46:28] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+[10/Feb/2026 12:48:34] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 12:48:34] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 12:48:34] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+[10/Feb/2026 12:48:36] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 200 19223
+[10/Feb/2026 12:48:36] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 12:48:36] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 200 19223
+[10/Feb/2026 12:48:36] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 12:48:45] "GET /admin/bot/payment/ HTTP/1.1" 200 80122
+[10/Feb/2026 12:48:45] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 12:50:21] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+[10/Feb/2026 12:50:21] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /favicon.ico
+[10/Feb/2026 12:50:21] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 12:50:21] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /favicon.ico
+[10/Feb/2026 12:50:21] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 12:50:21] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+[10/Feb/2026 12:50:29] "GET /admin/bot/payment/ HTTP/1.1" 200 80122
+[10/Feb/2026 12:50:29] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 12:50:29] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[10/Feb/2026 12:50:30] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[10/Feb/2026 12:50:30] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[10/Feb/2026 12:50:30] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[10/Feb/2026 12:50:30] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[10/Feb/2026 12:50:30] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/Feb/2026 12:55:03] "GET /admin/bot/payment/ HTTP/1.1" 302 0
+[10/Feb/2026 12:55:03] "GET /admin/login/?next=/admin/bot/payment/ HTTP/1.1" 200 4386
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 12:55:03] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 12:55:04] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[10/Feb/2026 12:55:04] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 12:55:04] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 12:55:04] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[10/Feb/2026 12:55:04] "GET /favicon.ico HTTP/1.1" 404 2577
+[10/Feb/2026 12:55:04] "GET /admin/bot/payment/ HTTP/1.1" 302 0
+[10/Feb/2026 12:55:04] "GET /admin/login/?next=/admin/bot/payment/ HTTP/1.1" 200 4386
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 12:55:04] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 12:55:04] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[10/Feb/2026 12:55:04] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 12:55:05] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 12:55:05] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[10/Feb/2026 12:55:05] "GET /favicon.ico HTTP/1.1" 404 2577
+Watching for file changes with StatReloader
