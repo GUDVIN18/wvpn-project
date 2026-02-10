@@ -21,3 +21,4 @@ pg_restore \
   -d bot_db_out \
   -v \
   bot_db_out_full.dump
+
