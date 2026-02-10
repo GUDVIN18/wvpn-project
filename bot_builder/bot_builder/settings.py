@@ -29,7 +29,7 @@ DEBUG = True
 DEVELOPMENT = True
 SECURE_CONTENT_TYPE_NOSNIFF = True  # Для X-Content-Type-Options: nosniff
 
-ALLOWED_HOSTS = ['localhost', '193.58.121.190']
+ALLOWED_HOSTS = ['localhost', '193.58.121.190', '143.20.37.164']
 
 
 
