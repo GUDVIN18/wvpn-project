@@ -12,31 +12,31 @@ Configuration.secret_key = 'live_B0DkWGLIp3uJ8pFhgrrSk7vtYvCkhUT03X3C_nl4KzA'  #
 # Configuration.secret_key = 'test_Ao0tYxHhbWv0t_LE-iJ6IWxnaypnMEDTQ6dqJOF0DE4'  # Ваш секретный ключ
 
 # Функция проверки статуса платежа
-async def check_payment_status(payment_id):
-    while True:
-        try:
-            # Получаем информацию о платеже по его ID
-            payment_info = Payment.find_one(payment_id)
+# async def check_payment_status(payment_id):
+#     while True:
+#         try:
+#             # Получаем информацию о платеже по его ID
+#             payment_info = Payment.find_one(payment_id)
             
-            # Получаем статус платежа
-            payment_info_dict = payment_info.__dict__
-            status = payment_info_dict.get('_PaymentResponse__status')
+#             # Получаем статус платежа
+#             payment_info_dict = payment_info.__dict__
+#             status = payment_info_dict.get('_PaymentResponse__status')
 
-            print(f"Статус платежа: {status}")
+#             print(f"Статус платежа: {status}")
             
-            if status == 'succeeded':  # Платеж успешен
-                print("Платеж успешно завершен!")
-                break
-            elif status == 'canceled':  # Платеж отменен
-                print("Платеж был отменен.")
-                break
-            elif status == 'pending':
-                print('Ождание оплаты')
+#             if status == 'succeeded':  # Платеж успешен
+#                 print("Платеж успешно завершен!")
+#                 break
+#             elif status == 'canceled':  # Платеж отменен
+#                 print("Платеж был отменен.")
+#                 break
+#             elif status == 'pending':
+#                 print('Ождание оплаты')
 
-            await asyncio.sleep(1)  # Задержка 1 секунда перед следующим запросом
-        except Exception as e:
-            print(f"Ошибка при проверке статуса платежа: {e}")
-            await asyncio.sleep(5)  # Задержка на случай ошибок
+#             await asyncio.sleep(1)  # Задержка 1 секунда перед следующим запросом
+#         except Exception as e:
+#             print(f"Ошибка при проверке статуса платежа: {e}")
+#             await asyncio.sleep(5)  # Задержка на случай ошибок
 
 
 def create_payment(description, value, period, limit_ip):
@@ -60,9 +60,9 @@ def create_payment(description, value, period, limit_ip):
         print(f"Создан новый платеж с ID: {payment_id}\nStatus: {status}")
 
         # Запуск асинхронной проверки статуса в отдельном потоке
-        def run_check():
-            asyncio.run(check_payment_status(payment_id=payment_id))
-        threading.Thread(target=run_check, daemon=True).start()
+        # def run_check():
+        #     asyncio.run(check_payment_status(payment_id=payment_id))
+        # threading.Thread(target=run_check, daemon=True).start()
 
         payment_obj = PaymentBOT.objects.create(
             payment_id=payment_id,

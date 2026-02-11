@@ -112,7 +112,7 @@ class Bot_Button(models.Model):
     CHOOCE = ['Inline', 'Reply']
     type_btn = models.CharField(max_length=20, choices=[(x, x) for x in CHOOCE], verbose_name="Тип кнопки", blank=True, null=True, default='Inline')
 
-    CHOOCE_TYPE = ['data', 'url']
+    CHOOCE_TYPE = ['data', 'url', 'web_app']
     type_data = models.CharField(max_length=20, choices=[(x, x) for x in CHOOCE_TYPE], verbose_name="Тип данных", blank=True, null=True, default='data')
 
     POSITIONS = [

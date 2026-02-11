@@ -13995,3 +13995,875 @@ Not Found: /apple-touch-icon.png
 Not Found: /favicon.ico
 [10/Feb/2026 12:55:05] "GET /favicon.ico HTTP/1.1" 404 2577
 Watching for file changes with StatReloader
+[10/Feb/2026 13:07:17] "GET /admin/bot/payment/649/change/ HTTP/1.1" 200 18863
+[10/Feb/2026 13:07:17] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/css/forms.css HTTP/1.1" 200 8710
+[10/Feb/2026 13:07:17] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+[10/Feb/2026 13:07:17] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 13:07:17] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[10/Feb/2026 13:07:17] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:17] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[10/Feb/2026 13:07:17] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[10/Feb/2026 13:07:17] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+[10/Feb/2026 13:07:18] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/Feb/2026 13:07:18] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[10/Feb/2026 13:07:18] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 13:07:18] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 13:07:18] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[10/Feb/2026 13:07:18] "GET /favicon.ico HTTP/1.1" 404 2577
+[10/Feb/2026 13:07:25] "POST /admin/bot/payment/649/change/ HTTP/1.1" 302 0
+[10/Feb/2026 13:07:25] "GET /admin/bot/payment/ HTTP/1.1" 200 80417
+[10/Feb/2026 13:07:25] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[10/Feb/2026 13:07:25] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[10/Feb/2026 13:07:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 13:07:25] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[10/Feb/2026 13:07:25] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[10/Feb/2026 13:07:25] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[10/Feb/2026 13:07:25] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[10/Feb/2026 13:08:59] "GET /admin/bot/payment/ HTTP/1.1" 200 80132
+[10/Feb/2026 13:08:59] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 13:09:03] "GET /admin/bot/payment/?status=succeeded HTTP/1.1" 200 84826
+[10/Feb/2026 13:09:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 13:09:19] "GET /admin/bot/botuser/ HTTP/1.1" 200 83570
+[10/Feb/2026 13:09:19] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /
+[10/Feb/2026 13:24:15] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[10/Feb/2026 13:24:17] "GET /favicon.ico HTTP/1.1" 404 2572
+Not Found: /
+[10/Feb/2026 13:24:49] "GET / HTTP/1.0" 404 2521
+[10/Feb/2026 13:30:08] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 13:30:08] "ðÞ¼" 400 -
+[10/Feb/2026 13:30:11] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 13:30:11] "ðÞ¼" 400 -
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 13:35:45] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 13:35:45] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 302 0
+Not Found: /favicon.ico
+[10/Feb/2026 13:35:45] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[10/Feb/2026 13:35:45] "GET /favicon.ico HTTP/1.1" 404 2577
+[10/Feb/2026 13:35:45] "GET /admin/login/?next=/admin/xrey_app/vpnserver/ HTTP/1.1" 200 4400
+Invalid HTTP_HOST header: 'fr2.play2go.cloud:9000'. You may need to add 'fr2.play2go.cloud' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'fr2.play2go.cloud:9000'. You may need to add 'fr2.play2go.cloud' to ALLOWED_HOSTS.
+Bad Request: /
+[10/Feb/2026 14:38:33] "GET / HTTP/1.1" 400 59325
+[10/Feb/2026 15:26:59] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 302 0
+[10/Feb/2026 15:27:00] "GET /admin/login/?next=/admin/xrey_app/vpnserver/ HTTP/1.1" 200 4400
+Not Found: /apple-touch-icon-120x120-precomposed.png
+[10/Feb/2026 15:27:01] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 2664
+Not Found: /apple-touch-icon-120x120.png
+[10/Feb/2026 15:27:02] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 2628
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 15:27:02] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 15:27:06] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[10/Feb/2026 15:27:07] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-120x120-precomposed.png
+[10/Feb/2026 15:27:07] "GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1" 404 2664
+Not Found: /apple-touch-icon-120x120.png
+[10/Feb/2026 15:27:07] "GET /apple-touch-icon-120x120.png HTTP/1.1" 404 2628
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 15:27:07] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 15:27:08] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[10/Feb/2026 15:27:08] "GET /favicon.ico HTTP/1.1" 404 2577
+[10/Feb/2026 15:53:36] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 15:53:36] "ðÞ¼" 400 -
+[10/Feb/2026 15:53:39] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 15:53:39] "ðÞ¼" 400 -
+[10/Feb/2026 16:30:54] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 16:30:54] "ðÞ¼" 400 -
+[10/Feb/2026 16:30:57] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 16:30:57] "ðÞ¼" 400 -
+[10/Feb/2026 17:17:57] "GET /admin/bot/botuser/ HTTP/1.1" 200 83570
+[10/Feb/2026 17:17:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:18:03] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25476
+[10/Feb/2026 17:18:04] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:04] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:04] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:04] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:04] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:05] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:05] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:18:06] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:06] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:07] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:07] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:07] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:07] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:07] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:07] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:18:07] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:18:07] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:18:07] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:18:29] "GET /admin/bot/bot_message/2/change/ HTTP/1.1" 200 40323
+[10/Feb/2026 17:18:30] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:18:30] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:30] "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+[10/Feb/2026 17:18:30] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:30] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[10/Feb/2026 17:18:30] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[10/Feb/2026 17:18:31] "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+[10/Feb/2026 17:18:54] "POST /admin/bot/bot_message/2/change/ HTTP/1.1" 302 0
+[10/Feb/2026 17:18:55] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25792
+[10/Feb/2026 17:18:55] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:18:56] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:19:47] "GET /admin/bot/bot_message/2/change/ HTTP/1.1" 200 40323
+[10/Feb/2026 17:19:48] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:21:04] code 400, message Bad request version ('112õák\x00\x00rÀ0À,À(À$À\x14À')
+[10/Feb/2026 17:21:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[10/Feb/2026 17:21:07] "GET / HTTP/1.1" 404 2521
+[10/Feb/2026 17:21:19] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03j\x88C¼ªä')
+[10/Feb/2026 17:21:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[10/Feb/2026 17:21:22] "GET / HTTP/1.1" 404 2521
+[10/Feb/2026 17:21:35] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03/ßFà\x16g×\x91\x04«Xµª§Wd\x9eÉ\x98C\x9c;#')
+[10/Feb/2026 17:21:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[10/Feb/2026 17:21:39] "GET / HTTP/1.1" 404 2521
+/personal/wvpn-project/bot_builder/apps/bot/models.py changed, reloading.
+Watching for file changes with StatReloader
+[10/Feb/2026 17:29:33] "GET /admin/bot/bot_message/2/change/ HTTP/1.1" 200 40499
+[10/Feb/2026 17:29:36] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+[10/Feb/2026 17:30:45] "POST /admin/bot/bot_message/2/change/ HTTP/1.1" 302 0
+[10/Feb/2026 17:30:46] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25792
+[10/Feb/2026 17:30:46] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:31:46] "GET /admin/bot/bot_message/2/change/ HTTP/1.1" 200 45917
+[10/Feb/2026 17:31:46] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:31:58] "POST /admin/bot/bot_message/2/change/ HTTP/1.1" 302 0
+[10/Feb/2026 17:31:58] "GET /admin/bot/bot_message/2/change/ HTTP/1.1" 200 46327
+[10/Feb/2026 17:31:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:33:14] "POST /admin/bot/bot_message/2/change/ HTTP/1.1" 302 0
+[10/Feb/2026 17:33:14] "GET /admin/bot/bot_message/2/change/ HTTP/1.1" 200 46331
+[10/Feb/2026 17:33:15] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[10/Feb/2026 17:40:26] "POST /admin/bot/bot_message/2/change/ HTTP/1.1" 302 0
+[10/Feb/2026 17:40:26] "GET /admin/bot/bot_message/2/change/ HTTP/1.1" 200 40892
+[10/Feb/2026 17:40:27] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[10/Feb/2026 17:44:05] "POST /admin/bot/bot_message/2/change/ HTTP/1.1" 302 0
+[10/Feb/2026 17:44:05] "GET /admin/bot/bot_message/2/change/ HTTP/1.1" 200 40766
+[10/Feb/2026 17:44:06] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:45:54] "GET /admin/bot/botuser/ HTTP/1.1" 200 83570
+[10/Feb/2026 17:45:55] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:47:41] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25350
+[10/Feb/2026 17:47:42] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:47:45] "GET /admin/bot/bot_message/4/change/ HTTP/1.1" 200 100457
+[10/Feb/2026 17:47:46] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:47:48] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25350
+[10/Feb/2026 17:47:48] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:47:52] "GET /admin/bot/bot_message/1/change/ HTTP/1.1" 200 67697
+[10/Feb/2026 17:47:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[10/Feb/2026 17:54:01] "GET /admin/bot/botuser/ HTTP/1.1" 200 83570
+[10/Feb/2026 17:54:01] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:54:01] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[10/Feb/2026 17:54:01] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:01] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:01] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/Feb/2026 17:54:01] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:54:02] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:54:19] "GET /admin/bot/botuser/?q=gurrrr HTTP/1.1" 200 15932
+[10/Feb/2026 17:54:19] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:55:07] "GET /admin/bot/botuser/?q=gerrr2 HTTP/1.1" 200 15932
+[10/Feb/2026 17:55:10] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:55:17] "GET /admin/bot/botuser/?q=gurrr2 HTTP/1.1" 200 18289
+[10/Feb/2026 17:55:17] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:55:22] "POST /admin/bot/botuser/?q=gurrr2 HTTP/1.1" 200 15883
+[10/Feb/2026 17:55:22] "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+[10/Feb/2026 17:55:24] "POST /admin/bot/botuser/?q=gurrr2 HTTP/1.1" 302 0
+[10/Feb/2026 17:55:24] "GET /admin/bot/botuser/?q=gurrr2 HTTP/1.1" 200 16104
+[10/Feb/2026 17:55:24] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 17:55:24] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[10/Feb/2026 17:55:39] "GET /admin/bot/botuser/?q=gurrr2 HTTP/1.1" 200 18235
+[10/Feb/2026 17:55:39] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+[10/Feb/2026 17:59:07] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 302 0
+[10/Feb/2026 17:59:07] "GET /admin/login/?next=/admin/xrey_app/vpnserver/ HTTP/1.1" 200 4400
+[10/Feb/2026 17:59:08] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[10/Feb/2026 17:59:08] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[10/Feb/2026 17:59:08] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+[10/Feb/2026 17:59:08] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[10/Feb/2026 17:59:08] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[10/Feb/2026 17:59:08] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[10/Feb/2026 17:59:08] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+Not Found: /favicon.ico
+[10/Feb/2026 17:59:08] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-precomposed.png
+[10/Feb/2026 17:59:08] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[10/Feb/2026 17:59:08] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[10/Feb/2026 17:59:08] "GET /favicon.ico HTTP/1.1" 404 2577
+[10/Feb/2026 18:06:43] code 400, message Bad request version ('À\x13À')
+[10/Feb/2026 18:06:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Feb/2026 18:06:43] code 400, message Bad request version ('À\x13À')
+[10/Feb/2026 18:06:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[10/Feb/2026 18:06:58] code 400, message Bad request version ('Ê©\x03\x00\x07default\x00')
+[10/Feb/2026 18:06:58] " Clickhouse clientÊ© default " 400 -
+Not Found: /
+[10/Feb/2026 18:06:59] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[10/Feb/2026 18:07:02] "GET /favicon.ico HTTP/1.1" 404 2577
+[10/Feb/2026 18:24:52] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 18:24:52] "ðÞ¼" 400 -
+[10/Feb/2026 18:24:55] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 18:24:55] "ðÞ¼" 400 -
+[10/Feb/2026 19:16:49] "GET /admin/bot/payment/ HTTP/1.1" 200 80172
+[10/Feb/2026 19:16:50] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 19:16:50] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[10/Feb/2026 19:16:50] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[10/Feb/2026 19:16:58] "GET /admin/bot/payment/657/change/ HTTP/1.1" 200 18865
+[10/Feb/2026 19:16:58] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[10/Feb/2026 19:16:58] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:58] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:58] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:58] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[10/Feb/2026 19:16:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 19:16:58] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[10/Feb/2026 19:16:58] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[10/Feb/2026 19:16:58] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[10/Feb/2026 19:17:02] "POST /admin/bot/payment/657/change/ HTTP/1.1" 302 0
+[10/Feb/2026 19:17:02] "GET /admin/bot/payment/ HTTP/1.1" 200 80339
+[10/Feb/2026 19:17:02] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 19:17:02] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+[10/Feb/2026 19:22:27] "GET /admin/bot/botuser/ HTTP/1.1" 200 83490
+[10/Feb/2026 19:22:27] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 19:22:32] "GET /admin/bot/botuser/?q=MANAGER HTTP/1.1" 200 18354
+[10/Feb/2026 19:22:33] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 19:22:38] "POST /admin/bot/botuser/?q=MANAGER HTTP/1.1" 200 17620
+[10/Feb/2026 19:22:38] "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+[10/Feb/2026 19:22:39] "POST /admin/bot/botuser/?q=MANAGER HTTP/1.1" 302 0
+[10/Feb/2026 19:22:39] "GET /admin/bot/botuser/?q=MANAGER HTTP/1.1" 200 16114
+[10/Feb/2026 19:22:39] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 19:22:51] "GET /admin/bot/botuser/?q=MANAGER HTTP/1.1" 200 18296
+[10/Feb/2026 19:22:51] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 19:34:15] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 200 19223
+[10/Feb/2026 19:34:16] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 19:35:19] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 200 19223
+[10/Feb/2026 19:35:19] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 200 19223
+[10/Feb/2026 19:35:19] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[10/Feb/2026 19:35:19] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[10/Feb/2026 19:35:19] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+[10/Feb/2026 19:35:19] "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[10/Feb/2026 19:35:19] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[10/Feb/2026 19:35:19] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[10/Feb/2026 19:35:19] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[10/Feb/2026 19:35:19] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[10/Feb/2026 19:35:19] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+[10/Feb/2026 19:35:19] "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+[10/Feb/2026 19:35:19] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[10/Feb/2026 19:35:19] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[10/Feb/2026 19:35:19] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[10/Feb/2026 19:35:19] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[10/Feb/2026 19:35:19] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[10/Feb/2026 19:35:19] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[10/Feb/2026 19:35:20] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+[10/Feb/2026 19:35:20] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[10/Feb/2026 19:35:20] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[10/Feb/2026 19:35:20] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[10/Feb/2026 19:35:20] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[10/Feb/2026 19:48:54] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 19:48:54] "ðÞ¼" 400 -
+[10/Feb/2026 19:48:58] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 19:48:58] "ðÞ¼" 400 -
+[10/Feb/2026 19:57:32] "GET /admin/bot/botuser/ HTTP/1.1" 200 83492
+[10/Feb/2026 19:57:32] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /
+[10/Feb/2026 21:26:12] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[10/Feb/2026 21:26:14] "POST / HTTP/1.1" 404 2527
+Not Found: /_next
+[10/Feb/2026 21:26:17] "POST /_next HTTP/1.1" 404 2560
+Not Found: /_next/server
+[10/Feb/2026 21:26:31] "POST /_next/server HTTP/1.1" 404 2581
+Not Found: /app
+[10/Feb/2026 21:26:33] "POST /app HTTP/1.1" 404 2554
+Not Found: /api
+[10/Feb/2026 21:26:35] "POST /api HTTP/1.1" 404 2554
+Not Found: /api/route
+[10/Feb/2026 21:26:35] "POST /api/route HTTP/1.1" 404 2572
+[10/Feb/2026 21:58:15] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 21:58:15] "ðÞ¼" 400 -
+[10/Feb/2026 21:58:18] code 400, message Bad request syntax ('ðÞ¼')
+[10/Feb/2026 21:58:18] "ðÞ¼" 400 -
+Not Found: /
+[10/Feb/2026 23:27:28] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[10/Feb/2026 23:27:28] "GET /favicon.ico HTTP/1.1" 404 2572
+[11/Feb/2026 00:21:41] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 00:21:41] "ðÞ¼" 400 -
+[11/Feb/2026 00:21:44] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 00:21:44] "ðÞ¼" 400 -
+[11/Feb/2026 00:35:01] code 400, message Bad request syntax ('SSH-2.0-Go')
+[11/Feb/2026 00:35:01] "SSH-2.0-Go" 400 -
+[11/Feb/2026 00:35:01] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[11/Feb/2026 00:35:01] "MGLNDD_193.58.121.190_9000" 400 -
+[11/Feb/2026 02:01:47] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 02:01:47] "ðÞ¼" 400 -
+[11/Feb/2026 02:01:50] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 02:01:50] "ðÞ¼" 400 -
+Watching for file changes with StatReloader
+[11/Feb/2026 02:11:12] "GET /admin/bot/botuser/?subscription__exact=1 HTTP/1.1" 200 77142
+[11/Feb/2026 02:11:13] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:11:13] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[11/Feb/2026 02:11:13] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:14] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[11/Feb/2026 02:11:14] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[11/Feb/2026 02:11:14] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[11/Feb/2026 02:11:33] "GET /admin/bot/botuser/21/change/?_changelist_filters=subscription__exact%3D1 HTTP/1.1" 200 29585
+[11/Feb/2026 02:11:33] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[11/Feb/2026 02:11:33] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:33] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:33] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:11:33] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:33] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[11/Feb/2026 02:11:33] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[11/Feb/2026 02:11:33] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[11/Feb/2026 02:11:33] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[11/Feb/2026 02:11:43] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25350
+[11/Feb/2026 02:11:43] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:12:04] "GET /admin/bot/bot_message/3/change/ HTTP/1.1" 200 66371
+[11/Feb/2026 02:12:04] "GET /static/admin/js/inlines.js HTTP/1.1" 304 0
+[11/Feb/2026 02:12:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:12:04] "GET /static/admin/img/inline-delete.svg HTTP/1.1" 304 0
+[11/Feb/2026 02:13:09] "GET /admin/bot/botuser/ HTTP/1.1" 200 83492
+[11/Feb/2026 02:13:09] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:13:18] "GET /admin/bot/botuser/?q=6424595615 HTTP/1.1" 200 18389
+[11/Feb/2026 02:13:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:13:25] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29591
+[11/Feb/2026 02:13:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:13:48] "POST /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 302 0
+[11/Feb/2026 02:13:48] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29948
+[11/Feb/2026 02:13:48] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:13:48] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[11/Feb/2026 02:14:49] "POST /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 302 0
+[11/Feb/2026 02:14:50] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29953
+[11/Feb/2026 02:14:50] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:20:23] "GET /admin/bot/botuser/ HTTP/1.1" 200 83492
+[11/Feb/2026 02:20:23] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:20:25] "GET /admin/bot/botuser/211/change/ HTTP/1.1" 200 29466
+[11/Feb/2026 02:20:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:20:39] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 2455
+[11/Feb/2026 02:20:49] "POST /admin/bot/botuser/211/change/ HTTP/1.1" 302 0
+[11/Feb/2026 02:20:49] "GET /admin/bot/botuser/211/change/ HTTP/1.1" 200 29816
+[11/Feb/2026 02:20:49] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:27:19] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[11/Feb/2026 02:27:19] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+[11/Feb/2026 02:32:54] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25350
+[11/Feb/2026 02:32:54] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:32:58] "GET /admin/bot/bot_message/3/change/ HTTP/1.1" 200 66371
+[11/Feb/2026 02:32:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:33:25] "POST /admin/bot/bot_message/3/change/ HTTP/1.1" 302 0
+[11/Feb/2026 02:33:25] "GET /admin/bot/bot_message/3/change/ HTTP/1.1" 200 72098
+[11/Feb/2026 02:33:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:34:07,752] - Broken pipe from ('199.45.154.123', 60272)
+[11/Feb/2026 02:34:07] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03')
+[11/Feb/2026 02:34:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[11/Feb/2026 02:34:11] "GET / HTTP/1.1" 404 2526
+[11/Feb/2026 02:34:11,794] - Broken pipe from ('199.45.154.123', 60296)
+[11/Feb/2026 02:34:15] code 400, message Bad request version ('À\x14À')
+[11/Feb/2026 02:34:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[11/Feb/2026 02:34:15] "GET / HTTP/1.1" 404 2526
+[11/Feb/2026 02:34:16] code 505, message Invalid HTTP version (2.0)
+[11/Feb/2026 02:34:16] "PRI * HTTP/2.0" 505 -
+[11/Feb/2026 02:34:20] code 400, message Bad request version ('À\x14À')
+[11/Feb/2026 02:34:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /login
+[11/Feb/2026 02:34:21] "GET /login HTTP/1.1" 404 2559
+[11/Feb/2026 02:39:50] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[11/Feb/2026 02:39:50] "MGLNDD_193.58.121.190_9000" 400 -
+[11/Feb/2026 02:40:09] "POST /admin/bot/bot_message/3/change/ HTTP/1.1" 302 0
+[11/Feb/2026 02:40:09] "GET /admin/bot/bot_message/3/change/ HTTP/1.1" 200 72108
+[11/Feb/2026 02:40:09] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:40:30] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25350
+[11/Feb/2026 02:40:30] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:40:35] "GET /admin/bot/bot_message/3/change/ HTTP/1.1" 200 71752
+[11/Feb/2026 02:40:35] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:41:27] "POST /admin/bot/bot_message/3/change/ HTTP/1.1" 302 0
+[11/Feb/2026 02:41:27] "GET /admin/bot/bot_message/3/change/ HTTP/1.1" 200 72100
+[11/Feb/2026 02:41:27] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:43:05] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25350
+[11/Feb/2026 02:43:05] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /.e2133
+[11/Feb/2026 02:43:42] "GET /.e2133 HTTP/1.1" 404 2562
+Not Found: /.env
+[11/Feb/2026 02:43:42] "GET /.env HTTP/1.1" 404 2556
+Not Found: /.env.local
+[11/Feb/2026 02:43:42] "GET /.env.local HTTP/1.1" 404 2574
+Not Found: /.env.production
+[11/Feb/2026 02:43:42] "GET /.env.production HTTP/1.1" 404 2589
+Not Found: /.env.development
+[11/Feb/2026 02:43:42] "GET /.env.development HTTP/1.1" 404 2592
+Not Found: /.env.dev
+[11/Feb/2026 02:43:42] "GET /.env.dev HTTP/1.1" 404 2568
+Not Found: /.env.prod
+[11/Feb/2026 02:43:42] "GET /.env.prod HTTP/1.1" 404 2571
+Not Found: /.env.test
+[11/Feb/2026 02:43:42] "GET /.env.test HTTP/1.1" 404 2571
+Not Found: /.env.staging
+[11/Feb/2026 02:43:42] "GET /.env.staging HTTP/1.1" 404 2580
+Not Found: /.env.backup
+[11/Feb/2026 02:43:42] "GET /.env.backup HTTP/1.1" 404 2577
+Not Found: /.env.save
+[11/Feb/2026 02:43:42] "GET /.env.save HTTP/1.1" 404 2571
+Not Found: /.env.old
+[11/Feb/2026 02:43:42] "GET /.env.old HTTP/1.1" 404 2568
+Not Found: /.env.bak
+[11/Feb/2026 02:43:42] "GET /.env.bak HTTP/1.1" 404 2568
+Not Found: /.env.tmp
+[11/Feb/2026 02:43:42] "GET /.env.tmp HTTP/1.1" 404 2568
+Not Found: /.env.swp
+[11/Feb/2026 02:43:43] "GET /.env.swp HTTP/1.1" 404 2568
+Not Found: /.env~
+[11/Feb/2026 02:43:43] "GET /.env~ HTTP/1.1" 404 2559
+Not Found: /env
+[11/Feb/2026 02:43:43] "GET /env HTTP/1.1" 404 2553
+Not Found: /env.js
+[11/Feb/2026 02:43:43] "GET /env.js HTTP/1.1" 404 2562
+Not Found: /env.json
+[11/Feb/2026 02:43:43] "GET /env.json HTTP/1.1" 404 2568
+Not Found: /app/.env
+[11/Feb/2026 02:43:43] "GET /app/.env HTTP/1.1" 404 2568
+Not Found: /src/.env
+[11/Feb/2026 02:43:43] "GET /src/.env HTTP/1.1" 404 2568
+Not Found: /config/.env
+[11/Feb/2026 02:43:43] "GET /config/.env HTTP/1.1" 404 2577
+Not Found: /backend/.env
+[11/Feb/2026 02:43:43] "GET /backend/.env HTTP/1.1" 404 2580
+Not Found: /frontend/.env
+[11/Feb/2026 02:43:43] "GET /frontend/.env HTTP/1.1" 404 2583
+Not Found: /api/.env
+[11/Feb/2026 02:43:43] "GET /api/.env HTTP/1.1" 404 2568
+Not Found: /server/.env
+[11/Feb/2026 02:43:43] "GET /server/.env HTTP/1.1" 404 2577
+Not Found: /client/.env
+[11/Feb/2026 02:43:43] "GET /client/.env HTTP/1.1" 404 2577
+Not Found: /web/.env
+[11/Feb/2026 02:43:43] "GET /web/.env HTTP/1.1" 404 2568
+Not Found: /public/.env
+[11/Feb/2026 02:43:43] "GET /public/.env HTTP/1.1" 404 2577
+Not Found: /private/.env
+[11/Feb/2026 02:43:43] "GET /private/.env HTTP/1.1" 404 2580
+Not Found: /var/.env
+[11/Feb/2026 02:43:43] "GET /var/.env HTTP/1.1" 404 2568
+Not Found: /docker-compose.yml
+[11/Feb/2026 02:43:43] "GET /docker-compose.yml HTTP/1.1" 404 2598
+Not Found: /docker-compose.yaml
+[11/Feb/2026 02:43:43] "GET /docker-compose.yaml HTTP/1.1" 404 2601
+Not Found: /docker-compose.override.yml
+[11/Feb/2026 02:43:43] "GET /docker-compose.override.yml HTTP/1.1" 404 2625
+Not Found: /docker-compose.dev.yml
+[11/Feb/2026 02:43:43] "GET /docker-compose.dev.yml HTTP/1.1" 404 2610
+Not Found: /docker-compose.prod.yml
+[11/Feb/2026 02:43:43] "GET /docker-compose.prod.yml HTTP/1.1" 404 2613
+Not Found: /config.js
+[11/Feb/2026 02:43:43] "GET /config.js HTTP/1.1" 404 2571
+Not Found: /config.json
+[11/Feb/2026 02:43:43] "GET /config.json HTTP/1.1" 404 2577
+Not Found: /settings.js
+[11/Feb/2026 02:43:43] "GET /settings.js HTTP/1.1" 404 2577
+Not Found: /settings.json
+[11/Feb/2026 02:43:43] "GET /settings.json HTTP/1.1" 404 2583
+Not Found: /secrets.json
+[11/Feb/2026 02:43:43] "GET /secrets.json HTTP/1.1" 404 2580
+Not Found: /credentials.json
+[11/Feb/2026 02:43:43] "GET /credentials.json HTTP/1.1" 404 2592
+Not Found: /app.js
+[11/Feb/2026 02:43:43] "GET /app.js HTTP/1.1" 404 2562
+Not Found: /main.js
+[11/Feb/2026 02:43:43] "GET /main.js HTTP/1.1" 404 2565
+Not Found: /index.js
+[11/Feb/2026 02:43:43] "GET /index.js HTTP/1.1" 404 2568
+Not Found: /server.js
+[11/Feb/2026 02:43:43] "GET /server.js HTTP/1.1" 404 2571
+Not Found: /bundle.js
+[11/Feb/2026 02:43:43] "GET /bundle.js HTTP/1.1" 404 2571
+Not Found: /app.bundle.js
+[11/Feb/2026 02:43:43] "GET /app.bundle.js HTTP/1.1" 404 2583
+Not Found: /main.bundle.js
+[11/Feb/2026 02:43:43] "GET /main.bundle.js HTTP/1.1" 404 2586
+Not Found: /vendor.js
+[11/Feb/2026 02:43:43] "GET /vendor.js HTTP/1.1" 404 2571
+Not Found: /chunk.js
+[11/Feb/2026 02:43:43] "GET /chunk.js HTTP/1.1" 404 2568
+[11/Feb/2026 02:43:43] "GET /static/js/main.js HTTP/1.1" 404 1849
+[11/Feb/2026 02:43:43] "GET /static/js/app.js HTTP/1.1" 404 1846
+[11/Feb/2026 02:43:43] "GET /static/js/bundle.js HTTP/1.1" 404 1855
+Not Found: /dist/main.js
+[11/Feb/2026 02:43:43] "GET /dist/main.js HTTP/1.1" 404 2580
+Not Found: /dist/app.js
+[11/Feb/2026 02:43:44] "GET /dist/app.js HTTP/1.1" 404 2577
+Not Found: /dist/bundle.js
+[11/Feb/2026 02:43:44] "GET /dist/bundle.js HTTP/1.1" 404 2586
+Not Found: /build/static/js/main.js
+[11/Feb/2026 02:43:44] "GET /build/static/js/main.js HTTP/1.1" 404 2613
+Not Found: /assets/index.js
+[11/Feb/2026 02:43:44] "GET /assets/index.js HTTP/1.1" 404 2589
+Not Found: /assets/app.js
+[11/Feb/2026 02:43:44] "GET /assets/app.js HTTP/1.1" 404 2583
+Not Found: /_next/static/chunks/main.js
+[11/Feb/2026 02:43:44] "GET /_next/static/chunks/main.js HTTP/1.1" 404 2625
+Not Found: /_next/static/chunks/app.js
+[11/Feb/2026 02:43:44] "GET /_next/static/chunks/app.js HTTP/1.1" 404 2622
+Not Found: /js/app.js
+[11/Feb/2026 02:43:44] "GET /js/app.js HTTP/1.1" 404 2571
+Not Found: /js/main.js
+[11/Feb/2026 02:43:44] "GET /js/main.js HTTP/1.1" 404 2574
+Not Found: /settings.py
+[11/Feb/2026 02:43:44] "GET /settings.py HTTP/1.1" 404 2577
+Not Found: /config.py
+[11/Feb/2026 02:43:44] "GET /config.py HTTP/1.1" 404 2571
+Not Found: /secrets.py
+[11/Feb/2026 02:43:44] "GET /secrets.py HTTP/1.1" 404 2574
+Not Found: /config/secrets.yml
+[11/Feb/2026 02:43:44] "GET /config/secrets.yml HTTP/1.1" 404 2598
+Not Found: /config/master.key
+[11/Feb/2026 02:43:44] "GET /config/master.key HTTP/1.1" 404 2595
+Not Found: /wp-config.php.bak
+[11/Feb/2026 02:43:44] "GET /wp-config.php.bak HTTP/1.1" 404 2595
+Not Found: /wp-config.php.old
+[11/Feb/2026 02:43:44] "GET /wp-config.php.old HTTP/1.1" 404 2595
+Not Found: /wp-config.php.save
+[11/Feb/2026 02:43:44] "GET /wp-config.php.save HTTP/1.1" 404 2598
+Not Found: /wp-config.php.txt
+[11/Feb/2026 02:43:44] "GET /wp-config.php.txt HTTP/1.1" 404 2595
+Not Found: /wp-config.php~
+[11/Feb/2026 02:43:44] "GET /wp-config.php~ HTTP/1.1" 404 2586
+Not Found: /config/app.php
+[11/Feb/2026 02:43:44] "GET /config/app.php HTTP/1.1" 404 2586
+Not Found: /application.properties
+[11/Feb/2026 02:43:44] "GET /application.properties HTTP/1.1" 404 2610
+Not Found: /application.yml
+[11/Feb/2026 02:43:44] "GET /application.yml HTTP/1.1" 404 2589
+Not Found: /application.yaml
+[11/Feb/2026 02:43:44] "GET /application.yaml HTTP/1.1" 404 2592
+Not Found: /application-dev.properties
+[11/Feb/2026 02:43:44] "GET /application-dev.properties HTTP/1.1" 404 2622
+Not Found: /application-prod.properties
+[11/Feb/2026 02:43:44] "GET /application-prod.properties HTTP/1.1" 404 2625
+Not Found: /appsettings.json
+[11/Feb/2026 02:43:44] "GET /appsettings.json HTTP/1.1" 404 2592
+Not Found: /appsettings.Development.json
+[11/Feb/2026 02:43:44] "GET /appsettings.Development.json HTTP/1.1" 404 2628
+Not Found: /appsettings.Production.json
+[11/Feb/2026 02:43:44] "GET /appsettings.Production.json HTTP/1.1" 404 2625
+Not Found: /config.yaml
+[11/Feb/2026 02:43:44] "GET /config.yaml HTTP/1.1" 404 2577
+Not Found: /config.yml
+[11/Feb/2026 02:43:44] "GET /config.yml HTTP/1.1" 404 2574
+Not Found: /config.toml
+[11/Feb/2026 02:43:44] "GET /config.toml HTTP/1.1" 404 2577
+Not Found: /serverless.yml
+[11/Feb/2026 02:43:44] "GET /serverless.yml HTTP/1.1" 404 2586
+Not Found: /serverless.yaml
+[11/Feb/2026 02:43:44] "GET /serverless.yaml HTTP/1.1" 404 2589
+Not Found: /config/production.json
+[11/Feb/2026 02:43:44] "GET /config/production.json HTTP/1.1" 404 2610
+Not Found: /config/development.json
+[11/Feb/2026 02:43:44] "GET /config/development.json HTTP/1.1" 404 2613
+Not Found: /config/default.json
+[11/Feb/2026 02:43:44] "GET /config/default.json HTTP/1.1" 404 2601
+Not Found: /config/local.json
+[11/Feb/2026 02:43:44] "GET /config/local.json HTTP/1.1" 404 2595
+Not Found: /conf/settings.json
+[11/Feb/2026 02:43:44] "GET /conf/settings.json HTTP/1.1" 404 2598
+Not Found: /data/config.json
+[11/Feb/2026 02:43:44] "GET /data/config.json HTTP/1.1" 404 2592
+Not Found: /actuator/env
+[11/Feb/2026 02:43:44] "GET /actuator/env HTTP/1.1" 404 2580
+Not Found: /actuator/configprops
+[11/Feb/2026 02:43:44] "GET /actuator/configprops HTTP/1.1" 404 2604
+Not Found: /api/config
+[11/Feb/2026 02:43:45] "GET /api/config HTTP/1.1" 404 2574
+Not Found: /api/settings
+[11/Feb/2026 02:43:45] "GET /api/settings HTTP/1.1" 404 2580
+Not Found: /api/env
+[11/Feb/2026 02:43:45] "GET /api/env HTTP/1.1" 404 2565
+Not Found: /backup/.env
+[11/Feb/2026 02:43:45] "GET /backup/.env HTTP/1.1" 404 2577
+Not Found: /backups/.env
+[11/Feb/2026 02:43:45] "GET /backups/.env HTTP/1.1" 404 2580
+Not Found: /old/.env
+[11/Feb/2026 02:43:45] "GET /old/.env HTTP/1.1" 404 2568
+Not Found: /temp/.env
+[11/Feb/2026 02:43:45] "GET /temp/.env HTTP/1.1" 404 2571
+Not Found: /tmp/.env
+[11/Feb/2026 02:43:45] "GET /tmp/.env HTTP/1.1" 404 2568
+Not Found: /.streamlit/secrets.toml
+[11/Feb/2026 02:43:45] "GET /.streamlit/secrets.toml HTTP/1.1" 404 2613
+Not Found: /root/.streamlit/secrets.toml
+[11/Feb/2026 02:43:45] "GET /root/.streamlit/secrets.toml HTTP/1.1" 404 2628
+Not Found: /root/.aws/credentials
+[11/Feb/2026 02:43:45] "GET /root/.aws/credentials HTTP/1.1" 404 2607
+Not Found: /home/ubuntu/.aws/credentials
+[11/Feb/2026 02:43:45] "GET /home/ubuntu/.aws/credentials HTTP/1.1" 404 2628
+Not Found: /home/ec2-user/.aws/credentials
+[11/Feb/2026 02:43:45] "GET /home/ec2-user/.aws/credentials HTTP/1.1" 404 2634
+Not Found: /home/node/.aws/credentials
+[11/Feb/2026 02:43:45] "GET /home/node/.aws/credentials HTTP/1.1" 404 2622
+Not Found: /terraform.tfvars
+[11/Feb/2026 02:43:45] "GET /terraform.tfvars HTTP/1.1" 404 2592
+Not Found: /terraform.tfstate
+[11/Feb/2026 02:43:45] "GET /terraform.tfstate HTTP/1.1" 404 2595
+Not Found: /ecosystem.config.js
+[11/Feb/2026 02:43:45] "GET /ecosystem.config.js HTTP/1.1" 404 2601
+Not Found: /secrets.yaml
+[11/Feb/2026 02:43:45] "GET /secrets.yaml HTTP/1.1" 404 2580
+Not Found: /secrets.yml
+[11/Feb/2026 02:43:45] "GET /secrets.yml HTTP/1.1" 404 2577
+Not Found: /.secrets
+[11/Feb/2026 02:43:45] "GET /.secrets HTTP/1.1" 404 2568
+Not Found: /.env.vault
+[11/Feb/2026 02:43:45] "GET /.env.vault HTTP/1.1" 404 2574
+Not Found: /storage/framework/.env
+[11/Feb/2026 02:43:45] "GET /storage/framework/.env HTTP/1.1" 404 2610
+Not Found: /laravel/.env
+[11/Feb/2026 02:43:45] "GET /laravel/.env HTTP/1.1" 404 2580
+Not Found: /.git/logs/HEAD
+[11/Feb/2026 02:43:45] "GET /.git/logs/HEAD HTTP/1.1" 404 2586
+Not Found: /.git/config
+[11/Feb/2026 02:43:45] "GET /.git/config HTTP/1.1" 404 2577
+Not Found: /@fs/app/.env
+[11/Feb/2026 02:43:45] "GET /@fs/app/.env?raw?? HTTP/1.1" 404 2586
+Not Found: /@fs/root/.env
+[11/Feb/2026 02:43:45] "GET /@fs/root/.env?raw?? HTTP/1.1" 404 2589
+Not Found: /@fs/proc/self/environ
+[11/Feb/2026 02:43:45] "GET /@fs/proc/self/environ?raw?? HTTP/1.1" 404 2613
+Not Found: /@fs/.env
+[11/Feb/2026 02:43:45] "GET /@fs/.env?raw?? HTTP/1.1" 404 2574
+Not Found: /@fs/../../../../../root/.env
+[11/Feb/2026 02:43:45] "GET /@fs/..%2f..%2f..%2f..%2f..%2froot/.env?raw?? HTTP/1.1" 404 2615
+Not Found: /@fs/../../../../../proc/self/environ
+[11/Feb/2026 02:43:45] "GET /@fs/..%2f..%2f..%2f..%2f..%2fproc/self/environ?raw?? HTTP/1.1" 404 2639
+Not Found: /@fs/../../../../../app/.env
+[11/Feb/2026 02:43:45] "GET /@fs/..%2f..%2f..%2f..%2f..%2fapp/.env?raw?? HTTP/1.1" 404 2612
+Not Found: /@fs/..%2f..%2f..%2f..%2f..%2froot/.env
+[11/Feb/2026 02:43:45] "GET /@fs/..%252f..%252f..%252f..%252f..%252froot/.env?raw?? HTTP/1.1" 404 2674
+Not Found: /@fs/..%2f..%2f..%2f..%2f..%2fproc/self/environ
+[11/Feb/2026 02:43:45] "GET /@fs/..%252f..%252f..%252f..%252f..%252fproc/self/environ?raw?? HTTP/1.1" 404 2698
+Not Found: /@fs/root/.aws/credentials
+[11/Feb/2026 02:43:45] "GET /@fs/root/.aws/credentials?raw?? HTTP/1.1" 404 2625
+Not Found: /@fs/home/ubuntu/.aws/credentials
+[11/Feb/2026 02:43:45] "GET /@fs/home/ubuntu/.aws/credentials?raw?? HTTP/1.1" 404 2646
+Not Found: /@fs/home/node/.aws/credentials
+[11/Feb/2026 02:43:45] "GET /@fs/home/node/.aws/credentials?raw?? HTTP/1.1" 404 2640
+Not Found: /@fs/app/.env.local
+[11/Feb/2026 02:43:45] "GET /@fs/app/.env.local?raw?? HTTP/1.1" 404 2604
+Not Found: /@fs/app/.env.production
+[11/Feb/2026 02:43:45] "GET /@fs/app/.env.production?raw?? HTTP/1.1" 404 2619
+Not Found: /@fs/src/.env
+[11/Feb/2026 02:43:46] "GET /@fs/src/.env?raw?? HTTP/1.1" 404 2586
+Not Found: /../../../../../../proc/self/environ
+[11/Feb/2026 02:43:46] "GET /..%2f..%2f..%2f..%2f..%2f..%2fproc/self/environ HTTP/1.1" 404 2631
+Not Found: /../../../../../../../proc/self/environ
+[11/Feb/2026 02:43:46] "GET /../../../../../../../proc/self/environ HTTP/1.1" 404 2637
+Not Found: /../../../../../../../app/.env
+[11/Feb/2026 02:43:46] "GET /../../../../../../../app/.env HTTP/1.1" 404 2610
+Not Found: /../../../../../../../root/.env
+[11/Feb/2026 02:43:46] "GET /../../../../../../../root/.env HTTP/1.1" 404 2613
+Not Found: /../../../../../../../root/.aws/credentials
+[11/Feb/2026 02:43:46] "GET /../../../../../../../root/.aws/credentials HTTP/1.1" 404 2649
+Not Found: /../../../../../../../home/ubuntu/.aws/credentials
+[11/Feb/2026 02:43:46] "GET /../../../../../../../home/ubuntu/.aws/credentials HTTP/1.1" 404 2670
+Not Found: /../../../../../../../home/node/.aws/credentials
+[11/Feb/2026 02:43:46] "GET /../../../../../../../home/node/.aws/credentials HTTP/1.1" 404 2664
+Not Found: /../../../../../../root/.aws/credentials
+[11/Feb/2026 02:43:46] "GET /..%2f..%2f..%2f..%2f..%2f..%2froot/.aws/credentials HTTP/1.1" 404 2643
+Not Found: /../../../../../../home/ubuntu/.aws/credentials
+[11/Feb/2026 02:43:46] "GET /..%2f..%2f..%2f..%2f..%2f..%2fhome/ubuntu/.aws/credentials HTTP/1.1" 404 2664
+[11/Feb/2026 02:43:52] "GET /admin/bot/bot_message/3/change/ HTTP/1.1" 200 71744
+[11/Feb/2026 02:43:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:43:58] "POST /admin/bot/bot_message/3/change/ HTTP/1.1" 302 0
+[11/Feb/2026 02:43:58] "GET /admin/bot/bot_message/3/change/ HTTP/1.1" 200 72089
+[11/Feb/2026 02:43:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:44:10] "POST /admin/bot/bot_message/3/change/ HTTP/1.1" 302 0
+[11/Feb/2026 02:44:10] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25629
+[11/Feb/2026 02:44:10] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:44:12] "GET /admin/bot/bot_message/1/change/ HTTP/1.1" 200 67697
+[11/Feb/2026 02:44:13] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 02:45:12] "POST /admin/bot/bot_message/1/change/ HTTP/1.1" 302 0
+[11/Feb/2026 02:45:12] "GET /admin/bot/bot_message/1/change/ HTTP/1.1" 200 73529
+[11/Feb/2026 02:45:12] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 03:32:28] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 03:32:28] "ðÞ¼" 400 -
+[11/Feb/2026 03:32:31] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 03:32:31] "ðÞ¼" 400 -
+[11/Feb/2026 04:29:46] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 04:29:46] "ðÞ¼" 400 -
+[11/Feb/2026 04:29:49] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 04:29:49] "ðÞ¼" 400 -
+Not Found: /
+[11/Feb/2026 04:54:10] "GET / HTTP/1.1" 404 2526
+[11/Feb/2026 05:43:34] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 05:43:34] "ðÞ¼" 400 -
+[11/Feb/2026 05:43:37] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 05:43:37] "ðÞ¼" 400 -
+[11/Feb/2026 05:49:50] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÁëKópÊ1\x9fûÞ\x00¯×À\x9f\x88Èá=ïïf¯\x0eHh/\\éb\x99/\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[11/Feb/2026 05:49:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[11/Feb/2026 06:03:46] code 400, message Bad request version ('php://input')
+[11/Feb/2026 06:03:46] "            Â SERVER_SOFTWAREphp/fcgiclientSERVER_PROTOCOLHTTP/1.1GATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/usr/bin/phar.pharSCRIPT_FILENAME/usr/bin/phar.phar	SERVER_ADDR127.0.0.1	REMOTE_ADDR127.0.0.1REMOTE_PORT9985SERVER_PORT80CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[11/Feb/2026 06:03:46] code 400, message Bad request version ('php://input')
+[11/Feb/2026 06:03:46] "            Ì SCRIPT_NAME/usr/share/php/PEAR.phpDOCUMENT_ROOT/	SERVER_NAMElocalhostCONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = On	REMOTE_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[11/Feb/2026 06:03:46] code 400, message Bad request version ('php://input')
+[11/Feb/2026 06:03:46] "            Ô SCRIPT_NAME/usr/local/lib/php/PEAR.php QUERY_STRING	REMOTE_ADDR127.0.0.1REMOTE_PORT9985SERVER_PORT80PHP_ADMIN_VALUEallow_url_include = OnSERVER_SOFTWAREphp/fcgiclient	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1DOCUMENT_ROOT/	SERVER_ADDR127.0.0.1CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[11/Feb/2026 06:03:46] code 400, message Bad request version ('php://input')
+[11/Feb/2026 06:03:46] "            ä REQUEST_METHODPOST#SCRIPT_FILENAME/opt/bitnami/php/lib/php/System.php	REMOTE_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = On	SERVER_NAMElocalhostCONTENT_TYPEapplication/textCONTENT_LENGTH52GATEWAY_INTERFACEFastCGI/1.0#SCRIPT_NAME/opt/bitnami/php/lib/php/System.php QUERY_STRINGDOCUMENT_ROOT/	SERVER_ADDR127.0.0.1REMOTE_PORT9985SERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[11/Feb/2026 06:03:46] code 400, message Bad request version ('php://input')
+[11/Feb/2026 06:03:46] "            Ø  	REMOTE_ADDR127.0.0.1REMOTE_PORT9985SERVER_PORT80 QUERY_STRINGDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclientCONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOST	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1	SERVER_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[11/Feb/2026 06:03:46] code 400, message Bad request version ('php://input')
+[11/Feb/2026 06:03:46] "            Ì GATEWAY_INTERFACEFastCGI/1.0SERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1REQUEST_METHODPOSTSCRIPT_NAME/var/www/html/index.phpSERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/textCONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = On QUERY_STRING	REMOTE_ADDR127.0.0.1SCRIPT_FILENAME/var/www/html/index.phpDOCUMENT_ROOT/REMOTE_PORT9985SERVER_PORT80	SERVER_NAMElocalhost	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[11/Feb/2026 06:03:46] code 400, message Bad request version ('php://input')
+[11/Feb/2026 06:03:46] "            º SCRIPT_NAME/app/index.php	SERVER_ADDR127.0.0.1SERVER_PORT80CONTENT_TYPEapplication/textCONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOSTSCRIPT_FILENAME/app/index.phpREMOTE_PORT9985GATEWAY_INTERFACEFastCGI/1.0	SERVER_NAMElocalhostDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[11/Feb/2026 06:03:46] code 400, message Bad request version ('php://input')
+[11/Feb/2026 06:03:46] "            È  SCRIPT_FILENAME/app/public/index.phpREMOTE_PORT9985SERVER_PORT80 QUERY_STRINGCONTENT_TYPEapplication/textCONTENT_LENGTH52	SERVER_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[11/Feb/2026 06:03:46] code 400, message Bad request version ('php://input')
+[11/Feb/2026 06:03:46] "            Î REQUEST_METHODPOST	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[11/Feb/2026 09:01:27] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 09:01:27] "ðÞ¼" 400 -
+[11/Feb/2026 09:01:30] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 09:01:30] "ðÞ¼" 400 -
+[11/Feb/2026 10:44:58] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 10:44:58] "ðÞ¼" 400 -
+[11/Feb/2026 10:45:01] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 10:45:01] "ðÞ¼" 400 -
+Invalid HTTP_HOST header: 'fr2.play2go.cloud:9000'. You may need to add 'fr2.play2go.cloud' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'fr2.play2go.cloud:9000'. You may need to add 'fr2.play2go.cloud' to ALLOWED_HOSTS.
+Bad Request: /
+[11/Feb/2026 11:16:22] "GET / HTTP/1.0" 400 59322
+Not Found: /
+[11/Feb/2026 11:16:22] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[11/Feb/2026 11:16:22] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /
+[11/Feb/2026 11:16:23] "GET /?query=SELECT+VERSION%28%29 HTTP/1.1" 404 2553
+Not Found: /v1/agent/self
+[11/Feb/2026 11:16:23] "GET /v1/agent/self HTTP/1.1" 404 2583
+[11/Feb/2026 12:13:30] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 12:13:30] "ðÞ¼" 400 -
+[11/Feb/2026 12:13:34] code 400, message Bad request syntax ('ðÞ¼')
+[11/Feb/2026 12:13:34] "ðÞ¼" 400 -
+Not Found: /
+[11/Feb/2026 13:00:14] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[11/Feb/2026 13:00:26] "GET / HTTP/1.1" 404 2526
+[11/Feb/2026 13:50:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[11/Feb/2026 13:50:09] "  /*à     Cookie: mstshash=Administr" 400 -
+[11/Feb/2026 13:50:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[11/Feb/2026 13:50:09] "  /*à     Cookie: mstshash=Administr" 400 -
+[11/Feb/2026 13:50:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[11/Feb/2026 13:50:09] "  /*à     Cookie: mstshash=Administr" 400 -
+[11/Feb/2026 13:50:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[11/Feb/2026 13:50:09] "  /*à     Cookie: mstshash=Administr" 400 -
+[11/Feb/2026 13:50:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[11/Feb/2026 13:50:10] "  /*à     Cookie: mstshash=Administr" 400 -

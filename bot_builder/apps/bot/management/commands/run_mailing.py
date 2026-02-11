@@ -10,7 +10,7 @@ from django.utils import timezone
 
 # для тексста
 MESSAGE_TEMPLATE = (
-    "🗞 <b>Инструкция</b> для использования новых ключей\n\n<b>https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09</b>"
+    "🗞"
 )
 # для фото
 CAPTION_TEMPLATE = (

@@ -1,4 +1,4 @@
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from apps.bot.models import Bot_Message, Bot_Button, BotUser, Text_Castom, Referal, PaymentReferal
 from apps.worker.models import Events
@@ -59,6 +59,12 @@ def build_bot_keyboards(buttons: list[Bot_Button], language_chooce):
                 inline_rows[row][col] = InlineKeyboardButton(
                     text=btn_text,
                     url=button.data
+                )
+
+            elif button.type_data == 'web_app':
+                inline_rows[row][col] = InlineKeyboardButton(
+                    text=btn_text,
+                    web_app=WebAppInfo(url=button.data)
                 )
 
         # Reply кнопки
@@ -344,9 +350,26 @@ class Bot_Handler():
         # Форматируем текст с использованием переменных
         text = self.format_message_text(state.text)
 
-        buttons = Bot_Button.objects.filter(message_trigger=state).order_by('id')
+        buttons = list(Bot_Button.objects.filter(message_trigger=state).order_by('id'))
+        if user.subscription:
+            buttons.insert(0, Bot_Button(
+                text='🚀 VPN Профиль',
+                type_btn='Inline',
+                type_data='web_app',
+                data=user.vpn_key,
+                button_position=1
+            ))
+        else:
+            buttons.insert(0, Bot_Button(
+                text='💳 Подписка',
+                type_btn='Inline',
+                type_data='data',
+                data='subscription',
+                button_position=1
+            ))  
 
         inline_keyboard, reply_keyboard = build_bot_keyboards(buttons, user.language_chooce)
+
         message_text = translate(text, user.language_chooce)
 
         try:

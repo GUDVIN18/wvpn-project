@@ -224,7 +224,7 @@ class Command(BaseCommand):
                     payment_info_dict = payment_info.__dict__
                     status = payment_info_dict.get('_PaymentResponse__status')
 
-                    log.info(f"Статус платежа: {status}")
+                    
                     
                     if status == 'succeeded':  # Платеж успешен
                         server = VPNServer.objects.order_by("count_user").first()
@@ -235,6 +235,7 @@ class Command(BaseCommand):
                             payment.save()
 
                             if period == 0:
+                                log.info(f"Поддержал проект")
                                 send_support_project(payment.user_id)
                                 return
 
@@ -439,7 +440,7 @@ class Command(BaseCommand):
 
     while True:
         worker()
-        time.sleep(1)
+        time.sleep(0.7)
 
 
 
