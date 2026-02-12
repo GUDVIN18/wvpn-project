@@ -10,7 +10,7 @@ from django.utils import timezone
 
 # для тексста
 MESSAGE_TEMPLATE = (
-    "🗞"
+    "❗️Напоминаю, что <b>сегодня в 18:30</b> старые ключи перестанут работать!\nПо кнопке ниже, вы можете удобно вставить свой новый ключ в приложение <b>V2RayTun</b> / <b>HAPP</b>"
 )
 # для фото
 CAPTION_TEMPLATE = (
@@ -31,6 +31,17 @@ def send_message(user_id):
         "text": message_text,
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
+        "reply_markup": {
+            "inline_keyboard": [
+                [
+                    {
+                        "text": "🚀 VPN Профиль",
+                        "url": f"{user.vpn_key}"
+                        
+                    }
+                ]
+            ]
+        }
     }
 
     response = requests.post(f'https://api.telegram.org/bot{bot_token}/sendMessage', json=payload)
@@ -77,8 +88,8 @@ class Command(BaseCommand):
             for user in users:
                 try: 
                     print(f"{k}. Отправка для: {user.tg_id}")
-                    
-                    send_photo(user_id=user.tg_id)
+                    send_message(user_id=user.tg_id)
+                    # send_photo(user_id=user.tg_id)
                     k += 1
                 except Exception as e:
                     print(f"Пропускаем {user.tg_id} {e}")

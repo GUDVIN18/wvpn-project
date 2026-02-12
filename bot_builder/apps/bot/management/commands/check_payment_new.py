@@ -112,11 +112,17 @@ class Command(BaseCommand):
                                 user.subscription_date_start = now
                                 user.subscription_date_end = now + timedelta(days=period*30)
                                 try:
-                                    update_user_key = update_user_api(
-                                        username=str(user.tg_id),
-                                        status="active",
-                                        expire=int((now + timedelta(days=period*30)).timestamp())
-                                    )
+                                    try:
+                                        create_user_key = create_user_api(
+                                            username=str(user.tg_id),
+                                            expire=int((now + timedelta(days=period*30)).timestamp())
+                                        )
+                                    except Exception as e:
+                                        update_user_key = update_user_api(
+                                            username=str(user.tg_id),
+                                            status="active",
+                                            expire=int((now + timedelta(days=period*30)).timestamp())
+                                        )
                                     user.vpn_key = update_user_key
                                     log.info(f"{user.tg_id} 1.2) Возобновил успешно!")
                                 except RequestException as e:

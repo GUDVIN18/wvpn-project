@@ -47,7 +47,7 @@ class BotUser(models.Model):
     subscription = models.BooleanField(verbose_name="Подписка на VPN", default=False, blank=True, null=True)
     subscription_date_end = models.DateTimeField(verbose_name="Дата окончания подписки", blank=True, null=True)
     subscription_date_start = models.DateTimeField(verbose_name="Дата начала подписки", blank=True, null=True)
-    trial_period = models.BooleanField(verbose_name="Пробный период 1 день", default=False, blank=True, null=True)
+    trial_period = models.BooleanField(verbose_name="Пробный период", default=False, blank=True, null=True)
     notif_subscribe_close = models.BooleanField(verbose_name="Уведовление о окончании подписки", default=False, blank=True, null=True)
 
     vpn_key = models.TextField(help_text="Ключ для vpn", blank=True, null=True)

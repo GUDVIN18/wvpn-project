@@ -2,10 +2,20 @@ import requests
 from datetime import datetime, timezone
 
 BASE_URL = "https://wvpn.fr2.xraygopaydonat1.ru:9081"
-API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwiYWNjZXNzIjoic3VkbyIsImlhdCI6MTc3MDcxOTMwMCwiZXhwIjoxNzcwODA1NzAwfQ.bcYkHf8tAV_lc0pvWh0Zxht_88Lr91oSsgyFvIVrKng"
+
+# resp = requests.post(
+#     f"{BASE_URL}/api/admin/token",
+#     data={
+#         "username": "user",
+#         "password": "super_password"
+#     }
+# )
+# access_token = resp.json()["access_token"]
+access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwiYWNjZXNzIjoic3VkbyIsImlhdCI6MTc3MDgyMjc3MCwiZXhwIjo0OTI0NDIyNzcwfQ.2maNcd0nB1XG6vikG3d4WULPTTmDjmTvd7xZRv9dgKw"
+# print(f"Access token: {access_token}")
 
 HEADERS = {
-    "Authorization": f"Bearer {API_TOKEN}",
+    "Authorization": f"Bearer {access_token}",
     "Content-Type": "application/json",
     "Accept": "application/json",
 }
@@ -108,5 +118,31 @@ def update_user_api(
 
 
 if __name__ == "__main__":
-    result = create_user_api("456565666", int(datetime(2026, 2, 15, tzinfo=timezone.utc).timestamp()))
-    print(result)
+    import os
+    import django
+
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bot_builder.settings')
+    django.setup()
+
+    from apps.bot.models import BotUser
+
+    # users = BotUser.objects.filter(tg_id__in=[6424595615])
+    users = BotUser.objects.all()
+
+    for user in users:
+        try:
+            if not user.subscription:
+                print(f"No subscription date for {user.tg_id}")
+                continue
+
+            subscription_url = create_user_api(
+                username=str(user.tg_id),
+                expire=int(user.subscription_date_end.timestamp())
+            )
+
+            print(f"Created for {user.tg_id}: {subscription_url}")
+            user.vpn_key = subscription_url
+            user.save()
+
+        except Exception as e:
+            print(f"Error creating user {user.tg_id}: {e}")

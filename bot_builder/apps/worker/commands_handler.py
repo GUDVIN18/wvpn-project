@@ -21,6 +21,7 @@ from collections import defaultdict
 from django.db import models
 from decimal import Decimal
 import subprocess
+from apps.bot.marzban_user_api import create_user_api, update_user_api
 # Переводчик
 # from deep_translator import GoogleTranslator
 
@@ -351,11 +352,11 @@ class Bot_Handler():
         text = self.format_message_text(state.text)
 
         buttons = list(Bot_Button.objects.filter(message_trigger=state).order_by('id'))
-        if user.subscription:
+        if user.vpn_key and 'https://' in user.vpn_key:
             buttons.insert(0, Bot_Button(
                 text='🚀 VPN Профиль',
                 type_btn='Inline',
-                type_data='web_app',
+                type_data='url',
                 data=user.vpn_key,
                 button_position=1
             ))
@@ -871,6 +872,83 @@ class Bot_Handler():
             text=True
         )
         buttons = Bot_Button.objects.filter(message_trigger=state).order_by('id')
+
+        inline_keyboard, reply_keyboard = build_bot_keyboards(buttons, user.language_chooce)
+        message_text = translate(text, user.language_chooce)
+
+        try:
+            if user.last_message_id:
+                bot.delete_message(chat_id=user.tg_id, message_id=user.last_message_id)
+        except Exception as e:
+            print(f'ошибка при удалении {e}')
+
+        if inline_keyboard:
+            sent_message = bot.send_message(chat_id=user.tg_id, text=message_text, reply_markup=inline_keyboard, parse_mode='HTML')
+        elif reply_keyboard:
+            sent_message = bot.send_message(chat_id=user.tg_id, text=message_text, reply_markup=reply_keyboard, parse_mode='HTML')
+        else:
+            sent_message = bot.send_message(chat_id=user.tg_id, text=message_text, parse_mode='HTML')
+
+        user.last_message_id = sent_message.message_id
+        user.save()
+
+
+    def free_sub(self, bot, state, user, callback_data, callback_id, message, event):
+        if callback_id:
+            bot.answer_callback_query(callback_query_id=callback_id)
+        self.val = {}  # Очищаем переменные для каждого нового вызова
+        print(f'''
+            user - {user}
+            call_data - {callback_data}
+            call_id - {callback_id}
+            message - {message}''')
+
+        user.state = state.current_state
+        user.save()
+
+        # Добавляем базовые переменные
+        self.val['user_name'] = user.name if hasattr(user, 'name') else 'Пользователь'
+        self.val['user_id'] = user.tg_id
+        if user.trial_period == False and user.subscription == False:
+            self.val['text'] = '🎉 Вы активировали пробный период на <b>3 дня!</b>'
+            subscription_date_end = datetime.now() + timedelta(days=3)
+            sub_url = create_user_api(
+                username=str(user.tg_id),
+                expire=int(subscription_date_end.timestamp())
+            )
+            user.server_chooce = 5
+            user.trial_period = True
+            user.vpn_key = sub_url
+            user.subscription_date_start = datetime.now()
+            user.subscription_date_end = subscription_date_end
+            user.subscription = True
+
+        elif user.trial_period == False and user.subscription == True:
+            self.val['text'] = '🎉 Вы получили +3 дня к своей подписке!'
+            user.trial_period = True
+            subscription_date_end = user.subscription_date_end + timedelta(days=3)
+            user.subscription_date_end = subscription_date_end
+            update_user_api(
+                username=str(user.tg_id),
+                status='active',
+                expire=int(subscription_date_end.timestamp())
+            )
+        else:
+            self.val['text'] = 'У Вас уже был активирован пробный период.'
+        user.save()
+            
+
+        # Форматируем текст с использованием переменных
+        text = self.format_message_text(state.text)
+
+        buttons = list(Bot_Button.objects.filter(message_trigger=state).order_by('id'))
+        buttons.insert(0, Bot_Button(
+            text='🚀 VPN Профиль',
+            type_btn='Inline',
+            type_data='url',
+            data=user.vpn_key,
+            button_position=1
+        ))
 
         inline_keyboard, reply_keyboard = build_bot_keyboards(buttons, user.language_chooce)
         message_text = translate(text, user.language_chooce)

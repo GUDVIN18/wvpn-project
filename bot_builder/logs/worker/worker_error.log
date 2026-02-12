@@ -1,0 +1,12 @@
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2026-02-14 22:58:21.864722) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2026-02-11 22:58:22.238973) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2026-02-15 00:31:12.485490) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2026-02-12 00:31:12.760815) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2026-02-15 10:07:28.649350) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2026-02-12 10:07:28.847386) while time zone support is active.
+  warnings.warn(

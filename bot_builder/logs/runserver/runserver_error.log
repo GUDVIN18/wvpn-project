@@ -14867,3 +14867,333 @@ Not Found: /
 [11/Feb/2026 13:50:09] "  /*à     Cookie: mstshash=Administr" 400 -
 [11/Feb/2026 13:50:10] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
 [11/Feb/2026 13:50:10] "  /*à     Cookie: mstshash=Administr" 400 -
+[11/Feb/2026 17:50:58] "GET /admin/bot/bot_message/1/change/ HTTP/1.1" 200 73116
+[11/Feb/2026 17:51:00] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 17:51:01] "GET /static/admin/img/inline-delete.svg HTTP/1.1" 304 0
+[11/Feb/2026 17:51:11] "GET /admin/bot/botuser/ HTTP/1.1" 200 83483
+[11/Feb/2026 17:51:12] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 17:51:12] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[11/Feb/2026 17:51:12] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[11/Feb/2026 17:51:15] "GET /admin/bot/botuser/?q=6424595615 HTTP/1.1" 200 18391
+[11/Feb/2026 17:51:15] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 17:51:19] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29615
+[11/Feb/2026 17:51:19] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:19] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:19] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[11/Feb/2026 17:51:19] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 17:51:19] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:19] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[11/Feb/2026 17:51:19] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[11/Feb/2026 17:51:19] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[11/Feb/2026 17:51:19] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[11/Feb/2026 18:00:41] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 304 0
+[11/Feb/2026 18:01:03] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29615
+[11/Feb/2026 18:01:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:01:37] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29615
+[11/Feb/2026 18:01:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:14:25] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25350
+[11/Feb/2026 18:14:26] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:14:30] "GET /admin/bot/bot_button/ HTTP/1.1" 200 50894
+[11/Feb/2026 18:14:30] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:14:34] "GET /admin/bot/bot_commands/ HTTP/1.1" 200 19029
+[11/Feb/2026 18:14:34] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:14:34] "GET /admin/bot/bot_button/ HTTP/1.1" 200 50894
+[11/Feb/2026 18:14:34] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:14:44] "GET /admin/bot/bot_button/74/change/ HTTP/1.1" 200 22349
+[11/Feb/2026 18:14:44] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[11/Feb/2026 18:14:44] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:14:44] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[11/Feb/2026 18:15:02] "POST /admin/bot/bot_button/74/change/ HTTP/1.1" 302 0
+[11/Feb/2026 18:15:02] "GET /admin/bot/bot_button/ HTTP/1.1" 200 51276
+[11/Feb/2026 18:15:02] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:15:02] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[11/Feb/2026 18:15:04] "GET /admin/bot/bot_button/73/change/ HTTP/1.1" 200 22179
+[11/Feb/2026 18:15:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:15:09] "POST /admin/bot/bot_button/73/change/ HTTP/1.1" 302 0
+[11/Feb/2026 18:15:10] "GET /admin/bot/bot_button/ HTTP/1.1" 200 51220
+[11/Feb/2026 18:15:10] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:15:45] "GET /admin/bot/botuser/ HTTP/1.1" 200 83480
+[11/Feb/2026 18:15:45] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:15:46] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25350
+[11/Feb/2026 18:15:46] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:15:47] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25350
+[11/Feb/2026 18:15:48] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:15:49] "GET /admin/bot/bot_message/add/ HTTP/1.1" 200 28483
+[11/Feb/2026 18:15:49] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:15:49] "GET /static/admin/js/inlines.js HTTP/1.1" 304 0
+[11/Feb/2026 18:16:50] "POST /admin/bot/bot_message/add/ HTTP/1.1" 302 0
+[11/Feb/2026 18:16:50] "GET /admin/bot/bot_message/ HTTP/1.1" 200 26158
+[11/Feb/2026 18:16:50] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:16:58] "GET /admin/bot/bot_message/5/change/ HTTP/1.1" 200 34551
+[11/Feb/2026 18:16:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:17:04] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25899
+[11/Feb/2026 18:17:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:17:05] "GET /admin/bot/bot_message/11/change/ HTTP/1.1" 200 28853
+[11/Feb/2026 18:17:05] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:17:55] "POST /admin/bot/bot_message/11/change/ HTTP/1.1" 302 0
+[11/Feb/2026 18:17:55] "GET /admin/bot/bot_message/ HTTP/1.1" 200 26160
+[11/Feb/2026 18:17:55] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:18:00] "GET /admin/bot/bot_commands/ HTTP/1.1" 200 19132
+[11/Feb/2026 18:18:00] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:18:02] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25899
+[11/Feb/2026 18:18:02] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:18:07] "GET /admin/bot/bot_message/11/change/ HTTP/1.1" 200 34151
+[11/Feb/2026 18:18:07] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:18:25] "POST /admin/bot/bot_message/11/change/ HTTP/1.1" 302 0
+[11/Feb/2026 18:18:25] "GET /admin/bot/bot_message/ HTTP/1.1" 200 26160
+[11/Feb/2026 18:18:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/personal/wvpn-project/bot_builder/apps/bot/models.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[11/Feb/2026 18:29:45] "GET /admin/bot/botuser/ HTTP/1.1" 200 83480
+[11/Feb/2026 18:29:45] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:30:03] "GET /admin/bot/botuser/?q=6424595615 HTTP/1.1" 200 18389
+[11/Feb/2026 18:30:03] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:30:04] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29602
+[11/Feb/2026 18:30:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:30:09] "POST /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 302 0
+[11/Feb/2026 18:30:09] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29859
+[11/Feb/2026 18:30:09] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:30:47] "POST /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 302 0
+[11/Feb/2026 18:30:47] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29867
+[11/Feb/2026 18:30:48] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:31:20] "POST /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 302 0
+[11/Feb/2026 18:31:20] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29942
+[11/Feb/2026 18:31:21] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:33:10] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29603
+[11/Feb/2026 18:33:11] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+[11/Feb/2026 18:33:52] "POST /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 302 0
+[11/Feb/2026 18:33:52] "GET /admin/bot/botuser/?q=6424595615 HTTP/1.1" 200 18653
+[11/Feb/2026 18:33:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:34:00] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29604
+[11/Feb/2026 18:34:01] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:34:22] "POST /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 302 0
+[11/Feb/2026 18:34:22] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29944
+[11/Feb/2026 18:34:22] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:34:34] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3D6424595615 HTTP/1.1" 200 29603
+[11/Feb/2026 18:34:34] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:34:55] "GET /admin/bot/botuser/ HTTP/1.1" 200 83480
+[11/Feb/2026 18:34:55] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:35:02] "POST /admin/bot/botuser/ HTTP/1.1" 200 15540
+[11/Feb/2026 18:35:02] "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+[11/Feb/2026 18:35:03] "POST /admin/bot/botuser/ HTTP/1.1" 302 0
+[11/Feb/2026 18:35:03] "GET /admin/bot/botuser/ HTTP/1.1" 200 83566
+[11/Feb/2026 18:35:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+[11/Feb/2026 18:36:03] "GET /admin/bot/botuser/ HTTP/1.1" 200 83418
+[11/Feb/2026 18:36:06] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:36:07] "GET /admin/bot/botuser/213/change/ HTTP/1.1" 200 29344
+[11/Feb/2026 18:36:07] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:40:24] "GET /admin/bot/botuser/213/change/ HTTP/1.1" 200 29510
+[11/Feb/2026 18:40:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:42:26] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25899
+[11/Feb/2026 18:42:27] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:42:28] "GET /admin/bot/bot_message/11/change/ HTTP/1.1" 200 34156
+[11/Feb/2026 18:42:29] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:42:33] "POST /admin/bot/bot_message/11/change/ HTTP/1.1" 302 0
+[11/Feb/2026 18:42:33] "GET /admin/bot/bot_message/ HTTP/1.1" 200 26160
+[11/Feb/2026 18:42:33] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:42:44] "GET /admin/bot/botuser/ HTTP/1.1" 200 83481
+[11/Feb/2026 18:42:44] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:42:49] "POST /admin/bot/botuser/ HTTP/1.1" 200 16970
+[11/Feb/2026 18:42:50] "POST /admin/bot/botuser/ HTTP/1.1" 302 0
+[11/Feb/2026 18:42:51] "GET /admin/bot/botuser/ HTTP/1.1" 200 83566
+[11/Feb/2026 18:42:51] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[11/Feb/2026 18:50:40] "GET /admin/bot/botuser/?q=Dmitry_Alekseevich_A HTTP/1.1" 200 18586
+[11/Feb/2026 18:50:41] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 18:50:43] "GET /admin/bot/botuser/121/change/?_changelist_filters=q%3DDmitry_Alekseevich_A HTTP/1.1" 200 29619
+[11/Feb/2026 18:50:43] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:07:03] "GET /admin/bot/payment/ HTTP/1.1" 200 80111
+[11/Feb/2026 19:07:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:09:13] "GET /admin/bot/payment/?q=5291708998 HTTP/1.1" 200 16521
+[11/Feb/2026 19:09:13] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:09:18] "GET /admin/bot/botuser/ HTTP/1.1" 200 83480
+[11/Feb/2026 19:09:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:09:19] "GET /admin/bot/botuser/?q=5291708998 HTTP/1.1" 200 18361
+[11/Feb/2026 19:09:20] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:09:21] "GET /admin/bot/botuser/146/change/?_changelist_filters=q%3D5291708998 HTTP/1.1" 200 29511
+[11/Feb/2026 19:09:21] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+[11/Feb/2026 19:11:27] "GET /admin/bot/payment/ HTTP/1.1" 200 80111
+[11/Feb/2026 19:11:27] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:11:30] "GET /admin/bot/payment/662/change/ HTTP/1.1" 200 18864
+[11/Feb/2026 19:11:30] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:11:36] "POST /admin/bot/payment/662/change/ HTTP/1.1" 302 0
+[11/Feb/2026 19:11:36] "GET /admin/bot/payment/ HTTP/1.1" 200 80400
+[11/Feb/2026 19:11:36] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:11:39] "GET /admin/bot/payment/ HTTP/1.1" 200 80111
+[11/Feb/2026 19:11:39] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+[11/Feb/2026 19:13:25] "GET /admin/bot/payment/662/change/ HTTP/1.1" 200 18864
+[11/Feb/2026 19:13:26] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:13:31] "POST /admin/bot/payment/662/change/ HTTP/1.1" 302 0
+[11/Feb/2026 19:13:31] "GET /admin/bot/payment/ HTTP/1.1" 200 80400
+[11/Feb/2026 19:13:32] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:13:33] "GET /admin/bot/payment/ HTTP/1.1" 200 80111
+[11/Feb/2026 19:13:33] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+[11/Feb/2026 19:15:11] "GET /admin/bot/payment/662/change/ HTTP/1.1" 200 18864
+[11/Feb/2026 19:15:12] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:15:18] "POST /admin/bot/payment/662/change/ HTTP/1.1" 302 0
+[11/Feb/2026 19:15:18] "GET /admin/bot/payment/ HTTP/1.1" 200 80400
+[11/Feb/2026 19:15:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:15:20] "GET /admin/bot/payment/ HTTP/1.1" 200 80115
+[11/Feb/2026 19:15:20] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:15:38] "GET /admin/bot/botuser/ HTTP/1.1" 200 83476
+[11/Feb/2026 19:15:38] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:15:40] "GET /admin/bot/botuser/?q=5291708998 HTTP/1.1" 200 18357
+[11/Feb/2026 19:15:40] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[11/Feb/2026 19:15:42] "GET /admin/bot/botuser/146/change/?_changelist_filters=q%3D5291708998 HTTP/1.1" 200 29533
+[11/Feb/2026 19:15:42] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 03:02:58] code 400, message Bad request version ('À\x14À')
+[12/Feb/2026 03:02:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[12/Feb/2026 03:03:06] "GET / HTTP/1.1" 404 2526
+[12/Feb/2026 03:03:09] code 505, message Invalid HTTP version (2.0)
+[12/Feb/2026 03:03:09] "PRI * HTTP/2.0" 505 -
+[12/Feb/2026 03:04:31] code 400, message Bad request version ('À\x14À')
+[12/Feb/2026 03:04:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /wiki
+[12/Feb/2026 03:04:33] "GET /wiki HTTP/1.1" 404 2556
+Not Found: /
+[12/Feb/2026 03:05:45] "POST / HTTP/1.1" 404 2527
+Not Found: /_next
+[12/Feb/2026 03:05:47] "POST /_next HTTP/1.1" 404 2560
+Not Found: /api
+[12/Feb/2026 03:05:48] "POST /api HTTP/1.1" 404 2554
+Not Found: /_next/server
+[12/Feb/2026 03:05:49] "POST /_next/server HTTP/1.1" 404 2581
+Not Found: /app
+[12/Feb/2026 03:05:50] "POST /app HTTP/1.1" 404 2554
+Not Found: /api/route
+[12/Feb/2026 03:05:51] "POST /api/route HTTP/1.1" 404 2572
+[12/Feb/2026 03:43:59] code 400, message Bad request version ('À\x14À')
+[12/Feb/2026 03:43:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[12/Feb/2026 04:03:20] code 400, message Bad request version ('À\x13À')
+[12/Feb/2026 04:03:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /../../../../../../etc/passwd
+[12/Feb/2026 04:03:20] "GET /..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd HTTP/1.1" 404 2610
+[12/Feb/2026 05:26:02] code 400, message Bad request syntax ('ðÞ¼')
+[12/Feb/2026 05:26:02] "ðÞ¼" 400 -
+[12/Feb/2026 05:26:05] code 400, message Bad request syntax ('ðÞ¼')
+[12/Feb/2026 05:26:05] "ðÞ¼" 400 -
+[12/Feb/2026 05:47:49] code 400, message Bad request syntax ('SSH-2.0-Go')
+[12/Feb/2026 05:47:49] "SSH-2.0-Go" 400 -
+[12/Feb/2026 05:47:50] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[12/Feb/2026 05:47:50] "MGLNDD_193.58.121.190_9000" 400 -
+[12/Feb/2026 06:51:54] code 400, message Bad request version ('php://input')
+[12/Feb/2026 06:51:54] "            Â DOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1	SERVER_NAMElocalhostREMOTE_PORT9985	SERVER_ADDR127.0.0.1SERVER_PORT80CONTENT_TYPEapplication/textGATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTSCRIPT_NAME/usr/bin/phar.pharSERVER_SOFTWAREphp/fcgiclientSCRIPT_FILENAME/usr/bin/phar.pharSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[12/Feb/2026 06:51:54] code 400, message Bad request version ('php://input')
+[12/Feb/2026 06:51:54] "            Ì  QUERY_STRINGSERVER_PORT80GATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/usr/share/php/PEAR.php	SERVER_NAMElocalhostCONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnSERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1DOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1REMOTE_PORT9985REQUEST_METHODPOSTSCRIPT_FILENAME/usr/share/php/PEAR.php	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[12/Feb/2026 06:51:54] code 400, message Bad request version ('php://input')
+[12/Feb/2026 06:51:54] "            Ô 	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1SCRIPT_FILENAME/usr/local/lib/php/PEAR.phpDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1REQUEST_METHODPOST	REMOTE_ADDR127.0.0.1CONTENT_TYPEapplication/textCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[12/Feb/2026 06:51:54] code 400, message Bad request version ('php://input')
+[12/Feb/2026 06:51:54] "            ä 	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52#SCRIPT_NAME/opt/bitnami/php/lib/php/System.phpDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclientREMOTE_PORT9985SERVER_PORT80GATEWAY_INTERFACEFastCGI/1.0#SCRIPT_FILENAME/opt/bitnami/php/lib/php/System.php QUERY_STRINGREQUEST_METHODPOST	REMOTE_ADDR127.0.0.1CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[12/Feb/2026 06:51:54] code 400, message Bad request version ('php://input')
+[12/Feb/2026 06:51:54] "            Ø  SERVER_SOFTWAREphp/fcgiclientCONTENT_LENGTH52 QUERY_STRINGDOCUMENT_ROOT/CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTSCRIPT_FILENAME/usr/local/lib/php/System.phpSCRIPT_NAME/usr/local/lib/php/System.php	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[12/Feb/2026 06:51:54] code 400, message Bad request version ('php://input')
+[12/Feb/2026 06:51:54] "            Ì  QUERY_STRINGSERVER_SOFTWAREphp/fcgiclientSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[12/Feb/2026 06:51:54] code 400, message Bad request version ('php://input')
+[12/Feb/2026 06:51:54] "            º 	SERVER_ADDR127.0.0.1SCRIPT_FILENAME/app/index.phpSCRIPT_NAME/app/index.php	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[12/Feb/2026 06:51:54] code 400, message Bad request version ('php://input')
+[12/Feb/2026 06:51:54] "            È  REQUEST_METHODPOST QUERY_STRINGDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclientSERVER_PORT80	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52GATEWAY_INTERFACEFastCGI/1.0SCRIPT_FILENAME/app/public/index.phpREMOTE_PORT9985	SERVER_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnSCRIPT_NAME/app/public/index.php	REMOTE_ADDR127.0.0.1CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[12/Feb/2026 06:51:54] code 400, message Bad request version ('php://input')
+[12/Feb/2026 06:51:54] "            Î GATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/usr/local/bin/phar.pharSERVER_PROTOCOLHTTP/1.1PHP_ADMIN_VALUEallow_url_include = OnSCRIPT_FILENAME/usr/local/bin/phar.pharDOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1REMOTE_PORT9985CONTENT_LENGTH52SERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1CONTENT_TYPEapplication/textREQUEST_METHODPOST QUERY_STRINGSERVER_PORT80	SERVER_NAMElocalhost	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[12/Feb/2026 06:52:40] code 400, message Bad request version ('À\x14À')
+[12/Feb/2026 06:52:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[12/Feb/2026 06:59:33] "GET / HTTP/1.1" 404 2526
+[12/Feb/2026 09:25:54] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[12/Feb/2026 09:25:54] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+[12/Feb/2026 09:26:10] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[12/Feb/2026 09:26:10] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+[12/Feb/2026 10:35:37,211] - Broken pipe from ('167.94.138.194', 53950)
+[12/Feb/2026 10:35:38] code 400, message Bad request version ('À\x14À')
+[12/Feb/2026 10:35:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[12/Feb/2026 10:35:42] "GET / HTTP/1.1" 404 2526
+[12/Feb/2026 10:35:42,265] - Broken pipe from ('167.94.138.194', 54042)
+[12/Feb/2026 10:35:50] code 400, message Bad request version ('ô-$T')
+[12/Feb/2026 10:35:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[12/Feb/2026 10:35:51] "GET / HTTP/1.1" 404 2526
+[12/Feb/2026 10:35:52] code 505, message Invalid HTTP version (2.0)
+[12/Feb/2026 10:35:52] "PRI * HTTP/2.0" 505 -
+[12/Feb/2026 10:35:59] code 400, message Bad request version ('À\x14À')
+[12/Feb/2026 10:35:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /.well-known/security.txt
+[12/Feb/2026 10:35:59] "GET /.well-known/security.txt HTTP/1.1" 404 2616
+Watching for file changes with StatReloader
+[12/Feb/2026 11:22:03] "GET /admin/bot/botuser/ HTTP/1.1" 200 83611
+[12/Feb/2026 11:22:04] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 11:22:04] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[12/Feb/2026 11:22:04] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[12/Feb/2026 11:22:06] "GET /admin/bot/botuser/?q=1173320538 HTTP/1.1" 200 18371
+[12/Feb/2026 11:22:06] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 11:22:09] "GET /admin/bot/botuser/40/change/?_changelist_filters=q%3D1173320538 HTTP/1.1" 200 29567
+[12/Feb/2026 11:22:09] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[12/Feb/2026 11:22:09] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:09] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:09] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:09] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[12/Feb/2026 11:22:09] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 11:22:09] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[12/Feb/2026 11:22:10] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[12/Feb/2026 11:22:10] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[12/Feb/2026 11:22:27] "GET /admin/bot/botuser/ HTTP/1.1" 200 83611
+[12/Feb/2026 11:22:27] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 11:22:46] "GET /admin/bot/botuser/216/change/ HTTP/1.1" 200 29456
+[12/Feb/2026 11:22:46] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 11:26:28] "GET /admin/bot/botuser/ HTTP/1.1" 200 83611
+[12/Feb/2026 11:26:28] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 11:26:37] "GET /admin/bot/botuser/?q=prog HTTP/1.1" 200 18281
+[12/Feb/2026 11:26:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 11:26:39] "GET /admin/bot/botuser/47/change/?_changelist_filters=q%3Dprog HTTP/1.1" 200 29584
+[12/Feb/2026 11:26:39] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 12:05:07] "GET /admin/bot/botuser/ HTTP/1.1" 200 83611
+[12/Feb/2026 12:05:08] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 12:05:13] "GET /admin/bot/botuser/?q=417308114 HTTP/1.1" 200 18352
+[12/Feb/2026 12:05:13] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[12/Feb/2026 12:05:15] "GET /admin/bot/botuser/74/change/?_changelist_filters=q%3D417308114 HTTP/1.1" 200 29506
+[12/Feb/2026 12:05:15] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
