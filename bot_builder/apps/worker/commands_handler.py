@@ -909,13 +909,23 @@ class Bot_Handler():
         # Добавляем базовые переменные
         self.val['user_name'] = user.name if hasattr(user, 'name') else 'Пользователь'
         self.val['user_id'] = user.tg_id
-        if user.trial_period == False and user.subscription == False:
+        if (
+            user.trial_period == False 
+            and user.subscription == False
+        ):
             self.val['text'] = '🎉 Вы активировали пробный период на <b>3 дня!</b>'
             subscription_date_end = datetime.now() + timedelta(days=3)
-            sub_url = create_user_api(
-                username=str(user.tg_id),
-                expire=int(subscription_date_end.timestamp())
-            )
+            if user.vpn_key == None or user.vpn_key == '' or 'https://' not in user.vpn_key:
+                sub_url = create_user_api(
+                    username=str(user.tg_id),
+                    expire=int(subscription_date_end.timestamp())
+                )
+            else:
+                sub_url = update_user_api(
+                    username=str(user.tg_id),
+                    status='active',
+                    expire=int(subscription_date_end.timestamp())
+                )  
             user.server_chooce = 5
             user.trial_period = True
             user.vpn_key = sub_url

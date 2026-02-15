@@ -81,8 +81,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         try:
-            users = BotUser.objects.all()
-            # users = BotUser.objects.filter(tg_id__in=[6424595615])
+            # users = BotUser.objects.all()
+            users = BotUser.objects.filter(tg_id__in=[6424595615])
             print(f"Найдено пользователей: {users.count()}")
             k = 0
             for user in users:

@@ -96,6 +96,7 @@ class BotUserAdmin(admin.ModelAdmin):
     list_filter = (
         "server_chooce",
         "subscription",
+        "trial_period",
     )
     search_fields = (
         "tg_id",
@@ -260,6 +261,7 @@ class PaymentAdmin(admin.ModelAdmin):
         "status",
     )
     search_fields = (
+        "user_id",
         "payment_id",
         "period",
         "limit_ip",
