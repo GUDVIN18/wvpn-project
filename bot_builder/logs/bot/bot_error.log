@@ -4173,3 +4173,129 @@ data=profile ⚙️ Профиль
 2026-02-15 15:45:42.508 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=809798502
 data=main_menu ⬅️ Назад
 
+2026-02-15 16:43:26.185 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6459042265
+data=subscription
+
+2026-02-15 16:44:29.242 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6459042265
+data=buy_sub 189 3 1 3 м | 1 устр.
+
+2026-02-15 16:46:28.221 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6459042265
+data=profile
+
+2026-02-15 19:34:41.560 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=profile ⚙️ Профиль
+
+2026-02-15 22:10:15.650 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=main_menu ⬅️ Назад
+
+2026-02-15 22:10:20.739 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=profile ⚙️ Профиль
+
+2026-02-15 22:10:22.840 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=main_menu ⬅️ Назад
+
+2026-02-15 22:10:47.264 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=profile ⚙️ Профиль
+
+2026-02-15 22:10:48.369 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=main_menu ⬅️ Назад
+
+2026-02-15 23:13:39.168 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=8469912534
+data=download ✅ Установка
+
+2026-02-15 23:14:47.692 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=8469912534
+data=main_menu ⬅️ Назад
+
+2026-02-15 23:14:52.523 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=8469912534
+data=subscription 💳 Подписка
+
+2026-02-15 23:15:00.188 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=8469912534
+data=buy_sub 69 1 1 1 м | 1 устр.
+
+2026-02-15 23:18:15.663 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=8469912534
+data=profile
+
+2026-02-16 02:00:27.787 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=profile ⚙️ Профиль
+
+2026-02-16 02:00:29.340 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=main_menu ⬅️ Назад
+
+2026-02-16 02:41:01.428 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5372090647
+data=subscription
+
+2026-02-16 02:41:07.933 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5372090647
+data=buy_sub 69 1 1 1 м | 1 устр.
+
+2026-02-16 02:41:53.043 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5372090647
+data=main_menu
+
+2026-02-16 02:41:59.044 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5372090647
+data=subscription 💳 Подписка
+
+2026-02-16 02:42:02.689 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5372090647
+data=main_menu ⬅️ Назад
+
+2026-02-16 03:04:33.831 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5372090647
+data=profile ⚙️ Профиль
+
+2026-02-16 03:04:39.004 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5372090647
+data=main_menu ⬅️ Назад
+
+2026-02-16 08:23:36.294 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1602136064
+data=subscription 💳 Подписка
+
+2026-02-16 08:23:41.567 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1602136064
+data=buy_sub 69 1 1 1 м | 1 устр.
+
+2026-02-16 08:25:20.542 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1602136064
+data=profile
+
+2026-02-16 09:40:46.574 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1012296171
+data=subscription 💳 Подписка
+
+2026-02-16 09:40:53.078 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1012296171
+data=buy_sub 69 1 1 1 м | 1 устр.
+
+2026-02-16 09:42:04.009 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1012296171
+data=profile
+
+2026-02-16 09:49:56.576 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1012296171
+data=download ✅ Установка
+
+2026-02-16 09:50:09.111 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1012296171
+data=main_menu ⬅️ Назад
+
+2026-02-16 09:50:11.171 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1012296171
+data=subscription 💳 Подписка
+
+2026-02-16 09:50:13.213 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1012296171
+data=main_menu ⬅️ Назад
+
+2026-02-16 09:50:16.939 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1012296171
+data=profile ⚙️ Профиль
+
+2026-02-16 10:29:35.832 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5232974642
+data=main_menu ⬅️ Назад
+
+2026-02-16 10:30:58.166 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5232974642
+data=subscription 💳 Подписка
+
+2026-02-16 10:31:24.797 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5232974642
+data=main_menu ⬅️ Назад
+
+2026-02-16 10:31:40.531 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=5232974642
+data=profile ⚙️ Профиль
+
+2026-02-16 11:15:55.915 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=1268321038
+data=profile ⚙️ Профиль
+
+2026-02-16 11:56:49.640 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=profile ⚙️ Профиль
+
+2026-02-16 11:56:50.865 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=6424595615
+data=main_menu ⬅️ Назад
+
+2026-02-16 12:00:02.485 | SUCCESS  | apps.bot.management.commands.bot:long_polling:345 - Обновление от user_id=752021281
+data=subscription 💳 Подписка
+

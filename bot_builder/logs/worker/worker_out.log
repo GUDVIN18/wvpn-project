@@ -5011,3 +5011,646 @@ user_data
 
  {'id': 809798502, 'is_bot': False, 'username': 'Dmitry_Alekseevich_A', 'first_name': 'Дмитрий', 'language_code': 'ru'}
 ---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+
+user_data
+
+ {'id': 809798502, 'is_bot': False, 'username': 'Dmitry_Alekseevich_A', 'first_name': 'Дмитрий', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 809798502 Dmitry_Alekseevich_A
+            call_data - main_menu ⬅️ Назад
+            call_id - 3478058085244657192
+            message - {'chat': {'id': 809798502, 'type': 'private', 'username': 'Dmitry_Alekseevich_A', 'first_name': 'Дмитрий'}, 'date': 1771159512, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '⚙️ Профиль\n\nId: 809798502\nUsername: @Dmitry_Alekseevich_A\n\nРеферальная система:\n🎉 Приглашай друзей и получай 20% с каждого их оплаченного чека — всегда!\n\nВаша реферальная ссылка (Нажмите, чтобы скопировать):\nhttps://t.me/w_vpn_v2ray_bot?start=809798502\n\nПолученная выручка с рефералов: 0.00 руб.', 'entities': [{'type': 'bold', 'length': 24, 'offset': 12}, {'type': 'mention', 'length': 21, 'offset': 36}, {'type': 'bold', 'length': 21, 'offset': 36}, {'type': 'bold', 'length': 20, 'offset': 59}, {'type': 'bold', 'length': 43, 'offset': 110}, {'type': 'code', 'length': 44, 'offset': 209}, {'type': 'bold', 'length': 7, 'offset': 266}, {'type': 'bold', 'length': 9, 'offset': 287}], 'message_id': 8285, 'reply_markup': {'inline_keyboard': [[{'url': 'https://wvpn.fr2.xraygopaydonat1.ru:9081/sub/ODA5Nzk4NTAyLDE3NzExNTk1MDkeIZPfqbVB1', 'text': '🚀 VPN Профиль'}], [{'url': 'https://t.me/Dmitriy_prog', 'text': '💵 Запросить средства'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 6459042265, 'is_bot': False, 'first_name': 'мурка', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER <b>🌐 Актуальные тарифы W VPN: 🌐
+
+🔒 Безлимитное и... (Состояние: subscription)
+
+            user - user_object 6459042265 mewwkisaa
+            call_data - subscription
+            call_id - 71259184937018124
+            message - {'chat': {'id': 6459042265, 'type': 'private', 'first_name': 'мурка'}, 'date': 1771161450, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': "❌ Подписка на W VPN закончилась. Ваш ключ больше не активен. Для преобретения подписки нажмите на кнопку '💳 Подписка'.", 'message_id': 8287, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription'}, {'text': '🏠 В главное меню', 'callback_data': 'main_menu'}]]}}
+user.subscription False
+ошибка при удалении A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be deleted for everyone
+
+
+user_data
+
+ {'id': 6459042265, 'is_bot': False, 'first_name': 'мурка', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER Номер транзакции: <b>{val.transaction}</b>
+
+{val... (Состояние: buy_sub)
+
+            user - user_object 6459042265 mewwkisaa
+            call_data - buy_sub 189 3 1 3 м | 1 устр.
+            call_id - 71259183810991368
+            message - {'chat': {'id': 6459042265, 'type': 'private', 'first_name': 'мурка'}, 'date': 1771163006, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🌐 Актуальные тарифы W VPN: 🌐\n\n🔒 Безлимитное и защищённое подключение для вашего комфорта и безопасности!\n\n📅 1 месяц:\n• 1 устройство — 69₽\n• 3 устройства — 179₽\n• 6 устройств — 359₽\n\n📅 3 месяца:\n• 1 устройство — 189₽\n• 3 устройства — 469₽\n• 6 устройств — 929₽\n\n📅 6 месяцев:\n• 1 устройство — 339₽\n• 3 устройства — 875₽\n• 6 устройств — 1 349₽\n\n📅 12 месяцев:\n• 1 устройство — 599₽\n• 3 устройства — 1 359₽\n• 6 устройств — 1 749₽', 'entities': [{'type': 'bold', 'length': 107, 'offset': 0}, {'type': 'bold', 'length': 11, 'offset': 109}, {'type': 'bold', 'length': 3, 'offset': 138}, {'type': 'bold', 'length': 4, 'offset': 159}, {'type': 'bold', 'length': 4, 'offset': 180}, {'type': 'bold', 'length': 12, 'offset': 186}, {'type': 'bold', 'length': 4, 'offset': 216}, {'type': 'bold', 'length': 4, 'offset': 238}, {'type': 'bold', 'length': 4, 'offset': 259}, {'type': 'bold', 'length': 13, 'offset': 265}, {'type': 'bold', 'length': 4, 'offset': 296}, {'type': 'bold', 'length': 4, 'offset': 318}, {'type': 'bold', 'length': 6, 'offset': 339}, {'type': 'bold', 'length': 14, 'offset': 347}, {'type': 'bold', 'length': 4, 'offset': 379}, {'type': 'bold', 'length': 6, 'offset': 401}, {'type': 'bold', 'length': 6, 'offset': 424}], 'message_id': 8288, 'reply_markup': {'inline_keyboard': [[{'text': '1 м | 1 устр.', 'callback_data': 'buy_sub 69 1 1 1 м | 1 устр.'}, {'text': '1 м | 3 устр.', 'callback_data': 'buy_sub 179 1 3 1 м | 3 устр.'}, {'text': '1 м | 6 устр.', 'callback_data': 'buy_sub 359 1 6 1 м | 6 устр.'}], [{'text': '3 м | 1 устр.', 'callback_data': 'buy_sub 189 3 1 3 м | 1 устр.'}, {'text': '3 м | 3 устр.', 'callback_data': 'buy_sub 469 3 3 3 м | 3 устр.'}, {'text': '3 м | 6 устр.', 'callback_data': 'buy_sub 929 3 6 3 м | 6 устр.'}], [{'text': '6 м | 1 устр.', 'callback_data': 'buy_sub 339 6 1 6 м | 1 устр.'}, {'text': '6 м | 3 устр.', 'callback_data': 'buy_sub 875 6 3 6 м | 3 устр.'}, {'text': '6 м | 6 устр.', 'callback_data': 'buy_sub 1349 6 6 6 м | 6 устр.'}], [{'text': '12 м | 1 устр.', 'callback_data': 'buy_sub 599 12 1 12 м | 1 устр.'}, {'text': '12 м | 3 устр.', 'callback_data': 'buy_sub 1359 12 3 12 м | 3 устр.'}, {'text': '12 м | 6 устр.', 'callback_data': 'buy_sub 1749 12 6 12 м | 6 устр.'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+Создан новый платеж с ID: 3123e17d-000f-5000-b000-108f8498134a
+Status: pending
+url_pay https://yoomoney.ru/checkout/payments/v2/contract?orderId=3123e17d-000f-5000-b000-108f8498134a
+
+
+user_data
+
+ {'id': 6459042265, 'is_bot': False, 'first_name': 'мурка', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 6459042265 mewwkisaa
+            call_data - profile
+            call_id - 71259184889299208
+            message - {'chat': {'id': 6459042265, 'type': 'private', 'first_name': 'мурка'}, 'date': 1771163174, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '✅ Платеж прошел успешно!\nВаш ключ активации находиться у Вас в профиле.', 'entities': [{'type': 'bold', 'length': 14, 'offset': 29}, {'type': 'bold', 'length': 7, 'offset': 63}], 'message_id': 8290, 'reply_markup': {'inline_keyboard': [[{'text': '⚙️ Профиль', 'callback_data': 'profile'}, {'text': '🏠 В главное меню', 'callback_data': 'main_menu'}]]}}
+----------------------------- TEXT OR COMMAND /start
+
+            user - user_object 6459042265 mewwkisaa
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 6459042265, 'type': 'private', 'first_name': 'мурка'}, 'date': 1771163233, 'from': {'id': 6459042265, 'is_bot': False, 'first_name': 'мурка', 'language_code': 'ru'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'length': 6, 'offset': 0}], 'message_id': 8292}
+Юзер 6459042265 пришёл без рефки
+----------------------------- TEXT OR COMMAND /profile
+
+            user - user_object 6459042265 mewwkisaa
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 6459042265, 'type': 'private', 'first_name': 'мурка'}, 'date': 1771163240, 'from': {'id': 6459042265, 'is_bot': False, 'first_name': 'мурка', 'language_code': 'ru'}, 'text': '/profile', 'entities': [{'type': 'bot_command', 'length': 8, 'offset': 0}], 'message_id': 8294}
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - profile ⚙️ Профиль
+            call_id - 9146683983114746405
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771159043, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8280, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+Создан новый пользователь с ID 1999552390
+----------------------------- TEXT OR COMMAND /start 702964980
+
+            user - user_object 1999552390 Histor4ik
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 1999552390, 'type': 'private', 'username': 'Histor4ik', 'first_name': 'Артём'}, 'date': 1771175198, 'from': {'id': 1999552390, 'is_bot': False, 'username': 'Histor4ik', 'first_name': 'Артём', 'language_code': 'ru'}, 'text': '/start 702964980', 'entities': [{'type': 'bot_command', 'length': 6, 'offset': 0}], 'message_id': 8297}
+Юзер 1999552390 пришёл по рефке 702964980
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - main_menu ⬅️ Назад
+            call_id - 9146683986296102851
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771173281, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '⚙️ Профиль\n\nId: 6424595615\nUsername: @Dmitriy_prog\n\nРеферальная система:\n🎉 Приглашай друзей и получай 20% с каждого их оплаченного чека — всегда!\n\nВаша реферальная ссылка (Нажмите, чтобы скопировать):\nhttps://t.me/w_vpn_v2ray_bot?start=6424595615\n\nПолученная выручка с рефералов: 0.00 руб.', 'entities': [{'type': 'bold', 'length': 25, 'offset': 12}, {'type': 'mention', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 20, 'offset': 52}, {'type': 'bold', 'length': 43, 'offset': 103}, {'type': 'code', 'length': 45, 'offset': 202}, {'type': 'bold', 'length': 7, 'offset': 260}, {'type': 'bold', 'length': 9, 'offset': 281}], 'message_id': 8296, 'reply_markup': {'inline_keyboard': [[{'url': 'https://wvpn.fr2.xraygopaydonat1.ru:9081/sub/NjQyNDU5NTYxNSwxNzcwODIzODc2dNJeVZZs7S', 'text': '🚀 VPN Профиль'}], [{'url': 'https://t.me/Dmitriy_prog', 'text': '💵 Запросить средства'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - profile ⚙️ Профиль
+            call_id - 9146683983811242825
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771182619, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8299, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - main_menu ⬅️ Назад
+            call_id - 9146683985421835656
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771182621, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '⚙️ Профиль\n\nId: 6424595615\nUsername: @Dmitriy_prog\n\nРеферальная система:\n🎉 Приглашай друзей и получай 20% с каждого их оплаченного чека — всегда!\n\nВаша реферальная ссылка (Нажмите, чтобы скопировать):\nhttps://t.me/w_vpn_v2ray_bot?start=6424595615\n\nПолученная выручка с рефералов: 0.00 руб.', 'entities': [{'type': 'bold', 'length': 25, 'offset': 12}, {'type': 'mention', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 20, 'offset': 52}, {'type': 'bold', 'length': 43, 'offset': 103}, {'type': 'code', 'length': 45, 'offset': 202}, {'type': 'bold', 'length': 7, 'offset': 260}, {'type': 'bold', 'length': 9, 'offset': 281}], 'message_id': 8300, 'reply_markup': {'inline_keyboard': [[{'url': 'https://wvpn.fr2.xraygopaydonat1.ru:9081/sub/NjQyNDU5NTYxNSwxNzcwODIzODc2dNJeVZZs7S', 'text': '🚀 VPN Профиль'}], [{'url': 'https://t.me/Dmitriy_prog', 'text': '💵 Запросить средства'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - profile ⚙️ Профиль
+            call_id - 9146683986392475687
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771182623, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8301, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - main_menu ⬅️ Назад
+            call_id - 9146683982943997866
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771182647, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '⚙️ Профиль\n\nId: 6424595615\nUsername: @Dmitriy_prog\n\nРеферальная система:\n🎉 Приглашай друзей и получай 20% с каждого их оплаченного чека — всегда!\n\nВаша реферальная ссылка (Нажмите, чтобы скопировать):\nhttps://t.me/w_vpn_v2ray_bot?start=6424595615\n\nПолученная выручка с рефералов: 0.00 руб.', 'entities': [{'type': 'bold', 'length': 25, 'offset': 12}, {'type': 'mention', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 20, 'offset': 52}, {'type': 'bold', 'length': 43, 'offset': 103}, {'type': 'code', 'length': 45, 'offset': 202}, {'type': 'bold', 'length': 7, 'offset': 260}, {'type': 'bold', 'length': 9, 'offset': 281}], 'message_id': 8302, 'reply_markup': {'inline_keyboard': [[{'url': 'https://wvpn.fr2.xraygopaydonat1.ru:9081/sub/NjQyNDU5NTYxNSwxNzcwODIzODc2dNJeVZZs7S', 'text': '🚀 VPN Профиль'}], [{'url': 'https://t.me/Dmitriy_prog', 'text': '💵 Запросить средства'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+Создан новый пользователь с ID 8469912534
+----------------------------- TEXT OR COMMAND /start
+
+            user - user_object 8469912534 None
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 8469912534, 'type': 'private', 'last_name': 'Ашуров', 'first_name': 'Ëкубджон'}, 'date': 1771186410, 'from': {'id': 8469912534, 'is_bot': False, 'last_name': 'Ашуров', 'first_name': 'Ëкубджон', 'language_code': 'ru'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'length': 6, 'offset': 0}], 'message_id': 8304}
+Юзер 8469912534 пришёл без рефки
+
+
+user_data
+
+ {'id': 8469912534, 'is_bot': False, 'last_name': 'Ашуров', 'first_name': 'Ëкубджон', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER На какое устройство вы хотите установить VPN?... (Состояние: download)
+
+            user - user_object 8469912534 None
+            call_data - download ✅ Установка
+            call_id - 8707881227052697721
+            message - {'chat': {'id': 8469912534, 'type': 'private', 'last_name': 'Ашуров', 'first_name': 'Ëкубджон'}, 'date': 1771186410, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '👋 Добро пожаловать в W VPN BOT!\nМы рады видеть вас! 🌟 С нами вы можете наслаждаться безопасным, быстрым и стабильным VPN-соединением, где бы вы ни находились. 🔒🌍\n\n🎯 Что вы найдете у нас?\n • Полный доступ к любимым сайтам и приложениям.\n • Надежную защиту ваших данных.\n • Быструю и удобную работу без ограничений.\n\n💬 По всем вопросам: @Dmitriy_prog\nНачните использовать W VPN и откройте для себя новый уровень свободы в интернете. 🚀', 'entities': [{'type': 'bold', 'length': 10, 'offset': 22}, {'type': 'mention', 'length': 13, 'offset': 341}], 'message_id': 8305, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+
+
+user_data
+
+ {'id': 8469912534, 'is_bot': False, 'last_name': 'Ашуров', 'first_name': 'Ëкубджон', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 8469912534 None
+            call_data - main_menu ⬅️ Назад
+            call_id - 8707881226053707849
+            message - {'chat': {'id': 8469912534, 'type': 'private', 'last_name': 'Ашуров', 'first_name': 'Ëкубджон'}, 'date': 1771186419, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': 'На какое устройство вы хотите установить VPN?', 'message_id': 8306, 'reply_markup': {'inline_keyboard': [[{'url': 'https://apps.apple.com/ca/app/v2raytun/id6476628951', 'text': '📱 iPhone / iPad'}, {'url': 'https://play.google.com/store/apps/details?id=com.v2raytun.android&pcampaignid=web_share', 'text': '📱 Android'}], [{'url': 'https://apps.apple.com/ca/app/v2raytun/id6476628951', 'text': '💻 MacOS'}, {'url': 'https://github.com/hiddify/hiddify-app/releases/latest/download/Hiddify-Windows-Setup-x64.Msix', 'text': '🖥 Windows'}], [{'url': 'https://play.google.com/store/apps/details?id=com.v2raytun.android&pcampaignid=web_share', 'text': '📺 Android TV'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 8469912534, 'is_bot': False, 'last_name': 'Ашуров', 'first_name': 'Ëкубджон', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER <b>🌐 Актуальные тарифы W VPN: 🌐
+
+🔒 Безлимитное и... (Состояние: subscription)
+
+            user - user_object 8469912534 None
+            call_data - subscription 💳 Подписка
+            call_id - 8707881223344931450
+            message - {'chat': {'id': 8469912534, 'type': 'private', 'last_name': 'Ашуров', 'first_name': 'Ëкубджон'}, 'date': 1771186487, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8307, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+user.subscription False
+
+
+user_data
+
+ {'id': 8469912534, 'is_bot': False, 'last_name': 'Ашуров', 'first_name': 'Ëкубджон', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER Номер транзакции: <b>{val.transaction}</b>
+
+{val... (Состояние: buy_sub)
+
+            user - user_object 8469912534 None
+            call_data - buy_sub 69 1 1 1 м | 1 устр.
+            call_id - 8707881225534724360
+            message - {'chat': {'id': 8469912534, 'type': 'private', 'last_name': 'Ашуров', 'first_name': 'Ëкубджон'}, 'date': 1771186492, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🌐 Актуальные тарифы W VPN: 🌐\n\n🔒 Безлимитное и защищённое подключение для вашего комфорта и безопасности!\n\n📅 1 месяц:\n• 1 устройство — 69₽\n• 3 устройства — 179₽\n• 6 устройств — 359₽\n\n📅 3 месяца:\n• 1 устройство — 189₽\n• 3 устройства — 469₽\n• 6 устройств — 929₽\n\n📅 6 месяцев:\n• 1 устройство — 339₽\n• 3 устройства — 875₽\n• 6 устройств — 1 349₽\n\n📅 12 месяцев:\n• 1 устройство — 599₽\n• 3 устройства — 1 359₽\n• 6 устройств — 1 749₽', 'entities': [{'type': 'bold', 'length': 107, 'offset': 0}, {'type': 'bold', 'length': 11, 'offset': 109}, {'type': 'bold', 'length': 3, 'offset': 138}, {'type': 'bold', 'length': 4, 'offset': 159}, {'type': 'bold', 'length': 4, 'offset': 180}, {'type': 'bold', 'length': 12, 'offset': 186}, {'type': 'bold', 'length': 4, 'offset': 216}, {'type': 'bold', 'length': 4, 'offset': 238}, {'type': 'bold', 'length': 4, 'offset': 259}, {'type': 'bold', 'length': 13, 'offset': 265}, {'type': 'bold', 'length': 4, 'offset': 296}, {'type': 'bold', 'length': 4, 'offset': 318}, {'type': 'bold', 'length': 6, 'offset': 339}, {'type': 'bold', 'length': 14, 'offset': 347}, {'type': 'bold', 'length': 4, 'offset': 379}, {'type': 'bold', 'length': 6, 'offset': 401}, {'type': 'bold', 'length': 6, 'offset': 424}], 'message_id': 8308, 'reply_markup': {'inline_keyboard': [[{'text': '1 м | 1 устр.', 'callback_data': 'buy_sub 69 1 1 1 м | 1 устр.'}, {'text': '1 м | 3 устр.', 'callback_data': 'buy_sub 179 1 3 1 м | 3 устр.'}, {'text': '1 м | 6 устр.', 'callback_data': 'buy_sub 359 1 6 1 м | 6 устр.'}], [{'text': '3 м | 1 устр.', 'callback_data': 'buy_sub 189 3 1 3 м | 1 устр.'}, {'text': '3 м | 3 устр.', 'callback_data': 'buy_sub 469 3 3 3 м | 3 устр.'}, {'text': '3 м | 6 устр.', 'callback_data': 'buy_sub 929 3 6 3 м | 6 устр.'}], [{'text': '6 м | 1 устр.', 'callback_data': 'buy_sub 339 6 1 6 м | 1 устр.'}, {'text': '6 м | 3 устр.', 'callback_data': 'buy_sub 875 6 3 6 м | 3 устр.'}, {'text': '6 м | 6 устр.', 'callback_data': 'buy_sub 1349 6 6 6 м | 6 устр.'}], [{'text': '12 м | 1 устр.', 'callback_data': 'buy_sub 599 12 1 12 м | 1 устр.'}, {'text': '12 м | 3 устр.', 'callback_data': 'buy_sub 1359 12 3 12 м | 3 устр.'}, {'text': '12 м | 6 устр.', 'callback_data': 'buy_sub 1749 12 6 12 м | 6 устр.'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+Создан новый платеж с ID: 31243d04-000f-5001-8000-1d0e09ab7792
+Status: pending
+url_pay https://yoomoney.ru/checkout/payments/v2/contract?orderId=31243d04-000f-5001-8000-1d0e09ab7792
+
+
+user_data
+
+ {'id': 8469912534, 'is_bot': False, 'last_name': 'Ашуров', 'first_name': 'Ëкубджон', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 8469912534 None
+            call_data - profile
+            call_id - 8707881224618247601
+            message - {'chat': {'id': 8469912534, 'type': 'private', 'last_name': 'Ашуров', 'first_name': 'Ëкубджон'}, 'date': 1771186619, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '✅ Платеж прошел успешно!\nВаш ключ активации находиться у Вас в профиле.', 'entities': [{'type': 'bold', 'length': 14, 'offset': 29}, {'type': 'bold', 'length': 7, 'offset': 63}], 'message_id': 8310, 'reply_markup': {'inline_keyboard': [[{'text': '⚙️ Профиль', 'callback_data': 'profile'}, {'text': '🏠 В главное меню', 'callback_data': 'main_menu'}]]}}
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - profile ⚙️ Профиль
+            call_id - 9146683986652078335
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771182648, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8303, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - main_menu ⬅️ Назад
+            call_id - 9146683985084597481
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771196427, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '⚙️ Профиль\n\nId: 6424595615\nUsername: @Dmitriy_prog\n\nРеферальная система:\n🎉 Приглашай друзей и получай 20% с каждого их оплаченного чека — всегда!\n\nВаша реферальная ссылка (Нажмите, чтобы скопировать):\nhttps://t.me/w_vpn_v2ray_bot?start=6424595615\n\nПолученная выручка с рефералов: 0.00 руб.', 'entities': [{'type': 'bold', 'length': 25, 'offset': 12}, {'type': 'mention', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 20, 'offset': 52}, {'type': 'bold', 'length': 43, 'offset': 103}, {'type': 'code', 'length': 45, 'offset': 202}, {'type': 'bold', 'length': 7, 'offset': 260}, {'type': 'bold', 'length': 9, 'offset': 281}], 'message_id': 8312, 'reply_markup': {'inline_keyboard': [[{'url': 'https://wvpn.fr2.xraygopaydonat1.ru:9081/sub/NjQyNDU5NTYxNSwxNzcwODIzODc2dNJeVZZs7S', 'text': '🚀 VPN Профиль'}], [{'url': 'https://t.me/Dmitriy_prog', 'text': '💵 Запросить средства'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+----------------------------- TEXT OR COMMAND /start 1268321038
+
+            user - user_object 5372090647 ceko10021
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 5372090647, 'type': 'private', 'username': 'ceko10021', 'first_name': 'M'}, 'date': 1771198859, 'from': {'id': 5372090647, 'is_bot': False, 'username': 'ceko10021', 'first_name': 'M', 'language_code': 'ru'}, 'text': '/start 1268321038', 'entities': [{'type': 'bot_command', 'length': 6, 'offset': 0}], 'message_id': 8314}
+Пользователь уже был приглашён ранее.
+ошибка при удалении A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be deleted for everyone
+
+
+user_data
+
+ {'id': 5372090647, 'is_bot': False, 'username': 'ceko10021', 'first_name': 'M', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER <b>🌐 Актуальные тарифы W VPN: 🌐
+
+🔒 Безлимитное и... (Состояние: subscription)
+
+            user - user_object 5372090647 ceko10021
+            call_data - subscription
+            call_id - 4626209569962061852
+            message - {'chat': {'id': 5372090647, 'type': 'private', 'username': 'ceko10021', 'first_name': 'M'}, 'date': 1771139253, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': "❌ Подписка на W VPN закончилась. Ваш ключ больше не активен. Для преобретения подписки нажмите на кнопку '💳 Подписка'.", 'message_id': 8257, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription'}, {'text': '🏠 В главное меню', 'callback_data': 'main_menu'}]]}}
+user.subscription False
+
+
+user_data
+
+ {'id': 5372090647, 'is_bot': False, 'username': 'ceko10021', 'first_name': 'M', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER Номер транзакции: <b>{val.transaction}</b>
+
+{val... (Состояние: buy_sub)
+
+            user - user_object 5372090647 ceko10021
+            call_data - buy_sub 69 1 1 1 м | 1 устр.
+            call_id - 4626209567299337787
+            message - {'chat': {'id': 5372090647, 'type': 'private', 'username': 'ceko10021', 'first_name': 'M'}, 'date': 1771198861, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🌐 Актуальные тарифы W VPN: 🌐\n\n🔒 Безлимитное и защищённое подключение для вашего комфорта и безопасности!\n\n📅 1 месяц:\n• 1 устройство — 69₽\n• 3 устройства — 179₽\n• 6 устройств — 359₽\n\n📅 3 месяца:\n• 1 устройство — 189₽\n• 3 устройства — 469₽\n• 6 устройств — 929₽\n\n📅 6 месяцев:\n• 1 устройство — 339₽\n• 3 устройства — 875₽\n• 6 устройств — 1 349₽\n\n📅 12 месяцев:\n• 1 устройство — 599₽\n• 3 устройства — 1 359₽\n• 6 устройств — 1 749₽', 'entities': [{'type': 'bold', 'length': 107, 'offset': 0}, {'type': 'bold', 'length': 11, 'offset': 109}, {'type': 'bold', 'length': 3, 'offset': 138}, {'type': 'bold', 'length': 4, 'offset': 159}, {'type': 'bold', 'length': 4, 'offset': 180}, {'type': 'bold', 'length': 12, 'offset': 186}, {'type': 'bold', 'length': 4, 'offset': 216}, {'type': 'bold', 'length': 4, 'offset': 238}, {'type': 'bold', 'length': 4, 'offset': 259}, {'type': 'bold', 'length': 13, 'offset': 265}, {'type': 'bold', 'length': 4, 'offset': 296}, {'type': 'bold', 'length': 4, 'offset': 318}, {'type': 'bold', 'length': 6, 'offset': 339}, {'type': 'bold', 'length': 14, 'offset': 347}, {'type': 'bold', 'length': 4, 'offset': 379}, {'type': 'bold', 'length': 6, 'offset': 401}, {'type': 'bold', 'length': 6, 'offset': 424}], 'message_id': 8316, 'reply_markup': {'inline_keyboard': [[{'text': '1 м | 1 устр.', 'callback_data': 'buy_sub 69 1 1 1 м | 1 устр.'}, {'text': '1 м | 3 устр.', 'callback_data': 'buy_sub 179 1 3 1 м | 3 устр.'}, {'text': '1 м | 6 устр.', 'callback_data': 'buy_sub 359 1 6 1 м | 6 устр.'}], [{'text': '3 м | 1 устр.', 'callback_data': 'buy_sub 189 3 1 3 м | 1 устр.'}, {'text': '3 м | 3 устр.', 'callback_data': 'buy_sub 469 3 3 3 м | 3 устр.'}, {'text': '3 м | 6 устр.', 'callback_data': 'buy_sub 929 3 6 3 м | 6 устр.'}], [{'text': '6 м | 1 устр.', 'callback_data': 'buy_sub 339 6 1 6 м | 1 устр.'}, {'text': '6 м | 3 устр.', 'callback_data': 'buy_sub 875 6 3 6 м | 3 устр.'}, {'text': '6 м | 6 устр.', 'callback_data': 'buy_sub 1349 6 6 6 м | 6 устр.'}], [{'text': '12 м | 1 устр.', 'callback_data': 'buy_sub 599 12 1 12 м | 1 устр.'}, {'text': '12 м | 3 устр.', 'callback_data': 'buy_sub 1359 12 3 12 м | 3 устр.'}, {'text': '12 м | 6 устр.', 'callback_data': 'buy_sub 1749 12 6 12 м | 6 устр.'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+Создан новый платеж с ID: 31246d54-000f-5000-b000-1410b4736e30
+Status: pending
+url_pay https://yoomoney.ru/checkout/payments/v2/contract?orderId=31246d54-000f-5000-b000-1410b4736e30
+
+
+user_data
+
+ {'id': 5372090647, 'is_bot': False, 'username': 'ceko10021', 'first_name': 'M', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 5372090647 ceko10021
+            call_data - main_menu
+            call_id - 4626209566960895791
+            message - {'chat': {'id': 5372090647, 'type': 'private', 'username': 'ceko10021', 'first_name': 'M'}, 'date': 1771198907, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '✅ Платеж прошел успешно!\nВаш ключ активации находиться у Вас в профиле.', 'entities': [{'type': 'bold', 'length': 14, 'offset': 29}, {'type': 'bold', 'length': 7, 'offset': 63}], 'message_id': 8318, 'reply_markup': {'inline_keyboard': [[{'text': '⚙️ Профиль', 'callback_data': 'profile'}, {'text': '🏠 В главное меню', 'callback_data': 'main_menu'}]]}}
+
+
+user_data
+
+ {'id': 5372090647, 'is_bot': False, 'username': 'ceko10021', 'first_name': 'M', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER <b>🌐 Актуальные тарифы W VPN: 🌐
+
+🔒 Безлимитное и... (Состояние: subscription)
+
+            user - user_object 5372090647 ceko10021
+            call_data - subscription 💳 Подписка
+            call_id - 4626209567707479785
+            message - {'chat': {'id': 5372090647, 'type': 'private', 'username': 'ceko10021', 'first_name': 'M'}, 'date': 1771198913, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8319, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+user.subscription True
+
+
+user_data
+
+ {'id': 5372090647, 'is_bot': False, 'username': 'ceko10021', 'first_name': 'M', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 5372090647 ceko10021
+            call_data - main_menu ⬅️ Назад
+            call_id - 4626209569400559027
+            message - {'chat': {'id': 5372090647, 'type': 'private', 'username': 'ceko10021', 'first_name': 'M'}, 'date': 1771198919, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🌐 Актуальные тарифы W VPN: 🌐\n\n🔒 Безлимитное и защищённое подключение для вашего комфорта и безопасности!\n\n📅 1 месяц:\n• 1 устройство — 69₽\n• 3 устройства — 179₽\n• 6 устройств — 359₽\n\n📅 3 месяца:\n• 1 устройство — 189₽\n• 3 устройства — 469₽\n• 6 устройств — 929₽\n\n📅 6 месяцев:\n• 1 устройство — 339₽\n• 3 устройства — 875₽\n• 6 устройств — 1 349₽\n\n📅 12 месяцев:\n• 1 устройство — 599₽\n• 3 устройства — 1 359₽\n• 6 устройств — 1 749₽\n\n🌟 У Вас уже активна подписка до 17 марта 2026 года 23:41:46! Вы всегда можете продлить её и продолжить пользоваться всеми преимуществами.', 'entities': [{'type': 'bold', 'length': 107, 'offset': 0}, {'type': 'bold', 'length': 11, 'offset': 109}, {'type': 'bold', 'length': 3, 'offset': 138}, {'type': 'bold', 'length': 4, 'offset': 159}, {'type': 'bold', 'length': 4, 'offset': 180}, {'type': 'bold', 'length': 12, 'offset': 186}, {'type': 'bold', 'length': 4, 'offset': 216}, {'type': 'bold', 'length': 4, 'offset': 238}, {'type': 'bold', 'length': 4, 'offset': 259}, {'type': 'bold', 'length': 13, 'offset': 265}, {'type': 'bold', 'length': 4, 'offset': 296}, {'type': 'bold', 'length': 4, 'offset': 318}, {'type': 'bold', 'length': 6, 'offset': 339}, {'type': 'bold', 'length': 14, 'offset': 347}, {'type': 'bold', 'length': 4, 'offset': 379}, {'type': 'bold', 'length': 6, 'offset': 401}, {'type': 'bold', 'length': 6, 'offset': 424}, {'type': 'bold', 'length': 27, 'offset': 465}], 'message_id': 8320, 'reply_markup': {'inline_keyboard': [[{'text': '1 м | 1 устр.', 'callback_data': 'buy_sub 69 1 1 1 м | 1 устр.'}, {'text': '1 м | 3 устр.', 'callback_data': 'buy_sub 179 1 3 1 м | 3 устр.'}, {'text': '1 м | 6 устр.', 'callback_data': 'buy_sub 359 1 6 1 м | 6 устр.'}], [{'text': '3 м | 1 устр.', 'callback_data': 'buy_sub 189 3 1 3 м | 1 устр.'}, {'text': '3 м | 3 устр.', 'callback_data': 'buy_sub 469 3 3 3 м | 3 устр.'}, {'text': '3 м | 6 устр.', 'callback_data': 'buy_sub 929 3 6 3 м | 6 устр.'}], [{'text': '6 м | 1 устр.', 'callback_data': 'buy_sub 339 6 1 6 м | 1 устр.'}, {'text': '6 м | 3 устр.', 'callback_data': 'buy_sub 875 6 3 6 м | 3 устр.'}, {'text': '6 м | 6 устр.', 'callback_data': 'buy_sub 1349 6 6 6 м | 6 устр.'}], [{'text': '12 м | 1 устр.', 'callback_data': 'buy_sub 599 12 1 12 м | 1 устр.'}, {'text': '12 м | 3 устр.', 'callback_data': 'buy_sub 1359 12 3 12 м | 3 устр.'}, {'text': '12 м | 6 устр.', 'callback_data': 'buy_sub 1749 12 6 12 м | 6 устр.'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 5372090647, 'is_bot': False, 'username': 'ceko10021', 'first_name': 'M', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 5372090647 ceko10021
+            call_data - profile ⚙️ Профиль
+            call_id - 4626209567951945678
+            message - {'chat': {'id': 5372090647, 'type': 'private', 'username': 'ceko10021', 'first_name': 'M'}, 'date': 1771198922, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8321, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+
+
+user_data
+
+ {'id': 5372090647, 'is_bot': False, 'username': 'ceko10021', 'first_name': 'M', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 5372090647 ceko10021
+            call_data - main_menu ⬅️ Назад
+            call_id - 4626209568263462725
+            message - {'chat': {'id': 5372090647, 'type': 'private', 'username': 'ceko10021', 'first_name': 'M'}, 'date': 1771200274, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '⚙️ Профиль\n\nId: 5372090647\nUsername: @ceko10021\n\nРеферальная система:\n🎉 Приглашай друзей и получай 20% с каждого их оплаченного чека — всегда!\n\nВаша реферальная ссылка (Нажмите, чтобы скопировать):\nhttps://t.me/w_vpn_v2ray_bot?start=5372090647\n\nПолученная выручка с рефералов: 0.00 руб.', 'entities': [{'type': 'bold', 'length': 25, 'offset': 12}, {'type': 'mention', 'length': 10, 'offset': 37}, {'type': 'bold', 'length': 10, 'offset': 37}, {'type': 'bold', 'length': 20, 'offset': 49}, {'type': 'bold', 'length': 43, 'offset': 100}, {'type': 'code', 'length': 45, 'offset': 199}, {'type': 'bold', 'length': 7, 'offset': 257}, {'type': 'bold', 'length': 9, 'offset': 278}], 'message_id': 8322, 'reply_markup': {'inline_keyboard': [[{'url': 'https://wvpn.fr2.xraygopaydonat1.ru:9081/sub/NTM3MjA5MDY0NywxNzcxMTk4OTA4d6g-nJ6ckK', 'text': '🚀 VPN Профиль'}], [{'url': 'https://t.me/Dmitriy_prog', 'text': '💵 Запросить средства'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 1602136064, 'is_bot': False, 'username': 'KkB54', 'first_name': 'ККВ', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER <b>🌐 Актуальные тарифы W VPN: 🌐
+
+🔒 Безлимитное и... (Состояние: subscription)
+
+            user - user_object 1602136064 KkB54
+            call_data - subscription 💳 Подписка
+            call_id - 6881122000835940802
+            message - {'chat': {'id': 1602136064, 'type': 'private', 'username': 'KkB54', 'first_name': 'ККВ'}, 'date': 1770917246, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8099, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+user.subscription True
+ошибка при удалении A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be deleted for everyone
+
+
+user_data
+
+ {'id': 1602136064, 'is_bot': False, 'username': 'KkB54', 'first_name': 'ККВ', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER Номер транзакции: <b>{val.transaction}</b>
+
+{val... (Состояние: buy_sub)
+
+            user - user_object 1602136064 KkB54
+            call_data - buy_sub 69 1 1 1 м | 1 устр.
+            call_id - 6881122000822340426
+            message - {'chat': {'id': 1602136064, 'type': 'private', 'username': 'KkB54', 'first_name': 'ККВ'}, 'date': 1771219416, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🌐 Актуальные тарифы W VPN: 🌐\n\n🔒 Безлимитное и защищённое подключение для вашего комфорта и безопасности!\n\n📅 1 месяц:\n• 1 устройство — 69₽\n• 3 устройства — 179₽\n• 6 устройств — 359₽\n\n📅 3 месяца:\n• 1 устройство — 189₽\n• 3 устройства — 469₽\n• 6 устройств — 929₽\n\n📅 6 месяцев:\n• 1 устройство — 339₽\n• 3 устройства — 875₽\n• 6 устройств — 1 349₽\n\n📅 12 месяцев:\n• 1 устройство — 599₽\n• 3 устройства — 1 359₽\n• 6 устройств — 1 749₽\n\n🌟 У Вас уже активна подписка до 15 мая 2026 года 19:58:21! Вы всегда можете продлить её и продолжить пользоваться всеми преимуществами.', 'entities': [{'type': 'bold', 'length': 107, 'offset': 0}, {'type': 'bold', 'length': 11, 'offset': 109}, {'type': 'bold', 'length': 3, 'offset': 138}, {'type': 'bold', 'length': 4, 'offset': 159}, {'type': 'bold', 'length': 4, 'offset': 180}, {'type': 'bold', 'length': 12, 'offset': 186}, {'type': 'bold', 'length': 4, 'offset': 216}, {'type': 'bold', 'length': 4, 'offset': 238}, {'type': 'bold', 'length': 4, 'offset': 259}, {'type': 'bold', 'length': 13, 'offset': 265}, {'type': 'bold', 'length': 4, 'offset': 296}, {'type': 'bold', 'length': 4, 'offset': 318}, {'type': 'bold', 'length': 6, 'offset': 339}, {'type': 'bold', 'length': 14, 'offset': 347}, {'type': 'bold', 'length': 4, 'offset': 379}, {'type': 'bold', 'length': 6, 'offset': 401}, {'type': 'bold', 'length': 6, 'offset': 424}, {'type': 'bold', 'length': 25, 'offset': 465}], 'message_id': 8324, 'reply_markup': {'inline_keyboard': [[{'text': '1 м | 1 устр.', 'callback_data': 'buy_sub 69 1 1 1 м | 1 устр.'}, {'text': '1 м | 3 устр.', 'callback_data': 'buy_sub 179 1 3 1 м | 3 устр.'}, {'text': '1 м | 6 устр.', 'callback_data': 'buy_sub 359 1 6 1 м | 6 устр.'}], [{'text': '3 м | 1 устр.', 'callback_data': 'buy_sub 189 3 1 3 м | 1 устр.'}, {'text': '3 м | 3 устр.', 'callback_data': 'buy_sub 469 3 3 3 м | 3 устр.'}, {'text': '3 м | 6 устр.', 'callback_data': 'buy_sub 929 3 6 3 м | 6 устр.'}], [{'text': '6 м | 1 устр.', 'callback_data': 'buy_sub 339 6 1 6 м | 1 устр.'}, {'text': '6 м | 3 устр.', 'callback_data': 'buy_sub 875 6 3 6 м | 3 устр.'}, {'text': '6 м | 6 устр.', 'callback_data': 'buy_sub 1349 6 6 6 м | 6 устр.'}], [{'text': '12 м | 1 устр.', 'callback_data': 'buy_sub 599 12 1 12 м | 1 устр.'}, {'text': '12 м | 3 устр.', 'callback_data': 'buy_sub 1359 12 3 12 м | 3 устр.'}, {'text': '12 м | 6 устр.', 'callback_data': 'buy_sub 1749 12 6 12 м | 6 устр.'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+Создан новый платеж с ID: 3124bd9d-000f-5000-b000-1fd931bfda53
+Status: pending
+url_pay https://yoomoney.ru/checkout/payments/v2/contract?orderId=3124bd9d-000f-5000-b000-1fd931bfda53
+
+
+user_data
+
+ {'id': 1602136064, 'is_bot': False, 'username': 'KkB54', 'first_name': 'ККВ', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 1602136064 KkB54
+            call_data - profile
+            call_id - 6881122002407452653
+            message - {'chat': {'id': 1602136064, 'type': 'private', 'username': 'KkB54', 'first_name': 'ККВ'}, 'date': 1771219468, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '✅ Платеж прошел успешно!\nВаш ключ активации находиться у Вас в профиле.', 'entities': [{'type': 'bold', 'length': 14, 'offset': 29}, {'type': 'bold', 'length': 7, 'offset': 63}], 'message_id': 8326, 'reply_markup': {'inline_keyboard': [[{'text': '⚙️ Профиль', 'callback_data': 'profile'}, {'text': '🏠 В главное меню', 'callback_data': 'main_menu'}]]}}
+----------------------------- TEXT OR COMMAND /start
+
+            user - user_object 1012296171 Leksahgg
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224042, 'from': {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'length': 6, 'offset': 0}], 'message_id': 8328}
+Юзер 1012296171 пришёл без рефки
+ошибка при удалении A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be deleted for everyone
+
+
+user_data
+
+ {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}
+---------------STATE из NEW_WORKER <b>🌐 Актуальные тарифы W VPN: 🌐
+
+🔒 Безлимитное и... (Состояние: subscription)
+
+            user - user_object 1012296171 Leksahgg
+            call_data - subscription 💳 Подписка
+            call_id - 4347778949576914634
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224042, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '👋 Добро пожаловать в W VPN BOT!\nМы рады видеть вас! 🌟 С нами вы можете наслаждаться безопасным, быстрым и стабильным VPN-соединением, где бы вы ни находились. 🔒🌍\n\n🎯 Что вы найдете у нас?\n • Полный доступ к любимым сайтам и приложениям.\n • Надежную защиту ваших данных.\n • Быструю и удобную работу без ограничений.\n\n💬 По всем вопросам: @Dmitriy_prog\nНачните использовать W VPN и откройте для себя новый уровень свободы в интернете. 🚀', 'entities': [{'type': 'bold', 'length': 10, 'offset': 22}, {'type': 'mention', 'length': 13, 'offset': 341}], 'message_id': 8329, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+user.subscription False
+
+
+user_data
+
+ {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}
+---------------STATE из NEW_WORKER Номер транзакции: <b>{val.transaction}</b>
+
+{val... (Состояние: buy_sub)
+
+            user - user_object 1012296171 Leksahgg
+            call_data - buy_sub 69 1 1 1 м | 1 устр.
+            call_id - 4347778952147889978
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224046, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🌐 Актуальные тарифы W VPN: 🌐\n\n🔒 Безлимитное и защищённое подключение для вашего комфорта и безопасности!\n\n📅 1 месяц:\n• 1 устройство — 69₽\n• 3 устройства — 179₽\n• 6 устройств — 359₽\n\n📅 3 месяца:\n• 1 устройство — 189₽\n• 3 устройства — 469₽\n• 6 устройств — 929₽\n\n📅 6 месяцев:\n• 1 устройство — 339₽\n• 3 устройства — 875₽\n• 6 устройств — 1 349₽\n\n📅 12 месяцев:\n• 1 устройство — 599₽\n• 3 устройства — 1 359₽\n• 6 устройств — 1 749₽', 'entities': [{'type': 'bold', 'length': 107, 'offset': 0}, {'type': 'bold', 'length': 11, 'offset': 109}, {'type': 'bold', 'length': 3, 'offset': 138}, {'type': 'bold', 'length': 4, 'offset': 159}, {'type': 'bold', 'length': 4, 'offset': 180}, {'type': 'bold', 'length': 12, 'offset': 186}, {'type': 'bold', 'length': 4, 'offset': 216}, {'type': 'bold', 'length': 4, 'offset': 238}, {'type': 'bold', 'length': 4, 'offset': 259}, {'type': 'bold', 'length': 13, 'offset': 265}, {'type': 'bold', 'length': 4, 'offset': 296}, {'type': 'bold', 'length': 4, 'offset': 318}, {'type': 'bold', 'length': 6, 'offset': 339}, {'type': 'bold', 'length': 14, 'offset': 347}, {'type': 'bold', 'length': 4, 'offset': 379}, {'type': 'bold', 'length': 6, 'offset': 401}, {'type': 'bold', 'length': 6, 'offset': 424}], 'message_id': 8330, 'reply_markup': {'inline_keyboard': [[{'text': '1 м | 1 устр.', 'callback_data': 'buy_sub 69 1 1 1 м | 1 устр.'}, {'text': '1 м | 3 устр.', 'callback_data': 'buy_sub 179 1 3 1 м | 3 устр.'}, {'text': '1 м | 6 устр.', 'callback_data': 'buy_sub 359 1 6 1 м | 6 устр.'}], [{'text': '3 м | 1 устр.', 'callback_data': 'buy_sub 189 3 1 3 м | 1 устр.'}, {'text': '3 м | 3 устр.', 'callback_data': 'buy_sub 469 3 3 3 м | 3 устр.'}, {'text': '3 м | 6 устр.', 'callback_data': 'buy_sub 929 3 6 3 м | 6 устр.'}], [{'text': '6 м | 1 устр.', 'callback_data': 'buy_sub 339 6 1 6 м | 1 устр.'}, {'text': '6 м | 3 устр.', 'callback_data': 'buy_sub 875 6 3 6 м | 3 устр.'}, {'text': '6 м | 6 устр.', 'callback_data': 'buy_sub 1349 6 6 6 м | 6 устр.'}], [{'text': '12 м | 1 устр.', 'callback_data': 'buy_sub 599 12 1 12 м | 1 устр.'}, {'text': '12 м | 3 устр.', 'callback_data': 'buy_sub 1359 12 3 12 м | 3 устр.'}, {'text': '12 м | 6 устр.', 'callback_data': 'buy_sub 1749 12 6 12 м | 6 устр.'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+Создан новый платеж с ID: 3124cfb5-000f-5000-b000-1fa220e4a39c
+Status: pending
+url_pay https://yoomoney.ru/checkout/payments/v2/contract?orderId=3124cfb5-000f-5000-b000-1fa220e4a39c
+
+
+user_data
+
+ {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 1012296171 Leksahgg
+            call_data - profile
+            call_id - 4347778950870704883
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224106, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '✅ Платеж прошел успешно!\nВаш ключ активации находиться у Вас в профиле.', 'entities': [{'type': 'bold', 'length': 14, 'offset': 29}, {'type': 'bold', 'length': 7, 'offset': 63}], 'message_id': 8332, 'reply_markup': {'inline_keyboard': [[{'text': '⚙️ Профиль', 'callback_data': 'profile'}, {'text': '🏠 В главное меню', 'callback_data': 'main_menu'}]]}}
+----------------------------- TEXT OR COMMAND /start
+
+            user - user_object 1012296171 Leksahgg
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224183, 'from': {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'length': 6, 'offset': 0}], 'message_id': 8334}
+Юзер 1012296171 пришёл без рефки
+
+
+user_data
+
+ {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}
+---------------STATE из NEW_WORKER На какое устройство вы хотите установить VPN?... (Состояние: download)
+
+            user - user_object 1012296171 Leksahgg
+            call_data - download ✅ Установка
+            call_id - 4347778950389128118
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224183, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '👋 Добро пожаловать в W VPN BOT!\nМы рады видеть вас! 🌟 С нами вы можете наслаждаться безопасным, быстрым и стабильным VPN-соединением, где бы вы ни находились. 🔒🌍\n\n🎯 Что вы найдете у нас?\n • Полный доступ к любимым сайтам и приложениям.\n • Надежную защиту ваших данных.\n • Быструю и удобную работу без ограничений.\n\n💬 По всем вопросам: @Dmitriy_prog\nНачните использовать W VPN и откройте для себя новый уровень свободы в интернете. 🚀', 'entities': [{'type': 'bold', 'length': 10, 'offset': 22}, {'type': 'mention', 'length': 13, 'offset': 341}], 'message_id': 8335, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+
+
+user_data
+
+ {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 1012296171 Leksahgg
+            call_data - main_menu ⬅️ Назад
+            call_id - 4347778948359473342
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224597, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': 'На какое устройство вы хотите установить VPN?', 'message_id': 8336, 'reply_markup': {'inline_keyboard': [[{'url': 'https://apps.apple.com/ca/app/v2raytun/id6476628951', 'text': '📱 iPhone / iPad'}, {'url': 'https://play.google.com/store/apps/details?id=com.v2raytun.android&pcampaignid=web_share', 'text': '📱 Android'}], [{'url': 'https://apps.apple.com/ca/app/v2raytun/id6476628951', 'text': '💻 MacOS'}, {'url': 'https://github.com/hiddify/hiddify-app/releases/latest/download/Hiddify-Windows-Setup-x64.Msix', 'text': '🖥 Windows'}], [{'url': 'https://play.google.com/store/apps/details?id=com.v2raytun.android&pcampaignid=web_share', 'text': '📺 Android TV'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}
+---------------STATE из NEW_WORKER <b>🌐 Актуальные тарифы W VPN: 🌐
+
+🔒 Безлимитное и... (Состояние: subscription)
+
+            user - user_object 1012296171 Leksahgg
+            call_data - subscription 💳 Подписка
+            call_id - 4347778950999562986
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224609, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8337, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+user.subscription True
+
+
+user_data
+
+ {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 1012296171 Leksahgg
+            call_data - main_menu ⬅️ Назад
+            call_id - 4347778951050552509
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224611, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🌐 Актуальные тарифы W VPN: 🌐\n\n🔒 Безлимитное и защищённое подключение для вашего комфорта и безопасности!\n\n📅 1 месяц:\n• 1 устройство — 69₽\n• 3 устройства — 179₽\n• 6 устройств — 359₽\n\n📅 3 месяца:\n• 1 устройство — 189₽\n• 3 устройства — 469₽\n• 6 устройств — 929₽\n\n📅 6 месяцев:\n• 1 устройство — 339₽\n• 3 устройства — 875₽\n• 6 устройств — 1 349₽\n\n📅 12 месяцев:\n• 1 устройство — 599₽\n• 3 устройства — 1 359₽\n• 6 устройств — 1 749₽\n\n🌟 У Вас уже активна подписка до 18 марта 2026 года 06:41:45! Вы всегда можете продлить её и продолжить пользоваться всеми преимуществами.', 'entities': [{'type': 'bold', 'length': 107, 'offset': 0}, {'type': 'bold', 'length': 11, 'offset': 109}, {'type': 'bold', 'length': 3, 'offset': 138}, {'type': 'bold', 'length': 4, 'offset': 159}, {'type': 'bold', 'length': 4, 'offset': 180}, {'type': 'bold', 'length': 12, 'offset': 186}, {'type': 'bold', 'length': 4, 'offset': 216}, {'type': 'bold', 'length': 4, 'offset': 238}, {'type': 'bold', 'length': 4, 'offset': 259}, {'type': 'bold', 'length': 13, 'offset': 265}, {'type': 'bold', 'length': 4, 'offset': 296}, {'type': 'bold', 'length': 4, 'offset': 318}, {'type': 'bold', 'length': 6, 'offset': 339}, {'type': 'bold', 'length': 14, 'offset': 347}, {'type': 'bold', 'length': 4, 'offset': 379}, {'type': 'bold', 'length': 6, 'offset': 401}, {'type': 'bold', 'length': 6, 'offset': 424}, {'type': 'bold', 'length': 27, 'offset': 465}], 'message_id': 8338, 'reply_markup': {'inline_keyboard': [[{'text': '1 м | 1 устр.', 'callback_data': 'buy_sub 69 1 1 1 м | 1 устр.'}, {'text': '1 м | 3 устр.', 'callback_data': 'buy_sub 179 1 3 1 м | 3 устр.'}, {'text': '1 м | 6 устр.', 'callback_data': 'buy_sub 359 1 6 1 м | 6 устр.'}], [{'text': '3 м | 1 устр.', 'callback_data': 'buy_sub 189 3 1 3 м | 1 устр.'}, {'text': '3 м | 3 устр.', 'callback_data': 'buy_sub 469 3 3 3 м | 3 устр.'}, {'text': '3 м | 6 устр.', 'callback_data': 'buy_sub 929 3 6 3 м | 6 устр.'}], [{'text': '6 м | 1 устр.', 'callback_data': 'buy_sub 339 6 1 6 м | 1 устр.'}, {'text': '6 м | 3 устр.', 'callback_data': 'buy_sub 875 6 3 6 м | 3 устр.'}, {'text': '6 м | 6 устр.', 'callback_data': 'buy_sub 1349 6 6 6 м | 6 устр.'}], [{'text': '12 м | 1 устр.', 'callback_data': 'buy_sub 599 12 1 12 м | 1 устр.'}, {'text': '12 м | 3 устр.', 'callback_data': 'buy_sub 1359 12 3 12 м | 3 устр.'}, {'text': '12 м | 6 устр.', 'callback_data': 'buy_sub 1749 12 6 12 м | 6 устр.'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 1012296171, 'is_bot': False, 'username': 'Leksahgg', 'first_name': 'fixx', 'is_premium': True, 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 1012296171 Leksahgg
+            call_data - profile ⚙️ Профиль
+            call_id - 4347778952137273908
+            message - {'chat': {'id': 1012296171, 'type': 'private', 'username': 'Leksahgg', 'first_name': 'fixx'}, 'date': 1771224613, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8339, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+----------------------------- TEXT OR COMMAND /start
+
+            user - user_object 5232974642 None
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 5232974642, 'type': 'private', 'first_name': 'Вячеслав'}, 'date': 1771226756, 'from': {'id': 5232974642, 'is_bot': False, 'first_name': 'Вячеслав', 'language_code': 'ru'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'length': 6, 'offset': 0}], 'message_id': 8341}
+Юзер 5232974642 пришёл без рефки
+ошибка при удалении A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be deleted for everyone
+----------------------------- TEXT OR COMMAND Возможно я что-то неправильно сделал с последним обновлением и vpn у меня не работает.  ?
+----------------------------- TEXT OR COMMAND /profile
+
+            user - user_object 5232974642 None
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 5232974642, 'type': 'private', 'first_name': 'Вячеслав'}, 'date': 1771226756, 'from': {'id': 5232974642, 'is_bot': False, 'first_name': 'Вячеслав', 'language_code': 'ru'}, 'text': '/profile', 'entities': [{'type': 'bot_command', 'length': 8, 'offset': 0}], 'message_id': 8342}
+
+
+user_data
+
+ {'id': 5232974642, 'is_bot': False, 'first_name': 'Вячеслав', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 5232974642 None
+            call_data - main_menu ⬅️ Назад
+            call_id - 4028710878763318692
+            message - {'chat': {'id': 5232974642, 'type': 'private', 'first_name': 'Вячеслав'}, 'date': 1771226756, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '⚙️ Профиль\n\nId: 5232974642\nUsername: @No_username\n\nРеферальная система:\n🎉 Приглашай друзей и получай 20% с каждого их оплаченного чека — всегда!\n\nВаша реферальная ссылка (Нажмите, чтобы скопировать):\nhttps://t.me/w_vpn_v2ray_bot?start=5232974642\n\nПолученная выручка с рефералов: 0.00 руб.', 'entities': [{'type': 'bold', 'length': 25, 'offset': 12}, {'type': 'mention', 'length': 12, 'offset': 37}, {'type': 'bold', 'length': 12, 'offset': 37}, {'type': 'bold', 'length': 20, 'offset': 51}, {'type': 'bold', 'length': 43, 'offset': 102}, {'type': 'code', 'length': 45, 'offset': 201}, {'type': 'bold', 'length': 7, 'offset': 259}, {'type': 'bold', 'length': 9, 'offset': 280}], 'message_id': 8345, 'reply_markup': {'inline_keyboard': [[{'url': 'https://wvpn.fr2.xraygopaydonat1.ru:9081/sub/NTIzMjk3NDY0MiwxNzcwODI0NzEwpkGEcxNFxi', 'text': '🚀 VPN Профиль'}], [{'url': 'https://t.me/Dmitriy_prog', 'text': '💵 Запросить средства'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 5232974642, 'is_bot': False, 'first_name': 'Вячеслав', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER <b>🌐 Актуальные тарифы W VPN: 🌐
+
+🔒 Безлимитное и... (Состояние: subscription)
+
+            user - user_object 5232974642 None
+            call_data - subscription 💳 Подписка
+            call_id - 4028710877266415219
+            message - {'chat': {'id': 5232974642, 'type': 'private', 'first_name': 'Вячеслав'}, 'date': 1771226975, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8346, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+user.subscription True
+
+
+user_data
+
+ {'id': 5232974642, 'is_bot': False, 'first_name': 'Вячеслав', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 5232974642 None
+            call_data - main_menu ⬅️ Назад
+            call_id - 4028710874905121677
+            message - {'chat': {'id': 5232974642, 'type': 'private', 'first_name': 'Вячеслав'}, 'date': 1771227058, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🌐 Актуальные тарифы W VPN: 🌐\n\n🔒 Безлимитное и защищённое подключение для вашего комфорта и безопасности!\n\n📅 1 месяц:\n• 1 устройство — 69₽\n• 3 устройства — 179₽\n• 6 устройств — 359₽\n\n📅 3 месяца:\n• 1 устройство — 189₽\n• 3 устройства — 469₽\n• 6 устройств — 929₽\n\n📅 6 месяцев:\n• 1 устройство — 339₽\n• 3 устройства — 875₽\n• 6 устройств — 1 349₽\n\n📅 12 месяцев:\n• 1 устройство — 599₽\n• 3 устройства — 1 359₽\n• 6 устройств — 1 749₽\n\n🌟 У Вас уже активна подписка до 28 апреля 2026 года 16:23:45! Вы всегда можете продлить её и продолжить пользоваться всеми преимуществами.', 'entities': [{'type': 'bold', 'length': 107, 'offset': 0}, {'type': 'bold', 'length': 11, 'offset': 109}, {'type': 'bold', 'length': 3, 'offset': 138}, {'type': 'bold', 'length': 4, 'offset': 159}, {'type': 'bold', 'length': 4, 'offset': 180}, {'type': 'bold', 'length': 12, 'offset': 186}, {'type': 'bold', 'length': 4, 'offset': 216}, {'type': 'bold', 'length': 4, 'offset': 238}, {'type': 'bold', 'length': 4, 'offset': 259}, {'type': 'bold', 'length': 13, 'offset': 265}, {'type': 'bold', 'length': 4, 'offset': 296}, {'type': 'bold', 'length': 4, 'offset': 318}, {'type': 'bold', 'length': 6, 'offset': 339}, {'type': 'bold', 'length': 14, 'offset': 347}, {'type': 'bold', 'length': 4, 'offset': 379}, {'type': 'bold', 'length': 6, 'offset': 401}, {'type': 'bold', 'length': 6, 'offset': 424}, {'type': 'bold', 'length': 28, 'offset': 465}], 'message_id': 8347, 'reply_markup': {'inline_keyboard': [[{'text': '1 м | 1 устр.', 'callback_data': 'buy_sub 69 1 1 1 м | 1 устр.'}, {'text': '1 м | 3 устр.', 'callback_data': 'buy_sub 179 1 3 1 м | 3 устр.'}, {'text': '1 м | 6 устр.', 'callback_data': 'buy_sub 359 1 6 1 м | 6 устр.'}], [{'text': '3 м | 1 устр.', 'callback_data': 'buy_sub 189 3 1 3 м | 1 устр.'}, {'text': '3 м | 3 устр.', 'callback_data': 'buy_sub 469 3 3 3 м | 3 устр.'}, {'text': '3 м | 6 устр.', 'callback_data': 'buy_sub 929 3 6 3 м | 6 устр.'}], [{'text': '6 м | 1 устр.', 'callback_data': 'buy_sub 339 6 1 6 м | 1 устр.'}, {'text': '6 м | 3 устр.', 'callback_data': 'buy_sub 875 6 3 6 м | 3 устр.'}, {'text': '6 м | 6 устр.', 'callback_data': 'buy_sub 1349 6 6 6 м | 6 устр.'}], [{'text': '12 м | 1 устр.', 'callback_data': 'buy_sub 599 12 1 12 м | 1 устр.'}, {'text': '12 м | 3 устр.', 'callback_data': 'buy_sub 1359 12 3 12 м | 3 устр.'}, {'text': '12 м | 6 устр.', 'callback_data': 'buy_sub 1749 12 6 12 м | 6 устр.'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+
+
+user_data
+
+ {'id': 5232974642, 'is_bot': False, 'first_name': 'Вячеслав', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 5232974642 None
+            call_data - profile ⚙️ Профиль
+            call_id - 4028710877810203303
+            message - {'chat': {'id': 5232974642, 'type': 'private', 'first_name': 'Вячеслав'}, 'date': 1771227084, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8348, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+
+
+user_data
+
+ {'id': 1268321038, 'is_bot': False, 'username': 'ZloeGen', 'last_name': '𝕏Genie', 'first_name': 'Zloe', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 1268321038 ZloeGen
+            call_data - profile ⚙️ Профиль
+            call_id - 5447397379182572259
+            message - {'chat': {'id': 1268321038, 'type': 'private', 'username': 'ZloeGen', 'last_name': '𝕏Genie', 'first_name': 'Zloe'}, 'date': 1770886797, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 7967, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+ошибка при удалении A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message can't be deleted for everyone
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER ⚙️ Профиль
+
+<b>Id: {val.user_id}
+Username: @{va... (Состояние: profile)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - profile ⚙️ Профиль
+            call_id - 9146683986113736371
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771196429, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '🏠 Главное меню', 'message_id': 8313, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+
+
+user_data
+
+ {'id': 6424595615, 'is_bot': False, 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog', 'language_code': 'ru'}
+---------------STATE из NEW_WORKER 🏠 Главное меню... (Состояние: main_menu)
+
+            user - user_object 6424595615 Dmitriy_prog
+            call_data - main_menu ⬅️ Назад
+            call_id - 9146683984138769033
+            message - {'chat': {'id': 6424595615, 'type': 'private', 'username': 'Dmitriy_prog', 'first_name': 'Дмитрий Prog'}, 'date': 1771232210, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '⚙️ Профиль\n\nId: 6424595615\nUsername: @Dmitriy_prog\n\nРеферальная система:\n🎉 Приглашай друзей и получай 20% с каждого их оплаченного чека — всегда!\n\nВаша реферальная ссылка (Нажмите, чтобы скопировать):\nhttps://t.me/w_vpn_v2ray_bot?start=6424595615\n\nПолученная выручка с рефералов: 0.00 руб.', 'entities': [{'type': 'bold', 'length': 25, 'offset': 12}, {'type': 'mention', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 13, 'offset': 37}, {'type': 'bold', 'length': 20, 'offset': 52}, {'type': 'bold', 'length': 43, 'offset': 103}, {'type': 'code', 'length': 45, 'offset': 202}, {'type': 'bold', 'length': 7, 'offset': 260}, {'type': 'bold', 'length': 9, 'offset': 281}], 'message_id': 8351, 'reply_markup': {'inline_keyboard': [[{'url': 'https://wvpn.fr2.xraygopaydonat1.ru:9081/sub/NjQyNDU5NTYxNSwxNzcwODIzODc2dNJeVZZs7S', 'text': '🚀 VPN Профиль'}], [{'url': 'https://t.me/Dmitriy_prog', 'text': '💵 Запросить средства'}], [{'text': '⬅️ Назад', 'callback_data': 'main_menu ⬅️ Назад'}]]}}
+Создан новый пользователь с ID 752021281
+----------------------------- TEXT OR COMMAND /start
+
+            user - user_object 752021281 ionewa
+            call_data - None
+            call_id - None
+            message - {'chat': {'id': 752021281, 'type': 'private', 'username': 'ionewa', 'first_name': 'Даниил'}, 'date': 1771232399, 'from': {'id': 752021281, 'is_bot': False, 'username': 'ionewa', 'first_name': 'Даниил', 'is_premium': True, 'language_code': 'ru'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'length': 6, 'offset': 0}], 'message_id': 8353}
+Юзер 752021281 пришёл без рефки
+
+
+user_data
+
+ {'id': 752021281, 'is_bot': False, 'username': 'ionewa', 'first_name': 'Даниил', 'is_premium': True, 'language_code': 'ru'}
+---------------STATE из NEW_WORKER <b>🌐 Актуальные тарифы W VPN: 🌐
+
+🔒 Безлимитное и... (Состояние: subscription)
+
+            user - user_object 752021281 ionewa
+            call_data - subscription 💳 Подписка
+            call_id - 3229906809979176457
+            message - {'chat': {'id': 752021281, 'type': 'private', 'username': 'ionewa', 'first_name': 'Даниил'}, 'date': 1771232399, 'from': {'id': 8172832353, 'is_bot': True, 'username': 'w_vpn_v2ray_bot', 'first_name': 'W VPN (V2Ray)'}, 'text': '👋 Добро пожаловать в W VPN BOT!\nМы рады видеть вас! 🌟 С нами вы можете наслаждаться безопасным, быстрым и стабильным VPN-соединением, где бы вы ни находились. 🔒🌍\n\n🎯 Что вы найдете у нас?\n • Полный доступ к любимым сайтам и приложениям.\n • Надежную защиту ваших данных.\n • Быструю и удобную работу без ограничений.\n\n💬 По всем вопросам: @Dmitriy_prog\nНачните использовать W VPN и откройте для себя новый уровень свободы в интернете. 🚀', 'entities': [{'type': 'bold', 'length': 10, 'offset': 22}, {'type': 'mention', 'length': 13, 'offset': 341}], 'message_id': 8354, 'reply_markup': {'inline_keyboard': [[{'text': '💳 Подписка', 'callback_data': 'subscription 💳 Подписка'}], [{'text': '🎉 Пробный период', 'callback_data': 'free_sub 🎉 Пробный период'}], [{'text': '✅ Установка', 'callback_data': 'download ✅ Установка'}, {'text': '⚙️ Профиль', 'callback_data': 'profile ⚙️ Профиль'}], [{'url': 'https://t.me/W_VPN_PROXY', 'text': '📢 Наш канал'}, {'url': 'https://telegra.ph/Politika-konfidencialnosti-W-VPN-01-22', 'text': '📄 Согласие'}], [{'url': 'https://telegra.ph/Instrukciya-polzovaniya-podpiskoj-01-09', 'text': '📖 Инструкция'}, {'text': '❤️ Поддержать', 'callback_data': 'support_project ❤️ Поддержать'}]]}}
+user.subscription False
+----------------------------- TEXT OR COMMAND /profile
