@@ -16160,3 +16160,1662 @@ Bad Request: /http:/clientapi.ipip.net/echo.php
 [16/Feb/2026 15:35:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 [16/Feb/2026 15:35:14] "GET /admin/bot/botuser/? HTTP/1.1" 200 84033
 [16/Feb/2026 15:35:14] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[16/Feb/2026 17:24:25] "GET /admin/bot/botuser/? HTTP/1.1" 200 84033
+[16/Feb/2026 17:24:26] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[16/Feb/2026 17:24:29] "GET /admin/bot/botuser/?q=%40Leksahgg HTTP/1.1" 200 16471
+[16/Feb/2026 17:24:29] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[16/Feb/2026 17:24:31] "GET /admin/bot/botuser/?q=Leksahgg HTTP/1.1" 200 18807
+[16/Feb/2026 17:24:32] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[16/Feb/2026 17:24:33] "GET /admin/bot/botuser/93/change/?_changelist_filters=q%3DLeksahgg HTTP/1.1" 200 29552
+[16/Feb/2026 17:24:33] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[16/Feb/2026 17:26:19] "POST /admin/bot/botuser/93/change/?_changelist_filters=q%3DLeksahgg HTTP/1.1" 302 0
+[16/Feb/2026 17:26:19] "GET /admin/bot/botuser/?q=Leksahgg HTTP/1.1" 200 19066
+[16/Feb/2026 17:26:19] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[16/Feb/2026 17:26:20] "GET /admin/bot/botuser/93/change/?_changelist_filters=q%3DLeksahgg HTTP/1.1" 200 29552
+[16/Feb/2026 17:26:20] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[16/Feb/2026 17:28:58] "POST /admin/bot/botuser/93/change/?_changelist_filters=q%3DLeksahgg HTTP/1.1" 302 0
+[16/Feb/2026 17:28:58] "GET /admin/bot/botuser/?q=Leksahgg HTTP/1.1" 200 19066
+[16/Feb/2026 17:29:00] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[16/Feb/2026 21:36:35] code 400, message Bad request syntax ('ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x7f\x03\x01NULL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Feb/2026 21:36:35] "ÿ        NULL                                                " 400 -
+[16/Feb/2026 21:36:42] code 400, message Bad request syntax ('ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x7f\x03\x01NULL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Feb/2026 21:36:42] "ÿ        NULL                                                " 400 -
+[16/Feb/2026 21:36:57] code 400, message Bad request syntax ('ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x7f\x03\x01NULL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Feb/2026 21:36:57] "ÿ        NULL                                                " 400 -
+[16/Feb/2026 21:37:03] code 400, message Bad request syntax ('ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x7f\x03\x01NULL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Feb/2026 21:37:03] "ÿ        NULL                                                " 400 -
+[16/Feb/2026 21:37:04] code 400, message Bad request syntax ('ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x7f\x03\x01NULL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Feb/2026 21:37:04] "ÿ        NULL                                                " 400 -
+[16/Feb/2026 21:37:19] code 400, message Bad request syntax ('ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x7f\x03\x01NULL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Feb/2026 21:37:19] "ÿ        NULL                                                " 400 -
+[16/Feb/2026 21:37:21] code 400, message Bad request syntax ('ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x7f\x03\x01NULL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Feb/2026 21:37:21] "ÿ        NULL                                                " 400 -
+[16/Feb/2026 21:37:26] code 400, message Bad request syntax ('ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x7f\x03\x01NULL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Feb/2026 21:37:26] "ÿ        NULL                                                " 400 -
+Not Found: /
+[16/Feb/2026 21:37:29] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[16/Feb/2026 21:37:30] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[16/Feb/2026 21:37:31] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /
+[16/Feb/2026 21:37:31] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[16/Feb/2026 21:37:32] "GET /favicon.ico HTTP/1.1" 404 2577
+[16/Feb/2026 21:37:34] code 400, message Bad request version ('À\x13À')
+[16/Feb/2026 21:37:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Feb/2026 21:37:35] code 400, message Bad request version ('À\x13À')
+[16/Feb/2026 21:37:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Feb/2026 21:37:36] code 400, message Bad request version ('À\x13À')
+[16/Feb/2026 21:37:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[16/Feb/2026 21:37:36] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[16/Feb/2026 21:37:37] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[16/Feb/2026 21:37:38] "GET /favicon.ico HTTP/1.1" 404 2577
+[16/Feb/2026 21:37:40] code 400, message Bad request syntax ('ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x7f\x03\x01NULL\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Feb/2026 21:37:40] "ÿ        NULL                                                " 400 -
+Not Found: /
+[16/Feb/2026 21:37:48] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[16/Feb/2026 21:37:50] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[16/Feb/2026 21:37:51] "GET /favicon.ico HTTP/1.1" 404 2577
+[16/Feb/2026 23:44:48] code 400, message Bad request version ('¤LµÜ')
+[16/Feb/2026 23:44:48] You're accessing the development server over HTTPS, but it only supports HTTP.
+Invalid HTTP_HOST header: 'vpn.boboba.ru:9000'. You may need to add 'vpn.boboba.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'vpn.boboba.ru:9000'. You may need to add 'vpn.boboba.ru' to ALLOWED_HOSTS.
+Bad Request: /
+[16/Feb/2026 23:45:03] "GET / HTTP/1.1" 400 60127
+[17/Feb/2026 03:48:17,522] - Broken pipe from ('82.147.88.88', 49122)
+[17/Feb/2026 03:53:04] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+[17/Feb/2026 03:53:04] "  à          " 400 -
+[17/Feb/2026 04:00:41] code 400, message Bad request version ('À\x14À')
+[17/Feb/2026 04:00:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[17/Feb/2026 04:00:46] "GET / HTTP/1.1" 404 2526
+[17/Feb/2026 04:00:48] code 505, message Invalid HTTP version (2.0)
+[17/Feb/2026 04:00:48] "PRI * HTTP/2.0" 505 -
+[17/Feb/2026 04:01:52] code 400, message Bad request version ('À\x14À')
+[17/Feb/2026 04:01:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /sitemap.xml
+[17/Feb/2026 04:01:53] "GET /sitemap.xml HTTP/1.1" 404 2577
+Invalid HTTP_HOST header: 'fr2.play2go.cloud:9000'. You may need to add 'fr2.play2go.cloud' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'fr2.play2go.cloud:9000'. You may need to add 'fr2.play2go.cloud' to ALLOWED_HOSTS.
+Bad Request: /
+[17/Feb/2026 04:22:01] "GET / HTTP/1.1" 400 59319
+[17/Feb/2026 05:46:50] code 400, message Bad request version ('À#À¬À®À+À')
+[17/Feb/2026 05:46:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[17/Feb/2026 05:46:53] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[17/Feb/2026 05:49:20] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /
+[17/Feb/2026 05:54:43] "GET / HTTP/1.1" 404 2526
+Invalid HTTP_HOST header: 'vpn.boboba.ru'. You may need to add 'vpn.boboba.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'vpn.boboba.ru'. You may need to add 'vpn.boboba.ru' to ALLOWED_HOSTS.
+Bad Request: /
+[17/Feb/2026 06:07:03] "GET / HTTP/1.1" 400 59800
+[17/Feb/2026 08:06:47] code 400, message Bad request version ('À\x14À')
+[17/Feb/2026 08:06:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[17/Feb/2026 08:47:45] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[17/Feb/2026 08:49:46] "GET / HTTP/1.1" 404 2526
+[17/Feb/2026 08:51:00] code 400, message Bad request version ('À\x14À')
+[17/Feb/2026 08:51:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[17/Feb/2026 08:52:26] code 400, message Bad request syntax ('SSH-2.0-Go')
+[17/Feb/2026 08:52:26] "SSH-2.0-Go" 400 -
+[17/Feb/2026 08:53:43] code 400, message Bad request version ('À\x14À')
+[17/Feb/2026 08:53:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+Watching for file changes with StatReloader
+[17/Feb/2026 09:20:14] code 400, message Bad request syntax ('SSH-2.0-Go')
+[17/Feb/2026 09:20:14] "SSH-2.0-Go" 400 -
+[17/Feb/2026 09:20:14] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[17/Feb/2026 09:20:14] "MGLNDD_193.58.121.190_9000" 400 -
+[17/Feb/2026 10:11:20] "GET /admin/bot/botuser/ HTTP/1.1" 200 84027
+[17/Feb/2026 10:11:20] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 10:11:21] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[17/Feb/2026 10:11:21] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[17/Feb/2026 10:11:22] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[17/Feb/2026 10:11:22] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[17/Feb/2026 10:11:22] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[17/Feb/2026 10:54:30] "GET /admin/bot/botuser/ HTTP/1.1" 302 0
+Not Found: /apple-touch-icon-precomposed.png
+[17/Feb/2026 10:54:30] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+Not Found: /favicon.ico
+[17/Feb/2026 10:54:30] "GET /favicon.ico HTTP/1.1" 404 2577
+[17/Feb/2026 10:54:30] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+[17/Feb/2026 10:54:30] "GET /admin/login/?next=/admin/bot/botuser/ HTTP/1.1" 200 4386
+Watching for file changes with StatReloader
+[17/Feb/2026 11:46:29] code 400, message Bad request version ('php://input')
+[17/Feb/2026 11:46:29] "            Â GATEWAY_INTERFACEFastCGI/1.0	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[17/Feb/2026 11:46:29] code 400, message Bad request version ('php://input')
+[17/Feb/2026 11:46:29] "            Ì GATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTDOCUMENT_ROOT/SCRIPT_NAME/usr/share/php/PEAR.phpSERVER_PORT80SERVER_PROTOCOLHTTP/1.1	SERVER_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[17/Feb/2026 11:46:30] code 400, message Bad request version ('php://input')
+[17/Feb/2026 11:46:30] "            Ô REMOTE_PORT9985	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[17/Feb/2026 11:46:30] code 400, message Bad request version ('php://input')
+[17/Feb/2026 11:46:30] "            ä #SCRIPT_NAME/opt/bitnami/php/lib/php/System.phpSERVER_PORT80DOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1	SERVER_NAMElocalhostCONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOST QUERY_STRINGSERVER_SOFTWAREphp/fcgiclientCONTENT_LENGTH52GATEWAY_INTERFACEFastCGI/1.0#SCRIPT_FILENAME/opt/bitnami/php/lib/php/System.phpSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[17/Feb/2026 11:46:30] code 400, message Bad request version ('php://input')
+[17/Feb/2026 11:46:30] "            Ø  GATEWAY_INTERFACEFastCGI/1.0	REMOTE_ADDR127.0.0.1REMOTE_PORT9985SERVER_PORT80SERVER_PROTOCOLHTTP/1.1SCRIPT_FILENAME/usr/local/lib/php/System.phpSERVER_SOFTWAREphp/fcgiclientCONTENT_TYPEapplication/textREQUEST_METHODPOSTSCRIPT_NAME/usr/local/lib/php/System.php QUERY_STRINGDOCUMENT_ROOT/CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[17/Feb/2026 11:46:31] code 400, message Bad request version ('php://input')
+[17/Feb/2026 11:46:31] "            Ì 	REMOTE_ADDR127.0.0.1SERVER_PORT80CONTENT_LENGTH52DOCUMENT_ROOT/REQUEST_METHODPOSTSCRIPT_NAME/var/www/html/index.php QUERY_STRING	SERVER_ADDR127.0.0.1CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0SCRIPT_FILENAME/var/www/html/index.phpSERVER_SOFTWAREphp/fcgiclientREMOTE_PORT9985	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[17/Feb/2026 11:46:31] code 400, message Bad request version ('php://input')
+[17/Feb/2026 11:46:31] "            º SERVER_PROTOCOLHTTP/1.1GATEWAY_INTERFACEFastCGI/1.0DOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1 QUERY_STRINGSERVER_SOFTWAREphp/fcgiclientREMOTE_PORT9985SERVER_PORT80PHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOSTSCRIPT_FILENAME/app/index.phpSCRIPT_NAME/app/index.php	SERVER_NAMElocalhostCONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[17/Feb/2026 11:46:31] code 400, message Bad request version ('php://input')
+[17/Feb/2026 11:46:31] "            È  CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/app/public/index.phpDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclientSERVER_PORT80 QUERY_STRINGREMOTE_PORT9985REQUEST_METHODPOST	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostCONTENT_LENGTH52SCRIPT_FILENAME/app/public/index.phpSERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[17/Feb/2026 11:46:32] code 400, message Bad request version ('php://input')
+[17/Feb/2026 11:46:32] "            Î SERVER_SOFTWAREphp/fcgiclientSERVER_PROTOCOLHTTP/1.1SCRIPT_NAME/usr/local/bin/phar.phar	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhost	REMOTE_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[17/Feb/2026 11:56:12] "GET /admin/bot/botuser/ HTTP/1.1" 200 83991
+[17/Feb/2026 11:56:13] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:56:17] "GET /admin/bot/paymentreferal/ HTTP/1.1" 200 33735
+[17/Feb/2026 11:56:17] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+Not Found: /apple-touch-icon.png
+[17/Feb/2026 11:56:17] "GET /favicon.ico HTTP/1.1" 404 2577
+[17/Feb/2026 11:56:17] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /apple-touch-icon-precomposed.png
+[17/Feb/2026 11:56:17] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[17/Feb/2026 11:56:19] "GET /admin/bot/referal/ HTTP/1.1" 200 28734
+[17/Feb/2026 11:56:19] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:56:22] "GET /admin/bot/botuser/ HTTP/1.1" 200 83991
+[17/Feb/2026 11:56:23] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:56:35] "GET /admin/bot/botuser/?q=dmdekan HTTP/1.1" 200 18790
+[17/Feb/2026 11:56:35] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:56:44] "GET /admin/bot/referal/ HTTP/1.1" 200 28734
+[17/Feb/2026 11:56:44] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:56:49] "GET /admin/bot/referal/?o=2 HTTP/1.1" 200 29829
+[17/Feb/2026 11:56:49] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:56:49] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[17/Feb/2026 11:56:56] "GET /admin/bot/referal/17/change/?_changelist_filters=o%3D2 HTTP/1.1" 200 42860
+[17/Feb/2026 11:56:56] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[17/Feb/2026 11:56:56] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[17/Feb/2026 11:56:56] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[17/Feb/2026 11:56:56] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:56:56] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[17/Feb/2026 11:56:56] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[17/Feb/2026 11:57:40] "GET /admin/bot/referal/ HTTP/1.1" 200 28734
+[17/Feb/2026 11:57:40] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:57:43] "GET /admin/bot/referal/30/change/ HTTP/1.1" 200 42772
+[17/Feb/2026 11:57:44] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:57:57] "GET /admin/bot/botuser/28/change/?_to_field=id HTTP/1.1" 200 29513
+[17/Feb/2026 11:57:57] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[17/Feb/2026 11:57:57] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:57:57] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[17/Feb/2026 11:57:58] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[17/Feb/2026 11:57:58] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[17/Feb/2026 11:58:17] "GET /admin/bot/botuser/28/change/?_to_field=id HTTP/1.1" 200 29513
+[17/Feb/2026 11:58:17] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:58:25] "GET /admin/bot/paymentreferal/ HTTP/1.1" 200 33735
+[17/Feb/2026 11:58:26] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:58:32] "GET /admin/bot/paymentreferal/43/change/ HTTP/1.1" 200 18229
+[17/Feb/2026 11:58:32] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:58:37] "GET /admin/bot/referal/27/change/?_to_field=id HTTP/1.1" 200 42821
+[17/Feb/2026 11:58:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:58:52] "GET /admin/bot/referal/ HTTP/1.1" 200 28734
+[17/Feb/2026 11:58:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:58:58] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25899
+[17/Feb/2026 11:58:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 11:58:59] "GET /admin/bot/botuser/ HTTP/1.1" 200 83991
+[17/Feb/2026 11:59:00] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /
+[17/Feb/2026 12:25:55] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[17/Feb/2026 12:25:55] "GET /favicon.ico HTTP/1.1" 404 2572
+[17/Feb/2026 14:51:43] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[17/Feb/2026 14:51:43] "MGLNDD_193.58.121.190_9000" 400 -
+[17/Feb/2026 14:57:52] "GET /admin/bot/paymentreferal/ HTTP/1.1" 200 33735
+[17/Feb/2026 14:57:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+[17/Feb/2026 14:57:52] "GET /favicon.ico HTTP/1.1" 404 2577
+[17/Feb/2026 14:57:54] "GET /admin/bot/referal/ HTTP/1.1" 200 28734
+[17/Feb/2026 14:57:54] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 14:58:18] "GET /admin/bot/referal/30/change/ HTTP/1.1" 200 42772
+[17/Feb/2026 14:58:19] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 14:58:23] "GET /admin/bot/referal/30/change/ HTTP/1.1" 200 42772
+[17/Feb/2026 14:58:23] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 14:58:26] "GET /admin/bot/botuser/28/change/?_to_field=id HTTP/1.1" 200 29513
+[17/Feb/2026 14:58:26] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 14:58:50] "GET /admin/bot/botuser/ HTTP/1.1" 200 83997
+[17/Feb/2026 14:58:50] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /apple-touch-icon-precomposed.png
+[17/Feb/2026 14:58:50] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[17/Feb/2026 14:58:50] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[17/Feb/2026 14:58:50] "GET /favicon.ico HTTP/1.1" 404 2577
+[17/Feb/2026 15:04:57] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 200 17129
+[17/Feb/2026 15:04:57] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 15:05:00] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25899
+[17/Feb/2026 15:05:00] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 15:05:05] "GET /admin/bot/bot_message/1/change/ HTTP/1.1" 200 73105
+[17/Feb/2026 15:05:05] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 15:05:05] "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+[17/Feb/2026 15:05:05] "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+[17/Feb/2026 15:05:11] "GET /admin/bot/bot_message/11/change/ HTTP/1.1" 200 34156
+[17/Feb/2026 15:05:11] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Invalid HTTP_HOST header: 'fr2.play2go.cloud:9000'. You may need to add 'fr2.play2go.cloud' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'fr2.play2go.cloud:9000'. You may need to add 'fr2.play2go.cloud' to ALLOWED_HOSTS.
+Bad Request: /
+[17/Feb/2026 15:56:47] "GET / HTTP/1.0" 400 60026
+[17/Feb/2026 15:57:30] code 400, message Bad request version ('À\x13À')
+[17/Feb/2026 15:57:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[17/Feb/2026 15:57:30] "GET / HTTP/1.1" 404 2526
+Not Found: /aaa9
+[17/Feb/2026 15:57:30] "GET /aaa9 HTTP/1.1" 404 2556
+[17/Feb/2026 15:57:30] code 400, message Bad request version ('À\x13À')
+[17/Feb/2026 15:57:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /aab9
+[17/Feb/2026 15:57:30] "GET /aab9 HTTP/1.1" 404 2556
+Not Found: /
+[17/Feb/2026 15:57:31] "GET / HTTP/1.1" 404 2526
+[17/Feb/2026 15:57:40,737] - Broken pipe from ('80.82.77.202', 41846)
+[17/Feb/2026 15:57:51] code 400, message Bad request version ('À\x13À')
+[17/Feb/2026 15:57:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /aaa9
+[17/Feb/2026 15:57:51] "GET /aaa9 HTTP/1.1" 404 2556
+[17/Feb/2026 15:57:51] code 400, message Bad request version ('À\x13À')
+[17/Feb/2026 15:57:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /aab9
+[17/Feb/2026 15:57:51] "GET /aab9 HTTP/1.1" 404 2556
+[17/Feb/2026 15:59:20] code 400, message Bad request version ('¼©\x03\x07default\x07default\x00')
+[17/Feb/2026 15:59:20] " -clickhouse-go/2.30.3 (lv:go/1.23.4; os:linux)¼©defaultdefault " 400 -
+[17/Feb/2026 17:31:09,364] - Broken pipe from ('167.94.146.53', 20472)
+[17/Feb/2026 17:31:09] code 400, message Bad request version ('À\x14À')
+[17/Feb/2026 17:31:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[17/Feb/2026 17:31:12] "GET / HTTP/1.1" 404 2526
+[17/Feb/2026 17:31:12,378] - Broken pipe from ('167.94.146.53', 20536)
+[17/Feb/2026 17:31:16] code 400, message Bad request version ('À\x14À')
+[17/Feb/2026 17:31:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[17/Feb/2026 17:31:23] "GET / HTTP/1.1" 404 2526
+[17/Feb/2026 17:31:24] code 505, message Invalid HTTP version (2.0)
+[17/Feb/2026 17:31:24] "PRI * HTTP/2.0" 505 -
+[17/Feb/2026 17:31:28] code 400, message Bad request version ('À\x14À')
+[17/Feb/2026 17:31:28] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /.well-known/security.txt
+[17/Feb/2026 17:31:28] "GET /.well-known/security.txt HTTP/1.1" 404 2616
+[17/Feb/2026 17:35:33] code 400, message Bad request syntax ('SSH-2.0-Go')
+[17/Feb/2026 17:35:33] "SSH-2.0-Go" 400 -
+[17/Feb/2026 17:35:34] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[17/Feb/2026 17:35:34] "MGLNDD_193.58.121.190_9000" 400 -
+[17/Feb/2026 19:15:47] "GET /admin/bot/bot_message/11/change/ HTTP/1.1" 200 34156
+[17/Feb/2026 19:15:47] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 19:15:49] "GET /admin/bot/botuser/ HTTP/1.1" 200 83995
+[17/Feb/2026 19:15:49] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+[17/Feb/2026 19:15:50] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon.png
+[17/Feb/2026 19:15:50] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /apple-touch-icon-precomposed.png
+[17/Feb/2026 19:15:50] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[17/Feb/2026 19:15:52] "GET /admin/bot/botuser/?q=881353755 HTTP/1.1" 200 18847
+[17/Feb/2026 19:15:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 19:17:24] "GET /admin/bot/botuser/127/change/?_changelist_filters=q%3D881353755 HTTP/1.1" 200 29574
+[17/Feb/2026 19:17:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 19:18:20] "GET /admin/bot/botuser/ HTTP/1.1" 200 83995
+[17/Feb/2026 19:18:21] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 19:18:22] "GET /admin/bot/botuser/?q=8042828357 HTTP/1.1" 200 18854
+[17/Feb/2026 19:18:23] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 19:18:25] "GET /admin/bot/botuser/198/change/?_changelist_filters=q%3D8042828357 HTTP/1.1" 200 29541
+[17/Feb/2026 19:18:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 19:42:42] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[17/Feb/2026 19:42:42] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+[17/Feb/2026 19:42:49] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[17/Feb/2026 19:42:49] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+Not Found: /
+[17/Feb/2026 22:39:58] "GET / HTTP/1.0" 404 2521
+Not Found: /
+[17/Feb/2026 22:53:23] "GET / HTTP/1.0" 404 2521
+[17/Feb/2026 22:58:57] "GET /admin/bot/botuser/ HTTP/1.1" 200 84002
+[17/Feb/2026 22:58:57] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /apple-touch-icon.png
+[17/Feb/2026 22:58:58] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /apple-touch-icon-precomposed.png
+[17/Feb/2026 22:58:58] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /favicon.ico
+[17/Feb/2026 22:58:59] "GET /favicon.ico HTTP/1.1" 404 2577
+[17/Feb/2026 22:59:31] "GET /admin/bot/botuser/?q=7814826608 HTTP/1.1" 200 18845
+[17/Feb/2026 22:59:32] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 22:59:36] "GET /admin/bot/botuser/63/change/?_changelist_filters=q%3D7814826608 HTTP/1.1" 200 29479
+[17/Feb/2026 22:59:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[17/Feb/2026 22:59:57] "GET /admin/bot/botuser/ HTTP/1.1" 200 84002
+[17/Feb/2026 22:59:58] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /
+[17/Feb/2026 23:40:07] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[18/Feb/2026 04:59:17] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 04:59:17] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[18/Feb/2026 04:59:17] "MGLNDD_193.58.121.190_9000" 400 -
+[18/Feb/2026 05:12:04] code 400, message Bad request version ('õ\x9b60-\x05#!\x9cs[ü\x02')
+[18/Feb/2026 05:12:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[18/Feb/2026 05:12:04] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[18/Feb/2026 05:20:20] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 05:20:21] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[18/Feb/2026 05:20:21] "MGLNDD_193.58.121.190_9000" 400 -
+[18/Feb/2026 05:37:21] code 400, message Bad request version ('\x14²"\x80ÕÑ!qõÒl¦d\x00\\\x13\x02\x13\x03\x13\x01À,À0Ì©Ì¨À¯À\xadÀ]ÀaÀ+À/À®À¬À\\À`À$À(ÀsÀwÀ#À\'ÀrÀvÀ')
+[18/Feb/2026 05:37:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[18/Feb/2026 05:37:21] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 05:37:34] code 400, message Bad request version ("íÞðÀ¶ïÁU.õ¸ß0\x81\x00\\\x13\x02\x13\x03\x13\x01À,À0Ì©Ì¨À¯À\xadÀ]ÀaÀ+À/À®À¬À\\À`À$À(ÀsÀwÀ#À'ÀrÀvÀ")
+[18/Feb/2026 05:37:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[18/Feb/2026 05:37:34] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 05:41:53] code 400, message Bad request version ("\x00\\\x13\x02\x13\x03\x13\x01À,À0Ì©Ì¨À¯À\xadÀ]ÀaÀ+À/À®À¬À\\À`À$À(ÀsÀwÀ#À'ÀrÀvÀ")
+[18/Feb/2026 05:41:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[18/Feb/2026 05:41:53] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 05:47:03] code 400, message Bad request version ("$Ë´9ôI¹Ã¨|\x12ë\x81ÝqÎ+\x06.º\x9d8\x14Èåo8:ÖÄ\x00\\\x13\x02\x13\x03\x13\x01À,À0Ì©Ì¨À¯À\xadÀ]ÀaÀ+À/À®À¬À\\À`À$À(ÀsÀwÀ#À'ÀrÀvÀ")
+[18/Feb/2026 05:47:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[18/Feb/2026 05:47:03] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 06:05:42] code 400, message Bad request version ('wzûãc\x87q¥Á\x8eT})Aºê\x8c*Dº_Ê\x03¸ÿ¬bÍxÐ\x84"\x00\\\x13\x02\x13\x03\x13\x01À,À0Ì©Ì¨À¯À\xadÀ]ÀaÀ+À/À®À¬À\\À`À$À(ÀsÀwÀ#À\'ÀrÀvÀ')
+[18/Feb/2026 06:05:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[18/Feb/2026 06:05:42] "GET / HTTP/1.1" 404 2526
+Invalid HTTP_HOST header: 'wvpn.fr2.xraygopaydonat1.ru'. You may need to add 'wvpn.fr2.xraygopaydonat1.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'wvpn.fr2.xraygopaydonat1.ru'. You may need to add 'wvpn.fr2.xraygopaydonat1.ru' to ALLOWED_HOSTS.
+Bad Request: /
+[18/Feb/2026 07:55:21] "GET / HTTP/1.1" 400 60018
+Not Found: /
+[18/Feb/2026 09:09:12] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[18/Feb/2026 09:11:32] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 09:13:51] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03,üv;\x9e¿\x93Hí¹þ=«\x03G\x80ÊÊS\x11Ê\x04+³ú!:M\x079JÕ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[18/Feb/2026 09:13:51] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/Feb/2026 09:15:24] code 400, message Bad request syntax ('SSH-2.0-Go')
+[18/Feb/2026 09:15:24] "SSH-2.0-Go" 400 -
+[18/Feb/2026 09:17:27] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x037ö:ß')
+[18/Feb/2026 09:17:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/Feb/2026 10:38:20] code 400, message Bad request version ('¦*¢aÐÏ®>.Ô¯¢ÕvÌ\x00\x00rÀ0À,À(À$À\x14À')
+[18/Feb/2026 10:38:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[18/Feb/2026 10:38:23] "GET / HTTP/1.1" 404 2521
+[18/Feb/2026 12:18:06] code 400, message Bad request version ('À\x14À')
+[18/Feb/2026 12:18:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/Feb/2026 12:19:57] code 400, message Bad request version ('php://input')
+[18/Feb/2026 12:19:57] "            Â 	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[18/Feb/2026 12:19:57] code 400, message Bad request version ('php://input')
+[18/Feb/2026 12:19:57] "            Ì SCRIPT_FILENAME/usr/share/php/PEAR.phpSCRIPT_NAME/usr/share/php/PEAR.phpSERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOSTSERVER_PORT80	SERVER_NAMElocalhost	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[18/Feb/2026 12:19:57] code 400, message Bad request version ('php://input')
+[18/Feb/2026 12:19:57] "            Ô 	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[18/Feb/2026 12:19:57] code 400, message Bad request version ('php://input')
+[18/Feb/2026 12:19:57] "            ä SERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[18/Feb/2026 12:19:57] code 400, message Bad request version ('php://input')
+[18/Feb/2026 12:19:57] "            Ø  SCRIPT_FILENAME/usr/local/lib/php/System.phpDOCUMENT_ROOT/REMOTE_PORT9985SERVER_PORT80	SERVER_NAMElocalhostCONTENT_TYPEapplication/textSERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1GATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOST	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnSCRIPT_NAME/usr/local/lib/php/System.php QUERY_STRING	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[18/Feb/2026 12:19:57] code 400, message Bad request version ('php://input')
+[18/Feb/2026 12:19:57] "            Ì SCRIPT_FILENAME/var/www/html/index.php	REMOTE_ADDR127.0.0.1	SERVER_NAMElocalhostCONTENT_LENGTH52REQUEST_METHODPOST QUERY_STRINGREMOTE_PORT9985SERVER_PROTOCOLHTTP/1.1PHP_ADMIN_VALUEallow_url_include = OnSERVER_PORT80CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[18/Feb/2026 12:19:57] code 400, message Bad request version ('php://input')
+[18/Feb/2026 12:19:57] "            º SCRIPT_FILENAME/app/index.phpREMOTE_PORT9985SERVER_PORT80CONTENT_LENGTH52	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/textGATEWAY_INTERFACEFastCGI/1.0SCRIPT_NAME/app/index.phpSERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[18/Feb/2026 12:19:57] code 400, message Bad request version ('php://input')
+[18/Feb/2026 12:19:57] "            È  GATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTSERVER_PORT80	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1DOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1CONTENT_LENGTH52SCRIPT_NAME/app/public/index.phpSERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[18/Feb/2026 12:19:57] code 400, message Bad request version ('php://input')
+[18/Feb/2026 12:19:57] "            Î SERVER_PORT80CONTENT_TYPEapplication/textSERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1SCRIPT_FILENAME/usr/local/bin/phar.pharSERVER_PROTOCOLHTTP/1.1 QUERY_STRINGDOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1REMOTE_PORT9985CONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOST	4PHP_VALUEauto_prepend_file = php://input" 400 -
+Watching for file changes with StatReloader
+Not Found: /apple-touch-icon.png
+[18/Feb/2026 13:01:06] "GET /admin/bot/botuser/ HTTP/1.1" 302 0
+[18/Feb/2026 13:01:06] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+[18/Feb/2026 13:01:06] "GET /admin/login/?next=/admin/bot/botuser/ HTTP/1.1" 200 4386
+Not Found: /apple-touch-icon-precomposed.png
+[18/Feb/2026 13:01:07] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[18/Feb/2026 13:27:13] "GET /admin/bot/botuser/?q=8021597118 HTTP/1.1" 200 18853
+[18/Feb/2026 13:27:13] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[18/Feb/2026 13:27:13] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:27:13] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[18/Feb/2026 13:27:13] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[18/Feb/2026 13:27:13] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:13] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:13] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:13] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:13] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:14] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:14] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:14] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:14] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[18/Feb/2026 13:27:14] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[18/Feb/2026 13:27:14] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:15] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:15] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[18/Feb/2026 13:27:16] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[18/Feb/2026 13:27:16] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[18/Feb/2026 13:27:17] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[18/Feb/2026 13:27:19] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:23,081] - Broken pipe from ('79.139.183.218', 1318)
+[18/Feb/2026 13:27:23] "GET /admin/bot/botuser/222/change/?_changelist_filters=q%3D8021597118 HTTP/1.1" 200 29536
+[18/Feb/2026 13:27:23] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[18/Feb/2026 13:27:23] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:23] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:23] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:24] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[18/Feb/2026 13:27:24] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:24] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[18/Feb/2026 13:27:26] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[18/Feb/2026 13:27:26] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[18/Feb/2026 13:42:51] "GET /admin/bot/botuser/ HTTP/1.1" 200 84002
+[18/Feb/2026 13:42:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+[18/Feb/2026 13:42:53] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-precomposed.png
+[18/Feb/2026 13:42:53] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon-precomposed.png
+[18/Feb/2026 13:42:53] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[18/Feb/2026 13:42:53] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /apple-touch-icon.png
+[18/Feb/2026 13:42:53] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[18/Feb/2026 13:42:53] "GET /favicon.ico HTTP/1.1" 404 2577
+[18/Feb/2026 13:43:16] "GET /admin/bot/botuser/?q=%D0%9B%D0%B5%D0%B2 HTTP/1.1" 200 16569
+[18/Feb/2026 13:44:13] "GET /admin/bot/botuser/?q=blesssedd_d HTTP/1.1" 200 18890
+[18/Feb/2026 13:44:13] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:44:15] "GET /admin/bot/botuser/155/change/?_changelist_filters=q%3Dblesssedd_d HTTP/1.1" 200 29578
+[18/Feb/2026 13:44:16] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /
+[18/Feb/2026 13:53:26] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[18/Feb/2026 13:53:27] "POST / HTTP/1.1" 404 2527
+Not Found: /_next
+[18/Feb/2026 13:53:27] "POST /_next HTTP/1.1" 404 2560
+Not Found: /api
+[18/Feb/2026 13:53:27] "POST /api HTTP/1.1" 404 2554
+Not Found: /_next/server
+[18/Feb/2026 13:53:27] "POST /_next/server HTTP/1.1" 404 2581
+Not Found: /app
+[18/Feb/2026 13:53:27] "POST /app HTTP/1.1" 404 2554
+Not Found: /api/route
+[18/Feb/2026 13:53:28] "POST /api/route HTTP/1.1" 404 2572
+[18/Feb/2026 13:57:11] "GET /admin/xrey_app/vpnserver/ HTTP/1.1" 200 17129
+[18/Feb/2026 13:57:12] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:57:14] "GET /admin/bot/payment/ HTTP/1.1" 200 80227
+[18/Feb/2026 13:57:14] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:57:22] "GET /admin/bot/payment/ HTTP/1.1" 200 80227
+[18/Feb/2026 13:57:22] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:57:24] "GET /admin/bot/botuser/ HTTP/1.1" 200 84002
+[18/Feb/2026 13:57:25] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:57:27] "GET /admin/bot/botuser/?q=761235867 HTTP/1.1" 200 18830
+[18/Feb/2026 13:57:27] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:57:34] "GET /admin/bot/botuser/ HTTP/1.1" 200 84002
+[18/Feb/2026 13:57:34] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:57:37] "GET /admin/worker/events/ HTTP/1.1" 200 82681
+[18/Feb/2026 13:57:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:57:40] "GET /admin/bot/payment/ HTTP/1.1" 200 80227
+[18/Feb/2026 13:57:40] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:59:10] "GET /admin/bot/payment/ HTTP/1.1" 200 80227
+[18/Feb/2026 13:59:11] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:59:27] "GET /admin/bot/payment/687/change/ HTTP/1.1" 200 18864
+[18/Feb/2026 13:59:28] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:59:35] "POST /admin/bot/payment/687/change/ HTTP/1.1" 302 0
+[18/Feb/2026 13:59:36] "GET /admin/bot/payment/ HTTP/1.1" 200 80456
+[18/Feb/2026 13:59:36] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 13:59:36] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[18/Feb/2026 13:59:44] "GET /admin/bot/payment/688/change/ HTTP/1.1" 200 18864
+[18/Feb/2026 13:59:44] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Watching for file changes with StatReloader
+[18/Feb/2026 14:01:49] "GET /admin/bot/payment/ HTTP/1.1" 200 80171
+[18/Feb/2026 14:01:50] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 14:02:06] "GET /admin/bot/botuser/ HTTP/1.1" 200 84008
+[18/Feb/2026 14:02:06] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 14:02:14] "GET /admin/bot/botuser/?q=761235867 HTTP/1.1" 200 18828
+[18/Feb/2026 14:02:15] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 14:02:18] "GET /admin/bot/botuser/67/change/?_changelist_filters=q%3D761235867 HTTP/1.1" 200 29530
+[18/Feb/2026 14:02:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[18/Feb/2026 16:13:55] "GET /admin/bot/botuser/ HTTP/1.1" 200 84008
+[18/Feb/2026 16:13:57] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+[18/Feb/2026 16:13:57] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon.png
+Not Found: /apple-touch-icon-precomposed.png
+[18/Feb/2026 16:13:57] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[18/Feb/2026 16:13:57] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+[18/Feb/2026 16:51:23] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+[18/Feb/2026 16:51:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[18/Feb/2026 16:51:38] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 17:55:34] code 400, message Bad request version ('À\x14À')
+[18/Feb/2026 17:55:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[18/Feb/2026 17:55:36] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 17:55:37] code 505, message Invalid HTTP version (2.0)
+[18/Feb/2026 17:55:37] "PRI * HTTP/2.0" 505 -
+[18/Feb/2026 17:57:42] code 400, message Bad request version ('À\x14À')
+[18/Feb/2026 17:57:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /security.txt
+[18/Feb/2026 17:57:44] "GET /security.txt HTTP/1.1" 404 2580
+[18/Feb/2026 18:16:18] code 400, message Bad request version ('À\x13À')
+[18/Feb/2026 18:16:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/Feb/2026 18:16:18] code 400, message Bad request syntax ('\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03\x9biDÁ>üÃ"')
+[18/Feb/2026 18:16:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[18/Feb/2026 18:16:34] code 400, message Bad request version ('Ê©\x03\x00\x07default\x00')
+[18/Feb/2026 18:16:34] " Clickhouse clientÊ© default " 400 -
+Not Found: /
+[18/Feb/2026 18:16:34] "GET / HTTP/1.1" 404 2526
+[18/Feb/2026 19:56:22] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[18/Feb/2026 19:56:22] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+[18/Feb/2026 19:56:31] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[18/Feb/2026 19:56:31] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+[18/Feb/2026 20:13:44] "GET /admin/bot/botuser/ HTTP/1.1" 302 0
+Not Found: /apple-touch-icon-precomposed.png
+[18/Feb/2026 20:13:44] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+Not Found: /favicon.ico
+[18/Feb/2026 20:13:44] "GET /favicon.ico HTTP/1.1" 404 2577
+[18/Feb/2026 20:13:44] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+[18/Feb/2026 20:13:44] "GET /admin/login/?next=/admin/bot/botuser/ HTTP/1.1" 200 4386
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[19/Feb/2026 00:18:16] "GET /admin/bot/botuser/ HTTP/1.1" 200 83902
+[19/Feb/2026 00:18:17] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /apple-touch-icon.png
+[19/Feb/2026 00:18:17] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[19/Feb/2026 00:18:17] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[19/Feb/2026 00:18:17] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /
+[19/Feb/2026 03:44:03] "GET / HTTP/1.1" 404 2526
+[19/Feb/2026 03:47:23] code 400, message Bad request version ('À\x14À')
+[19/Feb/2026 03:47:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[19/Feb/2026 03:55:20] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[19/Feb/2026 03:55:20] "GET /favicon.ico HTTP/1.1" 404 2572
+Invalid HTTP_HOST header: 'www.example.com:443'. You may need to add 'www.example.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.example.com:443'. You may need to add 'www.example.com' to ALLOWED_HOSTS.
+Bad Request: /www.example.com:443
+[19/Feb/2026 05:49:38] "CONNECT www.example.com:443 HTTP/1.1" 400 59800
+[19/Feb/2026 05:49:58] code 400, message Bad request syntax ('\x05\x01\x00')
+[19/Feb/2026 05:49:58] " " 400 -
+[19/Feb/2026 05:50:18] code 400, message Bad request syntax ('\x04\x01\x01»h\x12\x1bx\x00')
+[19/Feb/2026 05:50:18] "»hx " 400 -
+[19/Feb/2026 05:50:38] code 400, message Bad request syntax ('\x04\x01\x01»h\x12\x1bx\x00')
+[19/Feb/2026 05:50:38] "»hx " 400 -
+[19/Feb/2026 06:00:30] code 400, message Bad request version ('¶\x15)yÚ\x11,\x00\x00rÀ0À,À(À$À\x14À')
+[19/Feb/2026 06:00:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[19/Feb/2026 06:00:34] "GET / HTTP/1.1" 404 2521
+[19/Feb/2026 11:54:23] code 400, message Bad request syntax ('SSH-2.0-Go')
+[19/Feb/2026 11:54:23] "SSH-2.0-Go" 400 -
+[19/Feb/2026 11:54:23] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[19/Feb/2026 11:54:23] "MGLNDD_193.58.121.190_9000" 400 -
+[19/Feb/2026 12:49:02] "GET /admin/bot/botuser/ HTTP/1.1" 200 83902
+[19/Feb/2026 12:49:03] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /apple-touch-icon.png
+[19/Feb/2026 12:49:04] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[19/Feb/2026 12:49:04] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-precomposed.png
+[19/Feb/2026 12:49:06] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[19/Feb/2026 12:49:09] "GET /admin/bot/botuser/?q=1803599890 HTTP/1.1" 200 18856
+[19/Feb/2026 12:49:09] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[19/Feb/2026 12:49:09] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[19/Feb/2026 12:49:09] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[19/Feb/2026 12:49:10] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[19/Feb/2026 12:49:33] "GET /admin/bot/botuser/229/change/ HTTP/1.1" 200 29254
+[19/Feb/2026 12:49:33] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:33] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[19/Feb/2026 12:49:33] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:33] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:33] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[19/Feb/2026 12:49:33] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[19/Feb/2026 12:49:33] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[19/Feb/2026 12:49:34] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[19/Feb/2026 12:49:34] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[19/Feb/2026 12:49:59] "GET /admin/bot/botuser/?subscription__exact=1 HTTP/1.1" 200 86200
+[19/Feb/2026 12:50:00] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[19/Feb/2026 12:50:02] "GET /admin/bot/botuser/?_facets=True&subscription__exact=1 HTTP/1.1" 200 88223
+[19/Feb/2026 12:50:02] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[19/Feb/2026 12:50:03] "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 200 784
+[19/Feb/2026 12:50:16] "GET /admin/bot/botuser/228/change/?_changelist_filters=_facets%3DTrue%26subscription__exact%3D1 HTTP/1.1" 200 29663
+[19/Feb/2026 12:50:17] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+/personal/wvpn-project/bot_builder/apps/bot/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/models.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/admin.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[19/Feb/2026 13:00:44] "GET /admin/bot/botuser/228/change/?_changelist_filters=_facets%3DTrue%26subscription__exact%3D1 HTTP/1.1" 200 30849
+[19/Feb/2026 13:00:44] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[19/Feb/2026 13:00:54] "GET /admin/bot/botuser/ HTTP/1.1" 200 83902
+[19/Feb/2026 13:00:54] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[19/Feb/2026 13:16:28] code 400, message Bad request version ('php://input')
+[19/Feb/2026 13:16:28] "            Â DOCUMENT_ROOT/	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1REQUEST_METHODPOSTSCRIPT_FILENAME/usr/bin/phar.pharSCRIPT_NAME/usr/bin/phar.phar QUERY_STRINGREMOTE_PORT9985	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[19/Feb/2026 13:16:28] code 400, message Bad request version ('php://input')
+[19/Feb/2026 13:16:28] "            Ì 	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[19/Feb/2026 13:16:28] code 400, message Bad request version ('php://input')
+[19/Feb/2026 13:16:28] "            Ô  QUERY_STRINGDOCUMENT_ROOT/SERVER_PORT80SERVER_PROTOCOLHTTP/1.1SCRIPT_NAME/usr/local/lib/php/PEAR.php	REMOTE_ADDR127.0.0.1REMOTE_PORT9985CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[19/Feb/2026 13:16:28] code 400, message Bad request version ('php://input')
+[19/Feb/2026 13:16:28] "            ä #SCRIPT_NAME/opt/bitnami/php/lib/php/System.phpSERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1GATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTCONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = On	SERVER_NAMElocalhostCONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[19/Feb/2026 13:16:28] code 400, message Bad request version ('php://input')
+[19/Feb/2026 13:16:28] "            Ø  SERVER_PORT80	SERVER_NAMElocalhostDOCUMENT_ROOT/SCRIPT_NAME/usr/local/lib/php/System.phpSERVER_SOFTWAREphp/fcgiclient	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0	REMOTE_ADDR127.0.0.1SCRIPT_FILENAME/usr/local/lib/php/System.php QUERY_STRINGREMOTE_PORT9985CONTENT_TYPEapplication/textCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[19/Feb/2026 13:16:29] code 400, message Bad request version ('php://input')
+[19/Feb/2026 13:16:29] "            Ì 	REMOTE_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[19/Feb/2026 13:16:29] code 400, message Bad request version ('php://input')
+[19/Feb/2026 13:16:29] "            º REQUEST_METHODPOSTSCRIPT_NAME/app/index.php	SERVER_ADDR127.0.0.1CONTENT_LENGTH52 QUERY_STRINGREMOTE_PORT9985CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[19/Feb/2026 13:16:29] code 400, message Bad request version ('php://input')
+[19/Feb/2026 13:16:29] "            È  	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[19/Feb/2026 13:16:29] code 400, message Bad request version ('php://input')
+[19/Feb/2026 13:16:29] "            Î SCRIPT_NAME/usr/local/bin/phar.pharREMOTE_PORT9985	SERVER_NAMElocalhostCONTENT_TYPEapplication/textGATEWAY_INTERFACEFastCGI/1.0DOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOST	SERVER_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[19/Feb/2026 13:27:09] code 400, message Bad request syntax ('ðÞ¼')
+[19/Feb/2026 13:27:09] "ðÞ¼" 400 -
+Not Found: /
+[19/Feb/2026 13:45:05] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[19/Feb/2026 13:45:10] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /
+[19/Feb/2026 14:06:40] "GET / HTTP/1.1" 404 2526
+[19/Feb/2026 14:08:52] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03z\x80ÀFÝ\x8d6jfp\x12éÕ~\x84u\x93i1r\x95è8_Ânu<=v?Y\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[19/Feb/2026 14:08:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+[19/Feb/2026 14:11:19] code 400, message Bad request syntax ('SSH-2.0-Go')
+[19/Feb/2026 14:11:19] "SSH-2.0-Go" 400 -
+Not Found: /
+[19/Feb/2026 15:25:42] "GET / HTTP/1.1" 404 2526
+[19/Feb/2026 15:33:04,808] - Broken pipe from ('45.33.109.10', 59506)
+Not Found: /
+[19/Feb/2026 16:13:03] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[19/Feb/2026 16:13:03] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /
+[19/Feb/2026 16:13:18] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[19/Feb/2026 16:13:18] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /
+[19/Feb/2026 16:13:35] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[19/Feb/2026 16:13:35] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /
+[19/Feb/2026 17:02:10] "POST / HTTP/1.1" 404 2527
+Not Found: /
+[19/Feb/2026 17:02:10] "POST / HTTP/1.1" 404 2527
+Not Found: /
+[19/Feb/2026 17:17:18] "GET / HTTP/1.1" 404 2526
+[19/Feb/2026 17:17:27] code 400, message Bad request version ("x64|'|'|No|'|'|S17|'|'|..|'|'|SW5ib3ggLSBPdXRsb29rIERhdGEgRmlsZSAtIE1pY3Jvc29mdCBPdXRsb29rAA==|'|'|")
+[19/Feb/2026 17:17:27] "238 ll|'|'|SGFjS2VkX0Q3NUU2QUFB|'|'|WIN-QZN7FJ7D1O|'|'|Administrator|'|'|19-11-28|'|'||'|'|Win 10 Pro x64|'|'|No|'|'|S17|'|'|..|'|'|SW5ib3ggLSBPdXRsb29rIERhdGEgRmlsZSAtIE1pY3Jvc29mdCBPdXRsb29rAA==|'|'|" 400 -
+[19/Feb/2026 17:29:10] "GET /admin/bot/botuser/ HTTP/1.1" 200 83863
+[19/Feb/2026 17:29:11] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /apple-touch-icon-precomposed.png
+[19/Feb/2026 17:29:11] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /favicon.ico
+Not Found: /apple-touch-icon.png
+[19/Feb/2026 17:29:11] "GET /favicon.ico HTTP/1.1" 404 2577
+[19/Feb/2026 17:29:11] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /.e9367
+[19/Feb/2026 18:30:26] "GET /.e9367 HTTP/1.1" 404 2562
+Not Found: /.env
+[19/Feb/2026 18:30:26] "GET /.env HTTP/1.1" 404 2556
+Not Found: /.env.local
+[19/Feb/2026 18:30:26] "GET /.env.local HTTP/1.1" 404 2574
+Not Found: /.env.production
+[19/Feb/2026 18:30:26] "GET /.env.production HTTP/1.1" 404 2589
+Not Found: /.env.development
+[19/Feb/2026 18:30:26] "GET /.env.development HTTP/1.1" 404 2592
+Not Found: /.env.dev
+[19/Feb/2026 18:30:26] "GET /.env.dev HTTP/1.1" 404 2568
+Not Found: /.env.prod
+[19/Feb/2026 18:30:26] "GET /.env.prod HTTP/1.1" 404 2571
+Not Found: /.env.test
+[19/Feb/2026 18:30:26] "GET /.env.test HTTP/1.1" 404 2571
+Not Found: /.env.staging
+[19/Feb/2026 18:30:26] "GET /.env.staging HTTP/1.1" 404 2580
+Not Found: /.env.backup
+[19/Feb/2026 18:30:26] "GET /.env.backup HTTP/1.1" 404 2577
+Not Found: /.env.save
+[19/Feb/2026 18:30:26] "GET /.env.save HTTP/1.1" 404 2571
+Not Found: /.env.old
+[19/Feb/2026 18:30:26] "GET /.env.old HTTP/1.1" 404 2568
+Not Found: /.env.bak
+[19/Feb/2026 18:30:26] "GET /.env.bak HTTP/1.1" 404 2568
+Not Found: /.env.tmp
+[19/Feb/2026 18:30:26] "GET /.env.tmp HTTP/1.1" 404 2568
+Not Found: /.env.swp
+[19/Feb/2026 18:30:26] "GET /.env.swp HTTP/1.1" 404 2568
+Not Found: /.env~
+[19/Feb/2026 18:30:26] "GET /.env~ HTTP/1.1" 404 2559
+Not Found: /env
+[19/Feb/2026 18:30:27] "GET /env HTTP/1.1" 404 2553
+Not Found: /env.js
+[19/Feb/2026 18:30:27] "GET /env.js HTTP/1.1" 404 2562
+Not Found: /env.json
+[19/Feb/2026 18:30:27] "GET /env.json HTTP/1.1" 404 2568
+Not Found: /app/.env
+[19/Feb/2026 18:30:27] "GET /app/.env HTTP/1.1" 404 2568
+Not Found: /src/.env
+[19/Feb/2026 18:30:27] "GET /src/.env HTTP/1.1" 404 2568
+Not Found: /config/.env
+[19/Feb/2026 18:30:27] "GET /config/.env HTTP/1.1" 404 2577
+Not Found: /backend/.env
+[19/Feb/2026 18:30:27] "GET /backend/.env HTTP/1.1" 404 2580
+Not Found: /frontend/.env
+[19/Feb/2026 18:30:28] "GET /frontend/.env HTTP/1.1" 404 2583
+Not Found: /api/.env
+[19/Feb/2026 18:30:28] "GET /api/.env HTTP/1.1" 404 2568
+Not Found: /server/.env
+[19/Feb/2026 18:30:28] "GET /server/.env HTTP/1.1" 404 2577
+Not Found: /client/.env
+[19/Feb/2026 18:30:28] "GET /client/.env HTTP/1.1" 404 2577
+Not Found: /web/.env
+[19/Feb/2026 18:30:28] "GET /web/.env HTTP/1.1" 404 2568
+Not Found: /public/.env
+[19/Feb/2026 18:30:28] "GET /public/.env HTTP/1.1" 404 2577
+Not Found: /private/.env
+[19/Feb/2026 18:30:28] "GET /private/.env HTTP/1.1" 404 2580
+Not Found: /var/.env
+[19/Feb/2026 18:30:28] "GET /var/.env HTTP/1.1" 404 2568
+Not Found: /docker-compose.yml
+[19/Feb/2026 18:30:28] "GET /docker-compose.yml HTTP/1.1" 404 2598
+Not Found: /docker-compose.yaml
+[19/Feb/2026 18:30:28] "GET /docker-compose.yaml HTTP/1.1" 404 2601
+Not Found: /docker-compose.override.yml
+[19/Feb/2026 18:30:28] "GET /docker-compose.override.yml HTTP/1.1" 404 2625
+Not Found: /docker-compose.dev.yml
+[19/Feb/2026 18:30:28] "GET /docker-compose.dev.yml HTTP/1.1" 404 2610
+Not Found: /docker-compose.prod.yml
+[19/Feb/2026 18:30:28] "GET /docker-compose.prod.yml HTTP/1.1" 404 2613
+Not Found: /config.js
+[19/Feb/2026 18:30:28] "GET /config.js HTTP/1.1" 404 2571
+Not Found: /config.json
+[19/Feb/2026 18:30:28] "GET /config.json HTTP/1.1" 404 2577
+Not Found: /settings.js
+[19/Feb/2026 18:30:28] "GET /settings.js HTTP/1.1" 404 2577
+Not Found: /settings.json
+[19/Feb/2026 18:30:28] "GET /settings.json HTTP/1.1" 404 2583
+Not Found: /secrets.json
+[19/Feb/2026 18:30:28] "GET /secrets.json HTTP/1.1" 404 2580
+Not Found: /credentials.json
+[19/Feb/2026 18:30:28] "GET /credentials.json HTTP/1.1" 404 2592
+Not Found: /app.js
+[19/Feb/2026 18:30:28] "GET /app.js HTTP/1.1" 404 2562
+Not Found: /main.js
+[19/Feb/2026 18:30:28] "GET /main.js HTTP/1.1" 404 2565
+Not Found: /index.js
+[19/Feb/2026 18:30:28] "GET /index.js HTTP/1.1" 404 2568
+Not Found: /server.js
+[19/Feb/2026 18:30:28] "GET /server.js HTTP/1.1" 404 2571
+Not Found: /bundle.js
+[19/Feb/2026 18:30:28] "GET /bundle.js HTTP/1.1" 404 2571
+Not Found: /app.bundle.js
+[19/Feb/2026 18:30:28] "GET /app.bundle.js HTTP/1.1" 404 2583
+Not Found: /main.bundle.js
+[19/Feb/2026 18:30:28] "GET /main.bundle.js HTTP/1.1" 404 2586
+Not Found: /vendor.js
+[19/Feb/2026 18:30:28] "GET /vendor.js HTTP/1.1" 404 2571
+Not Found: /chunk.js
+[19/Feb/2026 18:30:28] "GET /chunk.js HTTP/1.1" 404 2568
+[19/Feb/2026 18:30:29] "GET /static/js/main.js HTTP/1.1" 404 1849
+[19/Feb/2026 18:30:29] "GET /static/js/app.js HTTP/1.1" 404 1846
+[19/Feb/2026 18:30:29] "GET /static/js/bundle.js HTTP/1.1" 404 1855
+Not Found: /dist/main.js
+[19/Feb/2026 18:30:29] "GET /dist/main.js HTTP/1.1" 404 2580
+Not Found: /dist/app.js
+[19/Feb/2026 18:30:29] "GET /dist/app.js HTTP/1.1" 404 2577
+Not Found: /dist/bundle.js
+[19/Feb/2026 18:30:29] "GET /dist/bundle.js HTTP/1.1" 404 2586
+Not Found: /build/static/js/main.js
+[19/Feb/2026 18:30:29] "GET /build/static/js/main.js HTTP/1.1" 404 2613
+Not Found: /assets/index.js
+[19/Feb/2026 18:30:29] "GET /assets/index.js HTTP/1.1" 404 2589
+Not Found: /assets/app.js
+[19/Feb/2026 18:30:29] "GET /assets/app.js HTTP/1.1" 404 2583
+Not Found: /_next/static/chunks/main.js
+[19/Feb/2026 18:30:29] "GET /_next/static/chunks/main.js HTTP/1.1" 404 2625
+Not Found: /_next/static/chunks/app.js
+[19/Feb/2026 18:30:29] "GET /_next/static/chunks/app.js HTTP/1.1" 404 2622
+Not Found: /js/app.js
+[19/Feb/2026 18:30:29] "GET /js/app.js HTTP/1.1" 404 2571
+Not Found: /js/main.js
+[19/Feb/2026 18:30:29] "GET /js/main.js HTTP/1.1" 404 2574
+Not Found: /settings.py
+[19/Feb/2026 18:30:29] "GET /settings.py HTTP/1.1" 404 2577
+Not Found: /config.py
+[19/Feb/2026 18:30:29] "GET /config.py HTTP/1.1" 404 2571
+Not Found: /secrets.py
+[19/Feb/2026 18:30:29] "GET /secrets.py HTTP/1.1" 404 2574
+Not Found: /config/secrets.yml
+[19/Feb/2026 18:30:29] "GET /config/secrets.yml HTTP/1.1" 404 2598
+Not Found: /config/master.key
+[19/Feb/2026 18:30:29] "GET /config/master.key HTTP/1.1" 404 2595
+Not Found: /wp-config.php.bak
+[19/Feb/2026 18:30:29] "GET /wp-config.php.bak HTTP/1.1" 404 2595
+Not Found: /wp-config.php.old
+[19/Feb/2026 18:30:29] "GET /wp-config.php.old HTTP/1.1" 404 2595
+Not Found: /wp-config.php.save
+[19/Feb/2026 18:30:29] "GET /wp-config.php.save HTTP/1.1" 404 2598
+Not Found: /wp-config.php.txt
+[19/Feb/2026 18:30:29] "GET /wp-config.php.txt HTTP/1.1" 404 2595
+Not Found: /wp-config.php~
+[19/Feb/2026 18:30:29] "GET /wp-config.php~ HTTP/1.1" 404 2586
+Not Found: /config/app.php
+[19/Feb/2026 18:30:29] "GET /config/app.php HTTP/1.1" 404 2586
+Not Found: /application.properties
+[19/Feb/2026 18:30:29] "GET /application.properties HTTP/1.1" 404 2610
+Not Found: /application.yml
+[19/Feb/2026 18:30:29] "GET /application.yml HTTP/1.1" 404 2589
+Not Found: /application.yaml
+[19/Feb/2026 18:30:29] "GET /application.yaml HTTP/1.1" 404 2592
+Not Found: /application-dev.properties
+[19/Feb/2026 18:30:29] "GET /application-dev.properties HTTP/1.1" 404 2622
+Not Found: /application-prod.properties
+[19/Feb/2026 18:30:29] "GET /application-prod.properties HTTP/1.1" 404 2625
+Not Found: /appsettings.json
+[19/Feb/2026 18:30:29] "GET /appsettings.json HTTP/1.1" 404 2592
+Not Found: /appsettings.Development.json
+[19/Feb/2026 18:30:29] "GET /appsettings.Development.json HTTP/1.1" 404 2628
+Not Found: /appsettings.Production.json
+[19/Feb/2026 18:30:29] "GET /appsettings.Production.json HTTP/1.1" 404 2625
+Not Found: /config.yaml
+[19/Feb/2026 18:30:29] "GET /config.yaml HTTP/1.1" 404 2577
+Not Found: /config.yml
+[19/Feb/2026 18:30:29] "GET /config.yml HTTP/1.1" 404 2574
+Not Found: /config.toml
+[19/Feb/2026 18:30:30] "GET /config.toml HTTP/1.1" 404 2577
+Not Found: /serverless.yml
+[19/Feb/2026 18:30:30] "GET /serverless.yml HTTP/1.1" 404 2586
+Not Found: /serverless.yaml
+[19/Feb/2026 18:30:30] "GET /serverless.yaml HTTP/1.1" 404 2589
+Not Found: /config/production.json
+[19/Feb/2026 18:30:30] "GET /config/production.json HTTP/1.1" 404 2610
+Not Found: /config/development.json
+[19/Feb/2026 18:30:30] "GET /config/development.json HTTP/1.1" 404 2613
+Not Found: /config/default.json
+[19/Feb/2026 18:30:30] "GET /config/default.json HTTP/1.1" 404 2601
+Not Found: /config/local.json
+[19/Feb/2026 18:30:30] "GET /config/local.json HTTP/1.1" 404 2595
+Not Found: /conf/settings.json
+[19/Feb/2026 18:30:30] "GET /conf/settings.json HTTP/1.1" 404 2598
+Not Found: /data/config.json
+[19/Feb/2026 18:30:31] "GET /data/config.json HTTP/1.1" 404 2592
+Not Found: /actuator/env
+[19/Feb/2026 18:30:31] "GET /actuator/env HTTP/1.1" 404 2580
+Not Found: /actuator/configprops
+[19/Feb/2026 18:30:31] "GET /actuator/configprops HTTP/1.1" 404 2604
+Not Found: /api/config
+[19/Feb/2026 18:30:31] "GET /api/config HTTP/1.1" 404 2574
+Not Found: /api/settings
+[19/Feb/2026 18:30:31] "GET /api/settings HTTP/1.1" 404 2580
+Not Found: /api/env
+[19/Feb/2026 18:30:31] "GET /api/env HTTP/1.1" 404 2565
+Not Found: /backup/.env
+[19/Feb/2026 18:30:31] "GET /backup/.env HTTP/1.1" 404 2577
+Not Found: /backups/.env
+[19/Feb/2026 18:30:31] "GET /backups/.env HTTP/1.1" 404 2580
+Not Found: /old/.env
+[19/Feb/2026 18:30:31] "GET /old/.env HTTP/1.1" 404 2568
+Not Found: /temp/.env
+[19/Feb/2026 18:30:31] "GET /temp/.env HTTP/1.1" 404 2571
+Not Found: /tmp/.env
+[19/Feb/2026 18:30:31] "GET /tmp/.env HTTP/1.1" 404 2568
+Not Found: /.streamlit/secrets.toml
+[19/Feb/2026 18:30:31] "GET /.streamlit/secrets.toml HTTP/1.1" 404 2613
+Not Found: /root/.streamlit/secrets.toml
+[19/Feb/2026 18:30:31] "GET /root/.streamlit/secrets.toml HTTP/1.1" 404 2628
+Not Found: /root/.aws/credentials
+[19/Feb/2026 18:30:31] "GET /root/.aws/credentials HTTP/1.1" 404 2607
+Not Found: /home/ubuntu/.aws/credentials
+[19/Feb/2026 18:30:31] "GET /home/ubuntu/.aws/credentials HTTP/1.1" 404 2628
+Not Found: /home/ec2-user/.aws/credentials
+[19/Feb/2026 18:30:31] "GET /home/ec2-user/.aws/credentials HTTP/1.1" 404 2634
+Not Found: /home/node/.aws/credentials
+[19/Feb/2026 18:30:31] "GET /home/node/.aws/credentials HTTP/1.1" 404 2622
+Not Found: /terraform.tfvars
+[19/Feb/2026 18:30:31] "GET /terraform.tfvars HTTP/1.1" 404 2592
+Not Found: /terraform.tfstate
+[19/Feb/2026 18:30:32] "GET /terraform.tfstate HTTP/1.1" 404 2595
+Not Found: /ecosystem.config.js
+[19/Feb/2026 18:30:32] "GET /ecosystem.config.js HTTP/1.1" 404 2601
+Not Found: /secrets.yaml
+[19/Feb/2026 18:30:32] "GET /secrets.yaml HTTP/1.1" 404 2580
+Not Found: /secrets.yml
+[19/Feb/2026 18:30:32] "GET /secrets.yml HTTP/1.1" 404 2577
+Not Found: /.secrets
+[19/Feb/2026 18:30:32] "GET /.secrets HTTP/1.1" 404 2568
+Not Found: /.env.vault
+[19/Feb/2026 18:30:32] "GET /.env.vault HTTP/1.1" 404 2574
+Not Found: /storage/framework/.env
+[19/Feb/2026 18:30:32] "GET /storage/framework/.env HTTP/1.1" 404 2610
+Not Found: /laravel/.env
+[19/Feb/2026 18:30:32] "GET /laravel/.env HTTP/1.1" 404 2580
+Not Found: /.git/logs/HEAD
+[19/Feb/2026 18:30:32] "GET /.git/logs/HEAD HTTP/1.1" 404 2586
+Not Found: /.git/config
+[19/Feb/2026 18:30:32] "GET /.git/config HTTP/1.1" 404 2577
+Not Found: /@fs/app/.env
+[19/Feb/2026 18:30:32] "GET /@fs/app/.env?raw?? HTTP/1.1" 404 2586
+Not Found: /@fs/root/.env
+[19/Feb/2026 18:30:32] "GET /@fs/root/.env?raw?? HTTP/1.1" 404 2589
+Not Found: /@fs/proc/self/environ
+[19/Feb/2026 18:30:32] "GET /@fs/proc/self/environ?raw?? HTTP/1.1" 404 2613
+Not Found: /@fs/.env
+[19/Feb/2026 18:30:32] "GET /@fs/.env?raw?? HTTP/1.1" 404 2574
+Not Found: /@fs/../../../../../root/.env
+[19/Feb/2026 18:30:32] "GET /@fs/..%2f..%2f..%2f..%2f..%2froot/.env?raw?? HTTP/1.1" 404 2615
+Not Found: /@fs/../../../../../proc/self/environ
+[19/Feb/2026 18:30:32] "GET /@fs/..%2f..%2f..%2f..%2f..%2fproc/self/environ?raw?? HTTP/1.1" 404 2639
+Not Found: /@fs/../../../../../app/.env
+[19/Feb/2026 18:30:32] "GET /@fs/..%2f..%2f..%2f..%2f..%2fapp/.env?raw?? HTTP/1.1" 404 2612
+Not Found: /@fs/..%2f..%2f..%2f..%2f..%2froot/.env
+[19/Feb/2026 18:30:32] "GET /@fs/..%252f..%252f..%252f..%252f..%252froot/.env?raw?? HTTP/1.1" 404 2674
+Not Found: /@fs/..%2f..%2f..%2f..%2f..%2fproc/self/environ
+[19/Feb/2026 18:30:32] "GET /@fs/..%252f..%252f..%252f..%252f..%252fproc/self/environ?raw?? HTTP/1.1" 404 2698
+Not Found: /@fs/root/.aws/credentials
+[19/Feb/2026 18:30:32] "GET /@fs/root/.aws/credentials?raw?? HTTP/1.1" 404 2625
+Not Found: /@fs/home/ubuntu/.aws/credentials
+[19/Feb/2026 18:30:32] "GET /@fs/home/ubuntu/.aws/credentials?raw?? HTTP/1.1" 404 2646
+Not Found: /@fs/home/node/.aws/credentials
+[19/Feb/2026 18:30:32] "GET /@fs/home/node/.aws/credentials?raw?? HTTP/1.1" 404 2640
+Not Found: /@fs/app/.env.local
+[19/Feb/2026 18:30:32] "GET /@fs/app/.env.local?raw?? HTTP/1.1" 404 2604
+Not Found: /@fs/app/.env.production
+[19/Feb/2026 18:30:32] "GET /@fs/app/.env.production?raw?? HTTP/1.1" 404 2619
+Not Found: /@fs/src/.env
+[19/Feb/2026 18:30:32] "GET /@fs/src/.env?raw?? HTTP/1.1" 404 2586
+Not Found: /../../../../../../proc/self/environ
+[19/Feb/2026 18:30:32] "GET /..%2f..%2f..%2f..%2f..%2f..%2fproc/self/environ HTTP/1.1" 404 2631
+Not Found: /../../../../../../../proc/self/environ
+[19/Feb/2026 18:30:32] "GET /../../../../../../../proc/self/environ HTTP/1.1" 404 2637
+Not Found: /../../../../../../../app/.env
+[19/Feb/2026 18:30:32] "GET /../../../../../../../app/.env HTTP/1.1" 404 2610
+Not Found: /../../../../../../../root/.env
+[19/Feb/2026 18:30:32] "GET /../../../../../../../root/.env HTTP/1.1" 404 2613
+Not Found: /../../../../../../../root/.aws/credentials
+[19/Feb/2026 18:30:32] "GET /../../../../../../../root/.aws/credentials HTTP/1.1" 404 2649
+Not Found: /../../../../../../../home/ubuntu/.aws/credentials
+[19/Feb/2026 18:30:32] "GET /../../../../../../../home/ubuntu/.aws/credentials HTTP/1.1" 404 2670
+Not Found: /../../../../../../../home/node/.aws/credentials
+[19/Feb/2026 18:30:32] "GET /../../../../../../../home/node/.aws/credentials HTTP/1.1" 404 2664
+Not Found: /../../../../../../root/.aws/credentials
+[19/Feb/2026 18:30:32] "GET /..%2f..%2f..%2f..%2f..%2f..%2froot/.aws/credentials HTTP/1.1" 404 2643
+Not Found: /../../../../../../home/ubuntu/.aws/credentials
+[19/Feb/2026 18:30:32] "GET /..%2f..%2f..%2f..%2f..%2f..%2fhome/ubuntu/.aws/credentials HTTP/1.1" 404 2664
+[19/Feb/2026 18:56:10] code 400, message Bad request version ('À\x14À')
+[19/Feb/2026 18:56:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[19/Feb/2026 18:56:25] "GET / HTTP/1.1" 404 2526
+[19/Feb/2026 18:56:25] code 505, message Invalid HTTP version (2.0)
+[19/Feb/2026 18:56:25] "PRI * HTTP/2.0" 505 -
+[19/Feb/2026 18:58:06] code 400, message Bad request version ('À\x14À')
+[19/Feb/2026 18:58:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /.well-known/security.txt
+[19/Feb/2026 18:58:08] "GET /.well-known/security.txt HTTP/1.1" 404 2616
+[19/Feb/2026 21:14:45] "GET /admin/bot/botuser/ HTTP/1.1" 200 83903
+[19/Feb/2026 21:14:46] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+[19/Feb/2026 21:14:46] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon.png
+[19/Feb/2026 21:14:46] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /apple-touch-icon-precomposed.png
+[19/Feb/2026 21:14:46] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[19/Feb/2026 21:14:52] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87860
+[19/Feb/2026 21:14:52] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[19/Feb/2026 21:15:05] "GET /admin/bot/botuser/231/change/?_changelist_filters=_facets%3DTrue HTTP/1.1" 200 30719
+[19/Feb/2026 21:15:06] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[19/Feb/2026 21:21:50] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00è\x01\x00\x00ä\x03\x03%Þ\\\x07\x10\x84^\x06<\x99\x13x,}é¡')
+[19/Feb/2026 21:21:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[19/Feb/2026 21:21:50] code 400, message Bad request version ('À(À$À\x14À')
+[19/Feb/2026 21:21:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[19/Feb/2026 21:27:24] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:27:29] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:29:28] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:30:25] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:31:30] "GET / HTTP/1.1" 404 2526
+[19/Feb/2026 21:31:57] code 400, message Bad request syntax ('ðÞ¼')
+[19/Feb/2026 21:31:57] "ðÞ¼" 400 -
+[19/Feb/2026 21:31:59] code 400, message Bad request syntax ('ðÞ¼')
+[19/Feb/2026 21:31:59] "ðÞ¼" 400 -
+Not Found: /
+[19/Feb/2026 21:33:29] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:34:28] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:36:46] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:37:33] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:39:24] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:40:32] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:42:30] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:43:45] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:45:29] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:46:30] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:47:31] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[19/Feb/2026 21:48:33] "GET / HTTP/1.1" 404 2526
+Invalid HTTP_HOST header: 'example.com:443'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'example.com:443'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /example.com:443
+[19/Feb/2026 22:43:26] "CONNECT example.com:443 HTTP/1.1" 400 59728
+Watching for file changes with StatReloader
+[20/Feb/2026 01:48:18] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 01:48:18] "ðÞ¼" 400 -
+[20/Feb/2026 01:48:20] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 01:48:20] "ðÞ¼" 400 -
+Not Found: /
+[20/Feb/2026 01:55:43] "GET / HTTP/1.1" 404 2526
+[20/Feb/2026 03:49:17] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03©@í²\x84ÞÝyëÐü\x8dzÚ´Ë¶,8t$ÞDÓÄÔG\x81\x8dz\x98ª\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[20/Feb/2026 03:49:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/Feb/2026 06:29:58] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 06:29:58] "ðÞ¼" 400 -
+[20/Feb/2026 06:30:01] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 06:30:01] "ðÞ¼" 400 -
+[20/Feb/2026 07:49:29] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[20/Feb/2026 07:49:29] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+Invalid HTTP_HOST header: 'wvpn.fr2.xraygopaydonat1.ru'. You may need to add 'wvpn.fr2.xraygopaydonat1.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'wvpn.fr2.xraygopaydonat1.ru'. You may need to add 'wvpn.fr2.xraygopaydonat1.ru' to ALLOWED_HOSTS.
+Bad Request: /
+[20/Feb/2026 08:20:33] "GET / HTTP/1.1" 400 60009
+[20/Feb/2026 08:39:40] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 08:39:40] "ðÞ¼" 400 -
+[20/Feb/2026 08:39:40] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 08:39:40] "ðÞ¼" 400 -
+Not Found: /
+[20/Feb/2026 09:44:10] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[20/Feb/2026 10:34:54] "GET / HTTP/1.1" 404 2526
+[20/Feb/2026 10:34:55] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[20/Feb/2026 10:34:55] "MGLNDD_193.58.121.190_9000" 400 -
+Not Found: /
+[20/Feb/2026 11:56:21] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[20/Feb/2026 11:56:22] "GET /favicon.ico HTTP/1.1" 404 2572
+Not Found: /
+[20/Feb/2026 11:58:33] "GET / HTTP/1.1" 404 2526
+[20/Feb/2026 12:12:30] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+[20/Feb/2026 12:12:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[20/Feb/2026 12:12:40] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[20/Feb/2026 12:13:00] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /robots.txt
+[20/Feb/2026 12:13:01] "GET /robots.txt HTTP/1.1" 404 2574
+Not Found: /sitemap.xml
+[20/Feb/2026 12:13:02] "GET /sitemap.xml HTTP/1.1" 404 2577
+Not Found: /
+[20/Feb/2026 12:26:35] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[20/Feb/2026 12:26:43] "GET / HTTP/1.1" 404 2526
+Invalid HTTP_HOST header: 'vpn.boboba.ru'. You may need to add 'vpn.boboba.ru' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'vpn.boboba.ru'. You may need to add 'vpn.boboba.ru' to ALLOWED_HOSTS.
+Bad Request: /
+[20/Feb/2026 12:28:17] "GET / HTTP/1.1" 400 59800
+[20/Feb/2026 13:15:59] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87887
+[20/Feb/2026 13:15:59] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 13:16:01] "GET /admin/bot/botuser/ HTTP/1.1" 200 83930
+[20/Feb/2026 13:16:01] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 13:16:01] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[20/Feb/2026 13:16:01] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+Not Found: /apple-touch-icon.png
+[20/Feb/2026 13:16:02] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[20/Feb/2026 13:16:02] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-precomposed.png
+[20/Feb/2026 13:16:02] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[20/Feb/2026 13:16:08] "GET /admin/bot/botuser/?q=5297784101 HTTP/1.1" 200 18868
+[20/Feb/2026 13:16:08] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /
+[20/Feb/2026 13:21:35] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[20/Feb/2026 13:22:26] "GET / HTTP/1.1" 404 2526
+[20/Feb/2026 13:23:58] code 400, message Bad request version ('À\x14À')
+[20/Feb/2026 13:23:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/Feb/2026 13:24:47] code 400, message Bad request syntax ('SSH-2.0-Go')
+[20/Feb/2026 13:24:47] "SSH-2.0-Go" 400 -
+[20/Feb/2026 13:25:59] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¾åg')
+[20/Feb/2026 13:25:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[20/Feb/2026 13:29:50] code 400, message Bad request version ('php://input')
+[20/Feb/2026 13:29:50] "            Â 	REMOTE_ADDR127.0.0.1 QUERY_STRINGDOCUMENT_ROOT/	SERVER_NAMElocalhostCONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[20/Feb/2026 13:29:50] code 400, message Bad request version ('php://input')
+[20/Feb/2026 13:29:50] "            Ì GATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTDOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1	SERVER_NAMElocalhostSCRIPT_FILENAME/usr/share/php/PEAR.php QUERY_STRINGSERVER_SOFTWAREphp/fcgiclientCONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnSCRIPT_NAME/usr/share/php/PEAR.phpREMOTE_PORT9985	SERVER_ADDR127.0.0.1SERVER_PORT80SERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[20/Feb/2026 13:29:50] code 400, message Bad request version ('php://input')
+[20/Feb/2026 13:29:50] "            Ô REQUEST_METHODPOSTCONTENT_TYPEapplication/textCONTENT_LENGTH52SCRIPT_FILENAME/usr/local/lib/php/PEAR.phpSERVER_SOFTWAREphp/fcgiclientPHP_ADMIN_VALUEallow_url_include = On	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[20/Feb/2026 13:29:50] code 400, message Bad request version ('php://input')
+[20/Feb/2026 13:29:50] "            ä 	REMOTE_ADDR127.0.0.1	SERVER_ADDR127.0.0.1SERVER_PORT80	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[20/Feb/2026 13:29:50] code 400, message Bad request version ('php://input')
+[20/Feb/2026 13:29:50] "            Ø  	REMOTE_ADDR127.0.0.1	SERVER_NAMElocalhostCONTENT_TYPEapplication/textCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[20/Feb/2026 13:29:50] code 400, message Bad request version ('php://input')
+[20/Feb/2026 13:29:50] "            Ì  QUERY_STRING	SERVER_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnREQUEST_METHODPOSTDOCUMENT_ROOT/SERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/textSERVER_PORT80	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[20/Feb/2026 13:29:50] code 400, message Bad request version ('php://input')
+[20/Feb/2026 13:29:50] "            º SERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/textSCRIPT_NAME/app/index.php	REMOTE_ADDR127.0.0.1REMOTE_PORT9985	SERVER_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnSCRIPT_FILENAME/app/index.php QUERY_STRINGSERVER_SOFTWAREphp/fcgiclient	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[20/Feb/2026 13:29:50] code 400, message Bad request version ('php://input')
+[20/Feb/2026 13:29:50] "            È  DOCUMENT_ROOT/PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0 QUERY_STRINGSERVER_SOFTWAREphp/fcgiclient	SERVER_NAMElocalhost	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[20/Feb/2026 13:29:50] code 400, message Bad request version ('php://input')
+[20/Feb/2026 13:29:50] "            Î DOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1REMOTE_PORT9985	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1 QUERY_STRING	SERVER_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTSCRIPT_FILENAME/usr/local/bin/phar.pharSERVER_SOFTWAREphp/fcgiclientCONTENT_TYPEapplication/textCONTENT_LENGTH52	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[20/Feb/2026 14:00:14] code 400, message Bad request version ('À#À¬À®À+À')
+[20/Feb/2026 14:00:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[20/Feb/2026 14:00:18] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[20/Feb/2026 14:02:10] "GET /favicon.ico HTTP/1.1" 404 2577
+[20/Feb/2026 14:11:08,304] - Broken pipe from ('167.94.146.48', 57042)
+[20/Feb/2026 14:11:08] code 400, message Bad request version ('À\x14À')
+[20/Feb/2026 14:11:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[20/Feb/2026 14:11:11] "GET / HTTP/1.1" 404 2526
+[20/Feb/2026 14:11:11,796] - Broken pipe from ('167.94.146.48', 64894)
+[20/Feb/2026 14:11:14] code 400, message Bad request version ('¸\x92Ðù¶o«k¬')
+[20/Feb/2026 14:11:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[20/Feb/2026 14:11:14] "GET / HTTP/1.1" 404 2526
+[20/Feb/2026 14:11:14] code 505, message Invalid HTTP version (2.0)
+[20/Feb/2026 14:11:14] "PRI * HTTP/2.0" 505 -
+[20/Feb/2026 14:11:18] code 400, message Bad request version ('À\x14À')
+[20/Feb/2026 14:11:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /robots.txt
+[20/Feb/2026 14:11:18] "GET /robots.txt HTTP/1.1" 404 2574
+[20/Feb/2026 14:12:16] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 14:12:16] "ðÞ¼" 400 -
+[20/Feb/2026 14:12:19] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 14:12:19] "ðÞ¼" 400 -
+[20/Feb/2026 14:51:26] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ì\x01\x00\x00è\x03\x03')
+[20/Feb/2026 14:51:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[20/Feb/2026 15:07:13] "GET / HTTP/1.1" 404 2526
+Not Found: /favicon.ico
+[20/Feb/2026 15:07:43] "GET /favicon.ico HTTP/1.1" 404 2577
+[20/Feb/2026 15:49:30] "GET /admin/bot/botuser/?q=5297784101 HTTP/1.1" 200 18868
+[20/Feb/2026 15:49:30] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 15:49:48] "GET /admin/bot/botuser/?q=dyshhnaya HTTP/1.1" 200 18834
+[20/Feb/2026 15:49:49] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 15:49:59] "GET /admin/bot/botuser/33/change/?_changelist_filters=q%3Ddyshhnaya HTTP/1.1" 200 30703
+[20/Feb/2026 15:49:59] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 15:49:59] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[20/Feb/2026 15:49:59] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[20/Feb/2026 15:49:59] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[20/Feb/2026 15:49:59] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[20/Feb/2026 15:49:59] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[20/Feb/2026 15:49:59] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[20/Feb/2026 15:49:59] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[20/Feb/2026 15:49:59] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[20/Feb/2026 15:51:28] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 15:51:28] "ðÞ¼" 400 -
+[20/Feb/2026 15:51:29] code 400, message Bad request syntax ('ðÞ¼')
+[20/Feb/2026 15:51:29] "ðÞ¼" 400 -
+[20/Feb/2026 15:52:50] code 400, message Bad request syntax ('\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03')
+[20/Feb/2026 15:52:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[20/Feb/2026 15:52:54] "GET / HTTP/1.1" 404 2521
+[20/Feb/2026 15:52:55,183] - Broken pipe from ('207.90.244.14', 43864)
+[20/Feb/2026 17:10:53] "GET /admin/bot/botuser/ HTTP/1.1" 200 83934
+[20/Feb/2026 17:10:53] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /apple-touch-icon.png
+[20/Feb/2026 17:10:55] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /apple-touch-icon-precomposed.png
+Not Found: /favicon.ico
+[20/Feb/2026 17:10:55] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[20/Feb/2026 17:10:55] "GET /favicon.ico HTTP/1.1" 404 2577
+[20/Feb/2026 17:10:56] "GET /admin/bot/botuser/?q=970952884 HTTP/1.1" 200 18822
+[20/Feb/2026 17:10:57] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 17:11:18] "GET /admin/bot/botuser/130/change/?_changelist_filters=q%3D970952884 HTTP/1.1" 200 30712
+[20/Feb/2026 17:11:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 17:11:28] "GET /admin/bot/payment/ HTTP/1.1" 200 80193
+[20/Feb/2026 17:11:28] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 17:11:31] "GET /admin/bot/payment/?q=970952884 HTTP/1.1" 200 22044
+[20/Feb/2026 17:11:31] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 17:12:18] "GET /admin/bot/botuser/ HTTP/1.1" 200 83934
+[20/Feb/2026 17:12:18] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 17:40:03] "GET /admin/bot/botuser/ HTTP/1.1" 200 83934
+[20/Feb/2026 17:40:04] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 17:40:08] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87891
+[20/Feb/2026 17:40:08] "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 304 0
+[20/Feb/2026 17:40:08] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 17:40:25] "GET /admin/bot/botuser/? HTTP/1.1" 200 83934
+[20/Feb/2026 17:40:26] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 18:07:37] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87891
+[20/Feb/2026 18:44:09] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87891
+[20/Feb/2026 18:44:10] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Invalid HTTP_HOST header: 'clientapi.ipip.net'. You may need to add 'clientapi.ipip.net' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/deprecation.py", line 128, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'clientapi.ipip.net'. You may need to add 'clientapi.ipip.net' to ALLOWED_HOSTS.
+Bad Request: /http:/clientapi.ipip.net/echo.php
+[20/Feb/2026 19:01:54] "GET http://clientapi.ipip.net/echo.php?info=20260220160154 HTTP/1.1" 400 60712
+[20/Feb/2026 19:01:59] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+[20/Feb/2026 19:01:59] " " 400 -
+Not Found: /
+[20/Feb/2026 22:22:36] "GET / HTTP/1.0" 404 2521
+[20/Feb/2026 23:46:08] "GET /admin/bot/botuser/ HTTP/1.1" 302 0
+Not Found: /apple-touch-icon-precomposed.png
+[20/Feb/2026 23:46:08] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /favicon.ico
+[20/Feb/2026 23:46:08] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon.png
+[20/Feb/2026 23:46:08] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+[20/Feb/2026 23:46:08] "GET /admin/login/?next=/admin/bot/botuser/ HTTP/1.1" 200 4386
+[20/Feb/2026 23:47:17] "GET /admin/bot/botuser/?q= HTTP/1.1" 200 86557
+[20/Feb/2026 23:47:17] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[20/Feb/2026 23:47:17] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[20/Feb/2026 23:47:17] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+[20/Feb/2026 23:47:17] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[20/Feb/2026 23:47:17] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[20/Feb/2026 23:47:17] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[20/Feb/2026 23:47:17] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[20/Feb/2026 23:47:17] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+Not Found: /favicon.ico
+[20/Feb/2026 23:47:17] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /
+[21/Feb/2026 00:32:52] "GET / HTTP/1.1" 404 2526
+[21/Feb/2026 00:55:01] "GET /admin/bot/botuser/?q= HTTP/1.1" 200 86617
+[21/Feb/2026 00:55:01] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+[21/Feb/2026 00:55:01] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+[21/Feb/2026 00:55:01] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[21/Feb/2026 00:55:01] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 00:55:01] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[21/Feb/2026 00:55:07] "GET /admin/ HTTP/1.1" 200 18022
+[21/Feb/2026 00:55:08] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[21/Feb/2026 00:55:08] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[21/Feb/2026 00:55:08] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[21/Feb/2026 00:55:08] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[21/Feb/2026 00:55:08] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[21/Feb/2026 00:55:08] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[21/Feb/2026 00:55:08] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[21/Feb/2026 00:55:08] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[21/Feb/2026 00:55:08] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[21/Feb/2026 00:55:08] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[21/Feb/2026 00:55:32] "GET /admin/bot/payment/ HTTP/1.1" 200 80210
+[21/Feb/2026 00:55:35] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 00:55:35] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[21/Feb/2026 00:55:35] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[21/Feb/2026 00:55:35] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[21/Feb/2026 00:55:35] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[21/Feb/2026 00:55:35] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[21/Feb/2026 00:55:36] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[21/Feb/2026 00:56:39] "GET /admin/ HTTP/1.1" 200 18022
+[21/Feb/2026 00:56:41] "GET /admin/bot/botuser/ HTTP/1.1" 200 83954
+[21/Feb/2026 00:56:41] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /apple-touch-icon-precomposed.png
+[21/Feb/2026 00:56:42] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[21/Feb/2026 00:56:42] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /favicon.ico
+[21/Feb/2026 00:56:42] "GET /favicon.ico HTTP/1.1" 404 2577
+[21/Feb/2026 00:56:45] "GET /admin/bot/botuser/?q=244338723 HTTP/1.1" 200 18848
+[21/Feb/2026 00:56:46] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 00:56:47] "GET /admin/bot/botuser/76/change/?_changelist_filters=q%3D244338723 HTTP/1.1" 200 30709
+[21/Feb/2026 00:56:47] "GET /static/admin/css/forms.css HTTP/1.1" 200 8710
+[21/Feb/2026 00:56:48] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[21/Feb/2026 00:56:48] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[21/Feb/2026 00:56:48] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 00:56:48] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[21/Feb/2026 00:56:48] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[21/Feb/2026 00:56:48] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+[21/Feb/2026 00:56:48] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[21/Feb/2026 00:56:48] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[21/Feb/2026 00:56:54] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 2455
+[21/Feb/2026 00:57:36] "POST /admin/bot/botuser/76/change/?_changelist_filters=q%3D244338723 HTTP/1.1" 302 0
+[21/Feb/2026 00:57:36] "GET /admin/bot/botuser/?q=244338723 HTTP/1.1" 200 19102
+[21/Feb/2026 00:57:37] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 00:57:37] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[21/Feb/2026 01:24:19] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87911
+[21/Feb/2026 01:24:20] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 01:24:30] "GET /admin/bot/text_castom/ HTTP/1.1" 200 17478
+[21/Feb/2026 01:24:30] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 01:24:31] "GET /admin/bot/bot_message/ HTTP/1.1" 200 25899
+[21/Feb/2026 01:24:31] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 01:24:34] "GET /admin/bot/bot_message/11/change/ HTTP/1.1" 200 34156
+[21/Feb/2026 01:24:34] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 01:24:34] "GET /static/admin/js/inlines.js HTTP/1.1" 200 15526
+[21/Feb/2026 01:24:34] "GET /static/admin/img/inline-delete.svg HTTP/1.1" 200 560
+Watching for file changes with StatReloader
+[21/Feb/2026 01:29:34] "GET /admin/bot/payment/ HTTP/1.1" 200 80210
+[21/Feb/2026 01:29:35] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 01:30:26] "GET /admin/bot/botuser/ HTTP/1.1" 200 83954
+[21/Feb/2026 01:30:26] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+[21/Feb/2026 01:30:27] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon.png
+[21/Feb/2026 01:30:27] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /apple-touch-icon-precomposed.png
+[21/Feb/2026 01:30:27] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[21/Feb/2026 01:30:35] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87911
+[21/Feb/2026 01:30:35] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 08:04:55] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00')
+[21/Feb/2026 08:04:55] "  à       " 400 -
+[21/Feb/2026 08:04:55] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00')
+[21/Feb/2026 08:04:55] "  à       " 400 -
+Not Found: /
+[21/Feb/2026 08:15:35] "GET / HTTP/1.1" 404 2526
+[21/Feb/2026 08:15:35] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[21/Feb/2026 08:15:35] "MGLNDD_193.58.121.190_9000" 400 -
+[21/Feb/2026 10:35:57] code 400, message Bad request syntax ('MGLNDD_193.58.121.190_9000')
+[21/Feb/2026 10:35:57] "MGLNDD_193.58.121.190_9000" 400 -
+Not Found: /
+[21/Feb/2026 11:37:50] "GET / HTTP/1.1" 404 2521
+Not Found: /favicon.ico
+[21/Feb/2026 11:37:51] "GET /favicon.ico HTTP/1.1" 404 2577
+[21/Feb/2026 11:54:12] "GET /admin/bot/botuser/?q=244338723 HTTP/1.1" 302 0
+[21/Feb/2026 11:54:12] "GET /admin/login/?next=/admin/bot/botuser/%3Fq%3D244338723 HTTP/1.1" 200 4414
+[21/Feb/2026 11:54:13] "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+[21/Feb/2026 11:54:13] "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[21/Feb/2026 11:54:13] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+[21/Feb/2026 11:54:13] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[21/Feb/2026 11:54:13] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+Watching for file changes with StatReloader
+[21/Feb/2026 12:19:03] code 400, message Bad request version ('À\x14À')
+[21/Feb/2026 12:19:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[21/Feb/2026 14:02:13,746] - Broken pipe from ('66.132.153.117', 50642)
+[21/Feb/2026 14:02:13] code 400, message Bad request version ('À\x14À')
+[21/Feb/2026 14:02:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[21/Feb/2026 14:02:17] "GET / HTTP/1.1" 404 2526
+[21/Feb/2026 14:02:18,342] - Broken pipe from ('66.132.153.117', 50730)
+[21/Feb/2026 14:02:23] code 400, message Bad request version ('À\x14À')
+[21/Feb/2026 14:02:23] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[21/Feb/2026 14:02:25] "GET / HTTP/1.1" 404 2526
+[21/Feb/2026 14:02:25] code 505, message Invalid HTTP version (2.0)
+[21/Feb/2026 14:02:25] "PRI * HTTP/2.0" 505 -
+[21/Feb/2026 14:02:30] code 400, message Bad request version ('d\x87B')
+[21/Feb/2026 14:02:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /wiki
+[21/Feb/2026 14:02:30] "GET /wiki HTTP/1.1" 404 2556
+[21/Feb/2026 14:22:34,086] - Broken pipe from ('80.82.65.174', 58000)
+[21/Feb/2026 14:25:02] code 400, message Bad request version ('php://input')
+[21/Feb/2026 14:25:02] "            Â PHP_ADMIN_VALUEallow_url_include = OnSCRIPT_FILENAME/usr/bin/phar.pharSERVER_SOFTWAREphp/fcgiclientSERVER_PORT80REQUEST_METHODPOSTSCRIPT_NAME/usr/bin/phar.pharDOCUMENT_ROOT/	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/textCONTENT_LENGTH52GATEWAY_INTERFACEFastCGI/1.0 QUERY_STRING	REMOTE_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[21/Feb/2026 14:25:02] code 400, message Bad request version ('php://input')
+[21/Feb/2026 14:25:02] "            Ì  QUERY_STRINGDOCUMENT_ROOT/SERVER_SOFTWAREphp/fcgiclientSERVER_PROTOCOLHTTP/1.1	REMOTE_ADDR127.0.0.1REMOTE_PORT9985SERVER_PORT80	SERVER_NAMElocalhostCONTENT_TYPEapplication/textREQUEST_METHODPOSTCONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0SCRIPT_FILENAME/usr/share/php/PEAR.phpSCRIPT_NAME/usr/share/php/PEAR.php	SERVER_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[21/Feb/2026 14:25:02] code 400, message Bad request version ('php://input')
+[21/Feb/2026 14:25:02] "            Ô GATEWAY_INTERFACEFastCGI/1.0REQUEST_METHODPOSTSCRIPT_FILENAME/usr/local/lib/php/PEAR.phpSCRIPT_NAME/usr/local/lib/php/PEAR.php QUERY_STRING	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[21/Feb/2026 14:25:02] code 400, message Bad request version ('php://input')
+[21/Feb/2026 14:25:02] "            ä #SCRIPT_NAME/opt/bitnami/php/lib/php/System.phpDOCUMENT_ROOT/	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1SERVER_PORT80CONTENT_LENGTH52PHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0SERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1REMOTE_PORT9985	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[21/Feb/2026 14:25:02] code 400, message Bad request version ('php://input')
+[21/Feb/2026 14:25:02] "            Ø  SCRIPT_NAME/usr/local/lib/php/System.phpREMOTE_PORT9985	SERVER_ADDR127.0.0.1SERVER_PROTOCOLHTTP/1.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[21/Feb/2026 14:25:02] code 400, message Bad request version ('php://input')
+[21/Feb/2026 14:25:02] "            Ì SCRIPT_FILENAME/var/www/html/index.phpSERVER_SOFTWAREphp/fcgiclientREMOTE_PORT9985SERVER_PORT80GATEWAY_INTERFACEFastCGI/1.0	REMOTE_ADDR127.0.0.1PHP_ADMIN_VALUEallow_url_include = OnCONTENT_LENGTH52REQUEST_METHODPOSTSCRIPT_NAME/var/www/html/index.phpDOCUMENT_ROOT/	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhostSERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/text QUERY_STRING	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[21/Feb/2026 14:25:02] code 400, message Bad request version ('php://input')
+[21/Feb/2026 14:25:02] "            º CONTENT_TYPEapplication/textCONTENT_LENGTH52 QUERY_STRING	REMOTE_ADDR127.0.0.1REMOTE_PORT9985SERVER_PROTOCOLHTTP/1.1	SERVER_ADDR127.0.0.1	SERVER_NAMElocalhost	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[21/Feb/2026 14:25:02] code 400, message Bad request version ('php://input')
+[21/Feb/2026 14:25:02] "            È  REMOTE_PORT9985SERVER_PROTOCOLHTTP/1.1CONTENT_LENGTH52SCRIPT_NAME/app/public/index.phpDOCUMENT_ROOT/	REMOTE_ADDR127.0.0.1	SERVER_NAMElocalhostREQUEST_METHODPOSTSCRIPT_FILENAME/app/public/index.php QUERY_STRINGSERVER_SOFTWAREphp/fcgiclientSERVER_PORT80CONTENT_TYPEapplication/textPHP_ADMIN_VALUEallow_url_include = OnGATEWAY_INTERFACEFastCGI/1.0	SERVER_ADDR127.0.0.1	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[21/Feb/2026 14:25:02] code 400, message Bad request version ('php://input')
+[21/Feb/2026 14:25:02] "            Î 	SERVER_NAMElocalhostSERVER_SOFTWAREphp/fcgiclient	REMOTE_ADDR127.0.0.1SERVER_PORT80CONTENT_LENGTH52SCRIPT_NAME/usr/local/bin/phar.phar QUERY_STRINGDOCUMENT_ROOT/REQUEST_METHODPOSTREMOTE_PORT9985SERVER_PROTOCOLHTTP/1.1CONTENT_TYPEapplication/text	4PHP_VALUEauto_prepend_file = php://input" 400 -
+[21/Feb/2026 15:02:18] code 400, message Bad request version ('À\x14À')
+[21/Feb/2026 15:02:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[21/Feb/2026 15:02:19] "GET / HTTP/1.1" 404 2526
+[21/Feb/2026 15:02:21] code 505, message Invalid HTTP version (2.0)
+[21/Feb/2026 15:02:21] "PRI * HTTP/2.0" 505 -
+[21/Feb/2026 15:02:52] code 400, message Bad request version ('À\x14À')
+[21/Feb/2026 15:02:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /wiki
+[21/Feb/2026 15:02:55] "GET /wiki HTTP/1.1" 404 2556
+Not Found: /
+[21/Feb/2026 15:06:05] "GET / HTTP/1.1" 404 2526
+[21/Feb/2026 15:06:06,496] - Broken pipe from ('167.94.138.172', 39414)
+[21/Feb/2026 15:06:19] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03x¦Ní\x8b')
+[21/Feb/2026 15:06:19] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[21/Feb/2026 15:06:25] "GET / HTTP/1.1" 404 2526
+[21/Feb/2026 15:06:31] code 505, message Invalid HTTP version (2.0)
+[21/Feb/2026 15:06:31] "PRI * HTTP/2.0" 505 -
+[21/Feb/2026 15:06:59] code 400, message Bad request version ('À\x14À')
+[21/Feb/2026 15:06:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /sitemap.xml
+[21/Feb/2026 15:07:04] "GET /sitemap.xml HTTP/1.1" 404 2577
+[21/Feb/2026 15:30:52] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87895
+[21/Feb/2026 15:30:54] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87895
+[21/Feb/2026 15:30:55] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 15:30:55] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[21/Feb/2026 15:30:55] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+Not Found: /
+[21/Feb/2026 17:08:43] "GET / HTTP/1.1" 404 2526
+Not Found: /
+[21/Feb/2026 17:08:45] "POST / HTTP/1.1" 404 2527
+Not Found: /_next
+[21/Feb/2026 17:08:46] "POST /_next HTTP/1.1" 404 2560
+Not Found: /api
+[21/Feb/2026 17:08:46] "POST /api HTTP/1.1" 404 2554
+Not Found: /_next/server
+[21/Feb/2026 17:08:47] "POST /_next/server HTTP/1.1" 404 2581
+Not Found: /app
+[21/Feb/2026 17:08:47] "POST /app HTTP/1.1" 404 2554
+Not Found: /api/route
+[21/Feb/2026 17:08:48] "POST /api/route HTTP/1.1" 404 2572
+[21/Feb/2026 17:12:34] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[21/Feb/2026 17:12:34] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+[21/Feb/2026 17:12:51] code 400, message Bad request version ('SCRIPT_FILENAME/AAAAAAAAAA\x0e\x03REQUEST_METHODGET\x00\x01\x04\x00\x01\x00\x00\x00\x00\x01\x05\x00\x01\x00\x00\x00\x00')
+[21/Feb/2026 17:12:51] "             G SCRIPT_NAME/AAAAAAAAAASCRIPT_FILENAME/AAAAAAAAAAREQUEST_METHODGET           " 400 -
+[21/Feb/2026 18:22:16] "GET /admin/bot/botuser/?q=244338723 HTTP/1.1" 200 18837
+[21/Feb/2026 18:22:16] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 19:25:59] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87930
+[21/Feb/2026 19:26:00] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 19:26:00] "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 304 0
+[21/Feb/2026 19:26:10] "GET /admin/bot/botuser/ HTTP/1.1" 200 83973
+[21/Feb/2026 19:26:10] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 19:26:10] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[21/Feb/2026 19:26:10] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon-precomposed.png
+[21/Feb/2026 19:26:11] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+Not Found: /apple-touch-icon.png
+[21/Feb/2026 19:26:11] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+[21/Feb/2026 20:17:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Feb/2026 20:17:20] "  /*à     Cookie: mstshash=Administr" 400 -
+[21/Feb/2026 20:17:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Feb/2026 20:17:20] "  /*à     Cookie: mstshash=Administr" 400 -
+[21/Feb/2026 20:17:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Feb/2026 20:17:20] "  /*à     Cookie: mstshash=Administr" 400 -
+[21/Feb/2026 20:17:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Feb/2026 20:17:20] "  /*à     Cookie: mstshash=Administr" 400 -
+[21/Feb/2026 20:17:20] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Feb/2026 20:17:20] "  /*à     Cookie: mstshash=Administr" 400 -
+[21/Feb/2026 20:17:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[21/Feb/2026 20:17:21] "  /*à     Cookie: mstshash=Administr" 400 -
+[21/Feb/2026 21:01:56] code 400, message Bad request version ("z§\x88b\x00\x14\x13\x01\x13\x02\x13\x03À,À0Ì©Ì¨À+À/À'\x01\x00\x00\x81\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00")
+[21/Feb/2026 21:01:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[21/Feb/2026 21:03:52,468] - Broken pipe from ('206.168.34.114', 23234)
+[21/Feb/2026 21:04:23,027] - Broken pipe from ('206.168.34.114', 14856)
+[21/Feb/2026 21:04:34] code 400, message Bad request syntax ('\x10\x12\x00\x04MQTT\x04\x00\x00')
+[21/Feb/2026 21:04:34] " MQTT  " 400 -
+[21/Feb/2026 22:58:33] "GET /admin/bot/botuser/ HTTP/1.1" 200 83978
+[21/Feb/2026 22:58:34] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+Not Found: /favicon.ico
+[21/Feb/2026 22:58:34] "GET /favicon.ico HTTP/1.1" 404 2577
+Not Found: /apple-touch-icon.png
+[21/Feb/2026 22:58:35] "GET /apple-touch-icon.png HTTP/1.1" 404 2604
+Not Found: /apple-touch-icon-precomposed.png
+[21/Feb/2026 22:58:35] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2640
+[21/Feb/2026 22:58:40] "GET /admin/bot/botuser/?_facets=True HTTP/1.1" 200 87935
+[21/Feb/2026 22:58:41] "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+[21/Feb/2026 22:58:54] "GET /admin/bot/botuser/? HTTP/1.1" 200 83978
+[21/Feb/2026 22:58:54] "GET /admin/jsi18n/ HTTP/1.1" 200 17546

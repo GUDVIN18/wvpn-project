@@ -82,7 +82,7 @@ class BotUserAdmin(admin.ModelAdmin):
 
         "last_message_id",  # Оставлено только одно упоминание
         "last_input_message_id",
-
+	"created_at",
     ]
     list_display = (
         "tg_id",

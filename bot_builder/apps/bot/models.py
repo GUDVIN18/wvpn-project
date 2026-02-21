@@ -56,6 +56,7 @@ class BotUser(models.Model):
 
     last_message_id = models.BigIntegerField(null=True, blank=True, help_text="ID последнего отправленного сообщения с кнопками")
     last_input_message_id = models.BigIntegerField(null=True, blank=True, help_text="ID последнего отправленного сообщения без кнопок")
+    created_at = models.DateTimeField(default=timezone.now, help_text="Дата и время создания")
 
     def __str__(self):
         return f"user_object {self.tg_id} {self.username}"
