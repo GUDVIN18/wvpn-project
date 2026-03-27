@@ -214,7 +214,6 @@ class Command(BaseCommand):
             log.error(f"Ошибка при напоминании: {e}")
             time.sleep(5)  # Задержка на случай ошибок
 
-
     while True:
         close_old_connections()
         worker()
