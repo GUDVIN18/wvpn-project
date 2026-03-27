@@ -21,6 +21,8 @@ class Referal(models.Model):
     user = models.ForeignKey('BotUser', on_delete=models.CASCADE, related_name='referrals', verbose_name="Пользователь")
     referred_user = models.ForeignKey('BotUser', on_delete=models.CASCADE, related_name='referred_by', verbose_name="Реферал")
     created_at = models.DateTimeField(auto_now_add=True, verbose_name="Дата создания")
+    def __str__(self):
+        return f"To: {self.user.username} | From: {self.referred_user.username if self.referred_user.username else self.referred_user.tg_id}"
 
 class PaymentReferal(models.Model):
     referal = models.ForeignKey(Referal, on_delete=models.CASCADE, related_name='payments', verbose_name="Реферал")

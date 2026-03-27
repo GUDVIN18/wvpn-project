@@ -18,6 +18,7 @@ from apps.bot.telegram_api_message import (
     send_success_notification_telegram_message,
     send_support_project,
 )
+from django.db import close_old_connections
 
 
 class Command(BaseCommand):
@@ -215,5 +216,6 @@ class Command(BaseCommand):
 
 
     while True:
+        close_old_connections()
         worker()
-        time.sleep(0.7)
+        time.sleep(0.9)

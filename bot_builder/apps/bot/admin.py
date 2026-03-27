@@ -212,7 +212,8 @@ class PaymentReferalAdmin(admin.ModelAdmin):
         "created_at",
     )
     search_fields = (
-        "referal_user__tg_id",
+        "referal__user__tg_id",
+        "referal__user__username",
     )
 
 @admin.register(Text_Castom)

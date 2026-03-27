@@ -354,7 +354,7 @@ class Bot_Handler():
         buttons = list(Bot_Button.objects.filter(message_trigger=state).order_by('id'))
         if user.vpn_key and 'https://' in user.vpn_key:
             buttons.insert(0, Bot_Button(
-                text='🚀 VPN Профиль',
+                text='🚀 Подключить VPN',
                 type_btn='Inline',
                 type_data='url',
                 data=user.vpn_key,
@@ -953,7 +953,7 @@ class Bot_Handler():
 
         buttons = list(Bot_Button.objects.filter(message_trigger=state).order_by('id'))
         buttons.insert(0, Bot_Button(
-            text='🚀 VPN Профиль',
+            text='🚀 Подключить VPN',
             type_btn='Inline',
             type_data='url',
             data=user.vpn_key,

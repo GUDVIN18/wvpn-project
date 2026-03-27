@@ -7,14 +7,18 @@ from telebot import TeleBot
 from apps.worker.commands_handler import Bot_Handler
 import importlib
 from apps.worker.callback_handler import callback_handler
+from django.db import close_old_connections
 
 
 
 class Command(BaseCommand):
     def worker(bot):
-        if Events.objects.filter(status='ACCEPTED').exists():
-            states = Events.objects.filter(status='ACCEPTED')
-            for event in states:
+        # if Events.objects.filter(status='ACCEPTED').exists():
+        #     states = Events.objects.filter(status='ACCEPTED')
+        #     for event in states:
+        states = Events.objects.filter(status='ACCEPTED')
+        for event in states:
+            if event:
                 update = event.update_data
                 serialized_data = {
                     'user_id': '' ,
@@ -174,8 +178,6 @@ class Command(BaseCommand):
 
     bot = TeleBot(bot_token)
     while True:
+        close_old_connections()
         worker(bot)
-        time.sleep(0.05)
-
-
-
+        time.sleep(0.1)

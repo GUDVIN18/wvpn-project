@@ -10,7 +10,11 @@ from django.utils import timezone
 
 # для тексста
 MESSAGE_TEMPLATE = (
-    "❗️Напоминаю, что <b>сегодня в 18:30</b> старые ключи перестанут работать!\nПо кнопке ниже, вы можете удобно вставить свой новый ключ в приложение <b>V2RayTun</b> / <b>HAPP</b>"
+    "Сделал бесплатный прокси для тг\n"
+    "Чтоб не включать постоянно впн\n\n"
+    '<b><a href="tg://proxy?server=193.58.121.190&port=8443&secret=85b626a18d079bae1673d77023573076">'
+    "WVPN_TG_PROXY</a></b>\n\n"
+    "По всем вопросам писать: <b>@Dmitriy_prog</b>"
 )
 # для фото
 CAPTION_TEMPLATE = (
@@ -31,17 +35,17 @@ def send_message(user_id):
         "text": message_text,
         "parse_mode": "HTML",
         "disable_web_page_preview": True,
-        "reply_markup": {
-            "inline_keyboard": [
-                [
-                    {
-                        "text": "🚀 VPN Профиль",
-                        "url": f"{user.vpn_key}"
+        # "reply_markup": {
+        #     "inline_keyboard": [
+        #         [
+        #             {
+        #                 "text": "🚀 Подключить VPN",
+        #                 "url": f"{user.vpn_key}"
                         
-                    }
-                ]
-            ]
-        }
+        #             }
+        #         ]
+        #     ]
+        # }
     }
 
     response = requests.post(f'https://api.telegram.org/bot{bot_token}/sendMessage', json=payload)
@@ -81,8 +85,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         try:
-            # users = BotUser.objects.all()
-            users = BotUser.objects.filter(tg_id__in=[6424595615])
+            users = BotUser.objects.all()
+            # users = BotUser.objects.filter(tg_id__in=[6424595615])
             print(f"Найдено пользователей: {users.count()}")
             k = 0
             for user in users:
