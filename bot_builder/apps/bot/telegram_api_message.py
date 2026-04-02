@@ -25,12 +25,12 @@ session.mount("https://", adapter)
 session.mount("http://", adapter)
 session.headers.update({"User-Agent": "V2RayAPI/1.0"})
 
-
-def send_success_notification_telegram_message(user_id):
+# уведы
+def send_success_notification_telegram_message(user_id, condition):
     time.sleep(3)
     url = f'https://api.telegram.org/bot{bot_token}/sendMessage'
     
-    textovka = Text_Castom.objects.get(condition='send_success_notification_telegram_message')
+    textovka = Text_Castom.objects.get(condition=condition)
     user = BotUser.objects.get(tg_id=user_id)
     if user.language_chooce == 'ru':
         text_message = textovka.text
@@ -59,11 +59,12 @@ def send_success_notification_telegram_message(user_id):
     
     # Получаем message_id из ответа
     message_id_new = response_json['result']['message_id']
-
-    if user.last_message_id:
-        bot = TeleBot(bot_token)
-        bot.delete_message(chat_id=user.tg_id, message_id=user.last_message_id)
-
+    try:
+        if user.last_message_id:
+            bot = TeleBot(bot_token)
+            bot.delete_message(chat_id=user.tg_id, message_id=user.last_message_id)
+    except Exception as e:
+        log.error(f"Ошибка при удалении предыдущего сообщения: {e}")
     user.last_message_id = int(message_id_new)
     user.save()
     log.success(f"Saved successfully! sub user.last_message_id={user.last_message_id} message_id={message_id_new}")
@@ -71,7 +72,7 @@ def send_success_notification_telegram_message(user_id):
     return response_json
 
 
-
+# при оплате
 def send_success_telegram_message(user_id):
     url = f'https://api.telegram.org/bot{bot_token}/sendMessage'
     
@@ -104,11 +105,12 @@ def send_success_telegram_message(user_id):
 
     # Получаем message_id из ответа
     message_id_new = response_json['result']['message_id']
-
-    if user.last_message_id:
-        bot = TeleBot(bot_token)
-        bot.delete_message(chat_id=user.tg_id, message_id=user.last_message_id)
-
+    try:
+        if user.last_message_id:
+            bot = TeleBot(bot_token)
+            bot.delete_message(chat_id=user.tg_id, message_id=user.last_message_id)
+    except Exception as e:
+        log.error(f"Ошибка при удалении предыдущего сообщения: {e}")
     user.last_message_id = int(message_id_new)
     user.save()
     log.success(f"Saved successfully! oplata user.last_message_id={user.last_message_id} message_id={message_id_new}")

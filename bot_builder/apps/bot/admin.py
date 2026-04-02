@@ -80,9 +80,15 @@ class BotUserAdmin(admin.ModelAdmin):
         "vpn_key",
         "name_key",
 
+        "notif_3d",
+        "notif_1d",
+        "notif_1h",
+        "notif_subscribe_close",
+
+
         "last_message_id",  # Оставлено только одно упоминание
         "last_input_message_id",
-	"created_at",
+        "created_at",
     ]
     list_display = (
         "tg_id",
@@ -97,6 +103,10 @@ class BotUserAdmin(admin.ModelAdmin):
         "server_chooce",
         "subscription",
         "trial_period",
+        "notif_3d",
+        "notif_1d",
+        "notif_1h",
+        "notif_subscribe_close",
     )
     search_fields = (
         "tg_id",

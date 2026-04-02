@@ -1,1 +1,273 @@
+[02/Apr/2026 13:05:08] "GET /admin/ HTTP/1.0" 200 18122
+[02/Apr/2026 13:05:13] "GET /admin/ HTTP/1.0" 200 18122
+[02/Apr/2026 13:05:14] "GET /admin/ HTTP/1.0" 200 18122
+Webhook parse error: Parameter "data" should contain "type" and "event" fields
+Bad Request: /payments/webhook/
+[02/Apr/2026 13:06:22] "POST /payments/webhook/ HTTP/1.0" 400 0
+Webhook parse error: Parameter "data" should contain "type" and "event" fields
+Bad Request: /payments/webhook/
+[02/Apr/2026 13:07:43] "POST /payments/webhook/ HTTP/1.0" 400 0
+[02/Apr/2026 13:11:01] "GET /admin/ HTTP/1.0" 200 18122
+Watching for file changes with StatReloader
+2026-04-02 13:25:57.367 | SUCCESS  | apps.bot.telegram_api_message:send_success_telegram_message:116 - Saved successfully! oplata user.last_message_id=14114 message_id=14114
+[02/Apr/2026 13:25:58] "POST /payments/webhook/ HTTP/1.0" 200 0
+[02/Apr/2026 13:26:50] "POST /payments/webhook/ HTTP/1.0" 200 0
+Watching for file changes with StatReloader
+[02/Apr/2026 13:27:52] "GET /admin/bot/payment/ HTTP/1.0" 200 80140
+[02/Apr/2026 13:27:53] "GET /static/admin/css/changelists.css HTTP/1.0" 200 6878
+[02/Apr/2026 13:27:53] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+[02/Apr/2026 13:27:53] "GET /static/admin/js/actions.js HTTP/1.0" 200 8076
+[02/Apr/2026 13:27:53] "GET /static/admin/js/urlify.js HTTP/1.0" 200 7887
+[02/Apr/2026 13:27:53] "GET /static/admin/js/prepopulate.js HTTP/1.0" 200 1531
+[02/Apr/2026 13:27:53] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 200 325171
+[02/Apr/2026 13:27:53] "GET /static/admin/js/filters.js HTTP/1.0" 200 978
+[02/Apr/2026 13:27:53] "GET /static/admin/js/core.js HTTP/1.0" 200 6208
+[02/Apr/2026 13:27:53] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 285314
+[02/Apr/2026 13:27:53] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 9097
+[02/Apr/2026 13:27:53] "GET /static/admin/js/jquery.init.js HTTP/1.0" 200 347
+[02/Apr/2026 13:27:53] "GET /static/admin/img/search.svg HTTP/1.0" 200 458
+[02/Apr/2026 13:27:53] "GET /static/admin/img/tooltag-add.svg HTTP/1.0" 200 331
+[02/Apr/2026 13:27:53] "GET /static/admin/img/icon-viewlink.svg HTTP/1.0" 200 581
+[02/Apr/2026 13:28:00] "GET /admin/bot/payment/ HTTP/1.0" 200 80140
+[02/Apr/2026 13:28:01] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+2026-04-02 13:28:45.302 | SUCCESS  | apps.bot.telegram_api_message:send_success_telegram_message:116 - Saved successfully! oplata user.last_message_id=14121 message_id=14121
+[02/Apr/2026 13:28:46] "POST /payments/webhook/ HTTP/1.0" 200 0
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+[02/Apr/2026 13:34:59] "GET /admin/bot/payment/ HTTP/1.0" 200 80141
+[02/Apr/2026 13:34:59] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+[02/Apr/2026 13:35:54] "GET /admin/bot/botuser/ HTTP/1.0" 200 86453
+[02/Apr/2026 13:35:54] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+[02/Apr/2026 13:35:56] "GET /admin/bot/botuser/?q=1278974479 HTTP/1.0" 200 20899
+[02/Apr/2026 13:35:56] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+[02/Apr/2026 13:36:03] "GET /admin/bot/botuser/73/change/?_changelist_filters=q%3D1278974479 HTTP/1.0" 200 33842
+[02/Apr/2026 13:36:03] "GET /static/admin/css/forms.css HTTP/1.0" 200 8710
+[02/Apr/2026 13:36:03] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+[02/Apr/2026 13:36:03] "GET /static/admin/css/widgets.css HTTP/1.0" 200 11564
+[02/Apr/2026 13:36:03] "GET /static/admin/js/change_form.js HTTP/1.0" 200 606
+[02/Apr/2026 13:36:04] "GET /static/admin/js/calendar.js HTTP/1.0" 200 9141
+[02/Apr/2026 13:36:04] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 200 19319
+[02/Apr/2026 13:36:04] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 200 586
+[02/Apr/2026 13:36:04] "GET /static/admin/img/icon-clock.svg HTTP/1.0" 200 677
+[02/Apr/2026 13:36:04] "GET /static/admin/img/icon-calendar.svg HTTP/1.0" 200 1086
+[02/Apr/2026 13:36:06] "GET /static/admin/img/calendar-icons.svg HTTP/1.0" 200 2455
+[02/Apr/2026 13:36:10] "POST /admin/bot/botuser/73/change/?_changelist_filters=q%3D1278974479 HTTP/1.0" 302 0
+[02/Apr/2026 13:36:10] "GET /admin/bot/botuser/?q=1278974479 HTTP/1.0" 200 21160
+[02/Apr/2026 13:36:10] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+[02/Apr/2026 13:36:10] "GET /static/admin/img/icon-yes.svg HTTP/1.0" 200 436
+[02/Apr/2026 13:36:21] "GET /admin/worker/events/ HTTP/1.0" 200 96295
+[02/Apr/2026 13:36:21] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+[02/Apr/2026 13:36:23] "GET /admin/bot/payment/ HTTP/1.0" 200 80141
+[02/Apr/2026 13:36:24] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+[02/Apr/2026 13:36:27] "POST /admin/bot/payment/ HTTP/1.0" 200 13717
+[02/Apr/2026 13:36:28] "GET /static/admin/js/cancel.js HTTP/1.0" 200 884
+[02/Apr/2026 13:36:29] "POST /admin/bot/payment/ HTTP/1.0" 302 0
+[02/Apr/2026 13:36:29] "GET /admin/bot/payment/ HTTP/1.0" 200 80233
+[02/Apr/2026 13:36:29] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[02/Apr/2026 13:39:54] "GET /admin/bot/payment/ HTTP/1.0" 200 80082
+[02/Apr/2026 13:39:55] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+[02/Apr/2026 13:41:39,571] - Broken pipe from ('167.94.146.60', 43760)
+[02/Apr/2026 13:41:39] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¿AË\x9dfñTxA\x8a=j#ÆóÇP¿¦-v$Ìpbï³Bµ')
+[02/Apr/2026 13:41:39] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[02/Apr/2026 13:41:42] "GET / HTTP/1.1" 404 2686
+[02/Apr/2026 13:41:42,940] - Broken pipe from ('167.94.146.60', 43846)
+[02/Apr/2026 13:41:46] code 400, message Bad request version ('À\x14À')
+[02/Apr/2026 13:41:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /
+[02/Apr/2026 13:41:46] "GET / HTTP/1.1" 404 2686
+[02/Apr/2026 13:41:46] code 505, message Invalid HTTP version (2.0)
+[02/Apr/2026 13:41:46] "PRI * HTTP/2.0" 505 -
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+[02/Apr/2026 13:48:28] "GET /admin/bot/payment/ HTTP/1.0" 302 0
+[02/Apr/2026 13:48:28] "GET /admin/login/?next=/admin/bot/payment/ HTTP/1.0" 200 4386
+Not Found: /apple-touch-icon-precomposed.png
+[02/Apr/2026 13:48:29] "GET /apple-touch-icon-precomposed.png HTTP/1.0" 404 2793
+Not Found: /apple-touch-icon.png
+[02/Apr/2026 13:48:29] "GET /apple-touch-icon.png HTTP/1.0" 404 2757
+Not Found: /favicon.ico
+[02/Apr/2026 13:48:30] "GET /favicon.ico HTTP/1.0" 404 2730
+Not Found: /apple-touch-icon-precomposed.png
+[02/Apr/2026 13:48:30] "GET /apple-touch-icon-precomposed.png HTTP/1.0" 404 2793
+Not Found: /apple-touch-icon.png
+[02/Apr/2026 13:48:30] "GET /apple-touch-icon.png HTTP/1.0" 404 2757
+Not Found: /favicon.ico
+[02/Apr/2026 13:48:30] "GET /favicon.ico HTTP/1.0" 404 2730
+[02/Apr/2026 13:48:31] "GET /admin/bot/payment/ HTTP/1.0" 302 0
+[02/Apr/2026 13:48:31] "GET /admin/login/?next=/admin/bot/payment/ HTTP/1.0" 200 4386
+Not Found: /apple-touch-icon-precomposed.png
+[02/Apr/2026 13:48:31] "GET /apple-touch-icon-precomposed.png HTTP/1.0" 404 2793
+Not Found: /apple-touch-icon.png
+[02/Apr/2026 13:48:31] "GET /apple-touch-icon.png HTTP/1.0" 404 2757
+Not Found: /favicon.ico
+[02/Apr/2026 13:48:31] "GET /favicon.ico HTTP/1.0" 404 2730
+Not Found: /apple-touch-icon-precomposed.png
+[02/Apr/2026 13:48:31] "GET /apple-touch-icon-precomposed.png HTTP/1.0" 404 2793
+Not Found: /apple-touch-icon.png
+[02/Apr/2026 13:48:31] "GET /apple-touch-icon.png HTTP/1.0" 404 2757
+Not Found: /favicon.ico
+[02/Apr/2026 13:48:32] "GET /favicon.ico HTTP/1.0" 404 2730
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[02/Apr/2026 13:56:30] "GET /admin/bot/payment/ HTTP/1.0" 200 80082
+[02/Apr/2026 13:56:30] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+Not Found: /apple-touch-icon-precomposed.png
+[02/Apr/2026 13:56:31] "GET /apple-touch-icon-precomposed.png HTTP/1.0" 404 2793
+Not Found: /apple-touch-icon.png
+[02/Apr/2026 13:56:31] "GET /apple-touch-icon.png HTTP/1.0" 404 2757
+Not Found: /favicon.ico
+[02/Apr/2026 13:56:31] "GET /favicon.ico HTTP/1.0" 404 2730
+Internal Server Error: /payments/webhook/
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/bot_builder/apps/bot/views.py", line 67, in post
+    user.subscription_date_end += timedelta(days=period*30)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: str
+[02/Apr/2026 13:57:08] "POST /payments/webhook/ HTTP/1.0" 500 77475
+Internal Server Error: /payments/webhook/
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/bot_builder/apps/bot/views.py", line 67, in post
+    user.subscription_date_end += timedelta(days=period*30)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: str
+[02/Apr/2026 13:57:18] "POST /payments/webhook/ HTTP/1.0" 500 77476
+[02/Apr/2026 13:57:21] "GET /admin/bot/payment/ HTTP/1.0" 200 80140
+[02/Apr/2026 13:57:21] "GET /admin/jsi18n/ HTTP/1.0" 200 17546
+Internal Server Error: /payments/webhook/
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/bot_builder/apps/bot/views.py", line 67, in post
+    user.subscription_date_end += timedelta(days=period*30)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: str
+[02/Apr/2026 13:58:01] "POST /payments/webhook/ HTTP/1.0" 500 77476
+Internal Server Error: /payments/webhook/
+Traceback (most recent call last):
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/views/generic/base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/personal/wvpn-project/bot_builder/apps/bot/views.py", line 67, in post
+    user.subscription_date_end += timedelta(days=period*30)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported type for timedelta days component: str
+[02/Apr/2026 13:59:25] "POST /payments/webhook/ HTTP/1.0" 500 77474
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/personal/wvpn-project/bot_builder/apps/bot/views.py changed, reloading.
 Watching for file changes with StatReloader

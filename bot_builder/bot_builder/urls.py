@@ -21,10 +21,11 @@ from django.urls import path
 
 from apps.worker.views import *
 from apps.worker.views import task_complete_alert
-from apps.bot.views import handle_payment_return
+from apps.bot.views import YookassaWebhookView
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('task_complete_alert', task_complete_alert, name='task_complete_alert'),
+    path("payments/webhook/", YookassaWebhookView.as_view()),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -10,7 +10,7 @@ from threading import Thread
 from datetime import timedelta
 import openai
 from open_ai import interact_with_assistant
-from apps.worker.payment import create_payment
+from apps.bot.service import create_payment
 import asyncio
 import re
 from translate import translate
@@ -522,11 +522,16 @@ class Bot_Handler():
         user.state = state.current_state
         user.save()
         try:
-            value = callback_data.split(' ')[1]
+            amount = callback_data.split(' ')[1]
             period = callback_data.split(' ')[2]
             limit_ip = callback_data.split(' ')[3]
 
-            url_pay, payment_id = create_payment(user.tg_id, value=value, period=period, limit_ip=limit_ip)
+            url_pay, payment_id = create_payment(
+                telegram_id=user.tg_id, 
+                amount=amount, 
+                period=period, 
+                limit_ip=limit_ip
+            )
             print("url_pay", url_pay)
         except Exception as e:
             print('Ошибка в оплате', e)
@@ -535,7 +540,7 @@ class Bot_Handler():
         self.val['user_name'] = user.name if hasattr(user, 'name') else 'Пользователь'
         self.val['user_id'] = user.tg_id
         self.val['transaction'] = payment_id
-        self.val['text'] = f'Вы оплачиваете подписку на <b>W VPN</b>.\n\n<b>Период:</b> {period} мес.\n<b>Сумма к оплате:</b> {value} руб.'  # Значение по умолчанию
+        self.val['text'] = f'Вы оплачиваете подписку на <b>W VPN</b>.\n\n<b>Период:</b> {period} мес.\n<b>Сумма к оплате:</b> {amount} руб.'  # Значение по умолчанию
 
         # Форматируем текст с использованием переменных
         text = self.format_message_text(state.text)
@@ -620,8 +625,12 @@ class Bot_Handler():
             print('summa_project', summa_project)
 
             # Создание платежа
-            # url_pay, payment_id = create_payment(user.tg_id, value=str(summa_project))
-            url_pay, payment_id = create_payment(user.tg_id, str(summa_project), period=0, limit_ip=0)
+            url_pay, payment_id = create_payment(
+                telegram_id=user.tg_id, 
+                amount=str(summa_project), 
+                period=0, 
+                limit_ip=0
+            )
             print("url_pay", url_pay, 'payment_id' , payment_id)
 
             # Добавляем базовые переменные

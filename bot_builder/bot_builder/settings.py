@@ -29,11 +29,8 @@ DEBUG = True
 DEVELOPMENT = True
 SECURE_CONTENT_TYPE_NOSNIFF = True  # Для X-Content-Type-Options: nosniff
 
-ALLOWED_HOSTS = ['localhost', '193.58.121.190', '143.20.37.164']
-
-
-
-
+ALLOWED_HOSTS = ['localhost', '193.58.121.190', '143.20.37.164', 'fr1.w-vpn.ru']
+CSRF_TRUSTED_ORIGINS = ['https://fr1.w-vpn.ru:8443']
 # Application definition
 
 INSTALLED_APPS = [
@@ -156,3 +153,10 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+from decouple import config
+# YooKassa
+YOOKASSA_SHOP_ID = config("YOOKASSA_SHOP_ID")
+YOOKASSA_SECRET_KEY = config("YOOKASSA_SECRET_KEY")
+YOOKASSA_WEBHOOK_URL = config("YOOKASSA_WEBHOOK_URL", "https://193.58.121.190")

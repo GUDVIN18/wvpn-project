@@ -10,19 +10,16 @@ from django.utils import timezone
 
 # для тексста
 MESSAGE_TEMPLATE = (
-    "Сделал бесплатный прокси для тг\n"
-    "Чтоб не включать постоянно впн\n\n"
-    '<b><a href="tg://proxy?server=193.58.121.190&port=8443&secret=85b626a18d079bae1673d77023573076">'
-    "WVPN_TG_PROXY</a></b>\n\n"
+    "✅ VPN снова работает, как раньше!\n"
     "По всем вопросам писать: <b>@Dmitriy_prog</b>"
 )
 # для фото
 CAPTION_TEMPLATE = (
-    "👋 <b>Привет!</b> Вышло небольшое обновление.\n\n"
-    "<b>Кратко:</b>\n"
-    "1️⃣ Исправлена проблема автоматических отключений\n"
-    "2️⃣ TikTok / YouTube / Instagram снова работают без перебоев\n\n"
-    "🔄 Чтобы обновиться, нажмите на кнопку <b>обновления подписки</b> в V2RayTun (как показано на фото).\n"
+    "❗️ Объявление.\n\n"
+    "РКН вводит <b>новые блокировки</b>. В связи с этим, были выпущены <b>LTE конфиги</b>.\n"
+    "Если у вас не появились LTE конфиги, нажмите на кнопку 'Обновить' в приложении (как показано на фото)\n\n"
+    "Канал с новостями: <b>@W_VPN_PROXY</b>\n"
+    "По всем вопросам писать: <b>@Dmitriy_prog</b>"
 )
 
 
@@ -64,7 +61,7 @@ def send_photo(user_id):
         else translate(CAPTION_TEMPLATE, user.language_chooce)
     )
 
-    with open("./media/2026-01-12-10.19.51.jpg", "rb") as photo:
+    with open("/personal/wvpn-project/media/2026-04-01-16.21.49.jpg", "rb") as photo:
         response = requests.post(
             f"https://api.telegram.org/bot{bot_token}/sendPhoto",
             data={
@@ -92,8 +89,8 @@ class Command(BaseCommand):
             for user in users:
                 try: 
                     print(f"{k}. Отправка для: {user.tg_id}")
-                    send_message(user_id=user.tg_id)
-                    # send_photo(user_id=user.tg_id)
+                    # send_message(user_id=user.tg_id)
+                    send_photo(user_id=user.tg_id)
                     k += 1
                 except Exception as e:
                     print(f"Пропускаем {user.tg_id} {e}")
