@@ -29,7 +29,7 @@ DEBUG = True
 DEVELOPMENT = True
 SECURE_CONTENT_TYPE_NOSNIFF = True  # Для X-Content-Type-Options: nosniff
 
-ALLOWED_HOSTS = ['localhost', '193.58.121.190', '143.20.37.164', 'fr1.w-vpn.ru']
+ALLOWED_HOSTS = ['localhost', '193.58.121.190', '143.20.37.164', 'fr1.w-vpn.ru', 'wvpn.fr2.xraygopaydonat1.ru']
 CSRF_TRUSTED_ORIGINS = ['https://fr1.w-vpn.ru:8443']
 # Application definition
 

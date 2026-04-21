@@ -1,0 +1,16 @@
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2026-04-21 18:01:23.607820) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2026-04-18 18:01:24.078945) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2026-04-22 09:09:30.335757) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2026-04-19 09:09:30.712100) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2026-04-22 14:49:56.355060) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2026-04-19 14:49:56.728236) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_end received a naive datetime (2026-04-22 20:15:46.215885) while time zone support is active.
+  warnings.warn(
+/personal/wvpn-project/.venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1665: RuntimeWarning: DateTimeField BotUser.subscription_date_start received a naive datetime (2026-04-19 20:15:47.448776) while time zone support is active.
+  warnings.warn(

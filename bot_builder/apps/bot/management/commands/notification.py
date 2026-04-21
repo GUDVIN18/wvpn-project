@@ -22,28 +22,27 @@ from django.db import transaction
 
 
 class Command(BaseCommand):
-    # Основной 
-    Configuration.account_id = '1009645'  # Ваш идентификатор магазина
-    Configuration.secret_key = 'live_B0DkWGLIp3uJ8pFhgrrSk7vtYvCkhUT03X3C_nl4KzA' # Ваш секретный ключ
+    Configuration.account_id = '1009645'
+    Configuration.secret_key = 'live_B0DkWGLIp3uJ8pFhgrrSk7vtYvCkhUT03X3C_nl4KzA'
 
-    # Тестовый
-    # Configuration.account_id = '1022696'  # Ваш идентификатор магазина
-    # Configuration.secret_key = 'test_yDII6emg84UJKMZvRdsjMXigGQLZmEfzfk-u5Wi9Jv8'  # Ваш секретный ключ
-    def worker():     
+    def handle(self, *args, **kwargs):
+        while True:
+            close_old_connections()
+            self.worker()
+            time.sleep(20)
+
+    def worker(self):     
         try:
-            target_time_now = timezone.now()
             users = list(BotUser.objects.filter(subscription=True))
 
             for user in users:
+                target_time_now = timezone.now()
                 date_end = user.subscription_date_end
+                # log.info(f"Пользователь {user.tg_id}, Дата окончания подписки: {date_end}, Текущее время: {target_time_now}")
                 if not date_end:
                     continue
 
                 time_left = date_end - target_time_now
-
-                # =========================
-                # 🔔 УВЕДОМЛЕНИЯ ДО ОКОНЧАНИЯ
-                # =========================
 
                 # 3 дня
                 if timedelta(days=2, hours=20) <= time_left <= timedelta(days=3):
@@ -84,10 +83,7 @@ class Command(BaseCommand):
                         except Exception as e:
                             log.error(f"Ошибка 1h уведомления: {e}")
 
-                # =========================
                 # ❌ ОКОНЧАНИЕ ПОДПИСКИ
-                # =========================
-
                 if target_time_now >= date_end:
                     log.info(f'Пользователь {user.tg_id} подписка закончилась!')
                     user.subscription = False
@@ -104,7 +100,6 @@ class Command(BaseCommand):
                     else:
                         limit_ip = pyment_last.limit_ip
 
-                    # 🔌 Отключаем VPN
                     try:
                         try:
                             update_user_key = update_user_api(
@@ -112,13 +107,13 @@ class Command(BaseCommand):
                                 status="disabled",
                                 expire=int(date_end.timestamp())
                             )
+                            log.success(f"VPN пользователь {user.tg_id} успешно обновлен: статус 'disabled' {update_user_key=}")
                         except RequestException as e:
                             log.error(f"HTTP error updating VPN user for {user.tg_id}: {e}")
                             log.error(traceback.format_exc())
                     except Exception as e:
                         log.error(f"Ошибка при обновлении: {e}")
 
-                    # 🔔 Увед о завершении
                     if not user.notif_subscribe_close:
                         user.notif_subscribe_close = True
                         try:
@@ -135,8 +130,3 @@ class Command(BaseCommand):
         except Exception as e:
             log.error(f"Ошибка при напоминании: {e}")
             time.sleep(0.5)
-
-    while True:
-        close_old_connections()
-        worker()
-        time.sleep(60)

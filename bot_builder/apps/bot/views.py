@@ -21,6 +21,8 @@ from .telegram_api_message import (
 )
 from apps.bot.marzban_user_api import create_user_api, update_user_api
 from loguru import logger as log
+from django.db import transaction
+
 
 
 @method_decorator(csrf_exempt, name="dispatch")
@@ -42,100 +44,119 @@ class YookassaWebhookView(View):
             period: int = int((payment.metadata or {}).get("period"))
             amount: int = int((payment.metadata or {}).get("amount"))
 
-            payment_db = PaymentBOT.objects.filter(payment_id=payment.id).first()
+            with transaction.atomic():
+                payment_db = PaymentBOT.objects.select_for_update().get(
+                    payment_id=payment.id
+                )
 
-            if notification.event == WebhookNotificationEventType.PAYMENT_SUCCEEDED:
-                if period == 0:
-                    log.info(f"Поддержал проект")
-                    send_support_project(user_id)
-                    return
-                user = BotUser.objects.get(tg_id=user_id)
-                server = VPNServer.objects.order_by("count_user").first()
+                if payment_db.status != 'pending':
+                    log.warning(f"SKIP duplicate webhook {payment.id}")
+                    return HttpResponse(status=200)
 
-                if Referal.objects.filter(referred_user=user).exists():
-                    referal_obj = Referal.objects.get(referred_user=user)
-                    PaymentReferal.objects.create(
-                        referal=referal_obj,
-                        amount=round((int(amount)) * 0.20, 2)
-                    )
+                if payment_db.status == 'pending':
+                    if notification.event == WebhookNotificationEventType.PAYMENT_SUCCEEDED:
+                        if period == 0:
+                            log.info("Поддержал проект")
+                            send_support_project(user_id)
+
+                            payment_db.status = payment.status
+                            payment_db.save()
+
+                            return HttpResponse(status=200)
+                        user = BotUser.objects.get(tg_id=user_id)
+                        server = VPNServer.objects.order_by("count_user").first()
+
+                        if Referal.objects.filter(referred_user=user).exists():
+                            referal_obj = Referal.objects.get(referred_user=user)
+                            PaymentReferal.objects.create(
+                                referal=referal_obj,
+                                amount=round((int(amount)) * 0.20, 2)
+                            )
 
 
 
-                # Use timezone-aware now
-                now = timezone.now()
+                        # Use timezone-aware now
+                        now = timezone.now()
 
-                if user.subscription == True:
-                    user.subscription_date_end += timedelta(days=period*30)
-                    try:
-                        update_user_key = update_user_api(
-                            username=str(user.tg_id),
-                            status="active",
-                            expire=int((user.subscription_date_end).timestamp())
-                        )
+                        if user.subscription == True:
+                            log.info(f"УСЛОВИЕ 1: Пользователь {user.tg_id}")
+                            subscription_date_end_1 = user.subscription_date_end + timedelta(days=period*30)
+                            try:
+                                user.subscription_date_end = subscription_date_end_1
+                                update_user_key = update_user_api(
+                                    username=str(user.tg_id),
+                                    status="active",
+                                    expire=int((subscription_date_end_1).timestamp())
+                                )
+                                
+                                log.info(f"{user.tg_id} 1.1) Обновлен успешно!")
+                                user.vpn_key = update_user_key
+                            except RequestException as e:
+                                log.error(f"{user.tg_id} Обновлен НЕ успешно!")
+                                log.error(f"HTTP error updating VPN user for {user.tg_id}: {e}")
+                                log.error(traceback.format_exc())
+                                raise Exception("HTTP error updating VPN user")
+
+
+                        if user.subscription == False and user.server_chooce is None:
+                            subscription_date_end_2 = now + timedelta(days=period*30)
+                            log.info(f"УСЛОВИЕ 2: Пользователь {user.tg_id}")
+                            user.subscription = True
+                            user.notif_subscribe_close = False
+                            user.notif_3d = False
+                            user.notif_1d = False
+                            user.notif_1h = False
+                            user.subscription_date_start = now
+                            user.subscription_date_end = subscription_date_end_2
+                            user.server_chooce = server.id
+                            try:
+                                create_user_key = create_user_api(
+                                    username=str(user.tg_id),
+                                    expire=int((subscription_date_end_2).timestamp())
+                                )
+                                user.vpn_key = create_user_key
+                                log.info(f"{user.tg_id} 1.0) Создан успешно!")
+                            except Exception as e:
+                                log.error(f"Ошибка при создании пользователя VPN: {traceback.format_exc()}")
+                                raise Exception("Ошибка при создании пользователя VPN")
+                            
+                        if user.subscription == False and user.server_chooce is not None:
+                            log.info(f"УСЛОВИЕ 3: Пользователь {user.tg_id}")
+                            subscription_date_end_3 = now + timedelta(days=period*30)
+                            user.subscription = True
+                            user.notif_subscribe_close = False
+                            user.notif_3d = False
+                            user.notif_1d = False
+                            user.notif_1h = False
+                            user.subscription_date_start = now
+                            user.subscription_date_end = subscription_date_end_3
+                            try:
+                                try:
+                                    un_user_key = create_user_api(
+                                        username=str(user.tg_id),
+                                        expire=int((subscription_date_end_3).timestamp())
+                                    )
+                                except Exception as e:
+                                    un_user_key = update_user_api(
+                                        username=str(user.tg_id),
+                                        status="active",
+                                        expire=int((subscription_date_end_3).timestamp())
+                                    )
+                                user.vpn_key = un_user_key
+                                log.info(f"{user.tg_id} 1.2) Возобновил успешно!")
+                            except RequestException as e:
+                                log.error(f"HTTP error updating VPN user for {user.tg_id}: {e}")
+                                log.error(traceback.format_exc())
+                                raise Exception("HTTP error updating VPN")
+                            
+                        user.save()
+                        send_success_telegram_message(user_id)
+                    if notification.event == WebhookNotificationEventType.PAYMENT_CANCELED:
+                        send_error_telegram_message(user_id)
                         
-                        log.info(f"{user.tg_id} 1.1) Обновлен успешно!")
-                        user.vpn_key = update_user_key
-                    except RequestException as e:
-                        log.error(f"{user.tg_id} Обновлен НЕ успешно!")
-                        log.error(f"HTTP error updating VPN user for {user.tg_id}: {e}")
-                        log.error(traceback.format_exc())
-                        raise Exception("HTTP error updating VPN user")
-
-
-                if user.subscription == False and user.server_chooce is None:
-                    user.subscription = True
-                    user.notif_subscribe_close = False
-                    user.notif_3d = False
-                    user.notif_1d = False
-                    user.notif_1h = False
-                    user.subscription_date_start = now
-                    user.subscription_date_end = now + timedelta(days=period*30)
-                    user.server_chooce = server.id
-                    try:
-                        create_user_key = create_user_api(
-                            username=str(user.tg_id),
-                            expire=int((user.subscription_date_end).timestamp())
-                        )
-                        user.vpn_key = create_user_key
-                        log.info(f"{user.tg_id} 1.0) Создан успешно!")
-                    except Exception as e:
-                        log.error(f"Ошибка при создании пользователя VPN: {traceback.format_exc()}")
-                        raise Exception("Ошибка при создании пользователя VPN")
-                    
-                if user.subscription == False and user.server_chooce is not None:
-                    user.subscription = True
-                    user.notif_subscribe_close = False
-                    user.notif_3d = False
-                    user.notif_1d = False
-                    user.notif_1h = False
-                    user.subscription_date_start = now
-                    user.subscription_date_end = now + timedelta(days=period*30)
-                    try:
-                        try:
-                            create_user_key = create_user_api(
-                                username=str(user.tg_id),
-                                expire=int((now + timedelta(days=period*30)).timestamp())
-                            )
-                        except Exception as e:
-                            update_user_key = update_user_api(
-                                username=str(user.tg_id),
-                                status="active",
-                                expire=int((now + timedelta(days=period*30)).timestamp())
-                            )
-                        user.vpn_key = update_user_key
-                        log.info(f"{user.tg_id} 1.2) Возобновил успешно!")
-                    except RequestException as e:
-                        log.error(f"HTTP error updating VPN user for {user.tg_id}: {e}")
-                        log.error(traceback.format_exc())
-                        raise Exception("HTTP error updating VPN")
-                    
-                user.save()
-                send_success_telegram_message(user_id)
-            if notification.event == WebhookNotificationEventType.PAYMENT_CANCELED:
-                send_error_telegram_message(user_id)
-                
-            payment_db.status = payment.status
-            log.info(f"Received webhook: event={notification.event}, user_id={user_id}")
+                    payment_db.status = payment.status
+                    payment_db.save()
+                    log.info(f"Received webhook: event={notification.event}, user_id={user_id}")
 
             return HttpResponse(status=200) 
         except Exception as e:
